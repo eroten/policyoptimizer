@@ -1,9 +1,5 @@
-# policy_optimizer
-
-County-Level Policy Optimizer for Cost-Effective Reduction of Transportation Emissions
-
-
 # `policyoptimizer`
+County-Level Policy Optimizer for Cost-Effective Reduction of Transportation Emissions
 
 - Team Lead: Tim Fraser, PhD
 - Principal Investigator: Oliver Gao, PhD
