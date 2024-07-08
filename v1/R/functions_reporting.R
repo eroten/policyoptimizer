@@ -167,7 +167,7 @@ summarize_by_year = function(record){
 #' @importFrom dplyr `%>%` tribble filter mutate summarize select any_of case_when
 #' @importFrom stringr str_extract str_detect
 #' @importFrom viridis viridis
-#' @importFrom ggplot2 scale_x_continuous scale_y_continuous theme_bw theme element_blank element_text labs  expansion geom_hline geom_col  coord_flip ggplot `%+%`
+#' @importFrom ggplot2 aes scale_x_continuous scale_y_continuous theme_bw theme element_blank element_text labs  expansion geom_hline geom_col  coord_flip ggplot `%+%`
 #' @importFrom shadowtext geom_shadowtext
 #' @importFrom scales label_number cut_si
 #' 
@@ -266,7 +266,7 @@ visualize_by_policy = function(data, var = "effect_cost", palette = "mako", adju
 #' @importFrom dplyr `%>%` tribble filter mutate summarize select any_of case_when
 #' @importFrom stringr str_extract str_detect
 #' @importFrom viridis viridis
-#' @importFrom ggplot2 scale_x_continuous scale_y_continuous theme_bw theme element_blank element_text labs  expansion geom_ribbon geom_line geom_point ggplot `%+%`
+#' @importFrom ggplot2 aes scale_x_continuous scale_y_continuous theme_bw theme element_blank element_text labs  expansion geom_ribbon geom_line geom_point ggplot `%+%`
 #' @importFrom shadowtext geom_shadowtext
 #' @importFrom scales label_number cut_si
 #' 
@@ -387,6 +387,7 @@ visualize_by_year = function(data, var = "cost", palette = "mako", adjust = 100)
 #' Outputs a table of statistics and standard errors where applicable.
 #' @importFrom dplyr `%>%` select filter summarize n mutate reframe across bind_rows
 #' @importFrom scales number
+#' @export
 report_stats = function(record, pollutant = 98){
   
   result1 = record %>%

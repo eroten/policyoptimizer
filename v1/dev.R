@@ -22,8 +22,8 @@ devtools::build(path = getwd(), vignettes = FALSE)
 # Unload it if present
 unloadNamespace(ns = "policyoptimizer"); rm(list = ls()); remove.packages("policyoptimizer")
 
-# Install package from source
-install.packages("policyoptimizer_0.1.0.tar.gz", type = "source")
+# Return to main directory
+setwd(paste0(rstudioapi::getActiveProject()))
 
 # Restart R
 .rs.restartR() # Only works in RStudio

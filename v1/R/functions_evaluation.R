@@ -18,7 +18,7 @@ connect = function(type = "policies"){
   if(type == "policies"){
     # Currently, return the policies database, 
     # but in the future, but in the future, we'll pipe in from a database. 
-    data("policies_data")
+    data("policies_data", envir = environment())
     output = policies_data
     #remove(policies_data)
     
@@ -76,7 +76,11 @@ what_level = function(geoid){
   }else{ stop("level not known.") }
 }
 
-
+#' @name cmaq_to_percentile
+#' @title cmaq_to_percentile
+#' @importFrom dplyr `%>%` if_else select arrange contains mutate filter group_by summarize
+#' @importFrom tidyr pivot_longer
+#' @importFrom readr read_csv
 cmaq_to_percentile = function(path = "data_raw/cmaq.csv", prob = 0.50, min_cost = 0){
 
   # Check if the path to new cmaq data exists
@@ -87,7 +91,7 @@ cmaq_to_percentile = function(path = "data_raw/cmaq.csv", prob = 0.50, min_cost 
     cmaq = read_csv(path, show_col_types = FALSE)
   }else if(file_good == FALSE){
     # Load cmaq data from package
-    data("cmaq")
+    data("cmaq", envir = environment())
   }else{ stop("message: fatal error. cmaq cost effectiveness data could not be sourced from package." )}
 
   data = cmaq %>%
@@ -554,7 +558,7 @@ get_catdata = function(input, test = FALSE){
 #' @author Tim Fraser
 #' @description
 #' Function to get `catdata` interpolated to cover every year in the year-range supplied
-#' @importFrom dplyr `%>%` mutate tibble
+#' @importFrom dplyr `%>%`  group_by any_of reframe rename
 #' @export
 get_frame = function(data){
   
@@ -651,7 +655,7 @@ sim_diff = function(x0, x1, var = "proxy", model, adjust = -1, n = NULL, fundame
 
 #' @name get_effects
 #' @title get_effects
-#' @importFrom dplyr `%>%` select reframe mutate filter left_join contains arrange group_by summarize n
+#' @importFrom dplyr `%>%` select reframe mutate filter left_join contains arrange group_by summarize n rename
 #' @importFrom tidyr pivot_wider expand_grid
 #' @importFrom purrr map_dfr
 get_effects = function(.geoid = "36109", .pollutants = c(2, 3, 87, 98, 100), var = "epd", path = NULL, prob = 0.50, min_cost = 0, range = 5,  .policy = c(1,2), .start_year = 2020, .end_year = 2025, .units = 30000, fundamental = FALSE, n = 1000){

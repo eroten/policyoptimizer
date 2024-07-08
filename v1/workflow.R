@@ -2,6 +2,8 @@
 #' @title Installation and Workflow Script for `policyoptimizer` package functions
 #' @description Script for test install of `policyoptimizer` package functions.
 
+# Set working directory anywhere
+setwd(rstudioapi::getActiveProject())
 
 # You can download the package from github using the remotes package.
 # Be sure to request to install all dependencies.
@@ -11,7 +13,11 @@ remotes::install_github(repo = "Gao-Labs/policyoptimizer/v1", dependencies = "al
 # If you have downloaded the repository, then you can install it from source:
 # install.packages("v1/policyoptimizer_1.0.tar.gz", type = "source")
 
+# Load policy optimizer package
+library(policyoptimizer)
 
+# Having any issues? These are the main packages that are dependencies.
+# They should have installed by default, but just in case, here they are.
 # library(dplyr)
 # library(tidyr)
 # library(readr)
@@ -28,7 +34,8 @@ remotes::install_github(repo = "Gao-Labs/policyoptimizer/v1", dependencies = "al
 # In the near future, we aim to replace that functionality with a public REST API. Stay tuned!
 
 # Read in REnviron file with sensitive connection credentials.
-readRenviron(".Renviron")
+readRenviron("v1/.Renviron")
+
 
 # Run optimizer
 output = policy_optimizer(
@@ -36,10 +43,14 @@ output = policy_optimizer(
   geoid = "36109",  pollutant = 98, by = 16, start_year = 2025, end_year = 2050, policies = 1:10,
   n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5, 
   # Cost Effectiveness Stats
-  var = "epd", prob = 0.50, range = 5, cmaq_path = "data_raw/cmaq.csv",
+  var = "epd", # measure cost effectiveness as tons of emissions per dollar
+  prob = 0.50, # median cost effectiveness
+  range = 5, # take five year average
   # Any prior cumulative costs / reductions
   last_cost = 0, last_reduction98 = 0, target_year = 2005, target_change = 0.50
 )
+
+output
 
 # Were all runs a success?
 unique(output$status)
