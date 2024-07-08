@@ -1,0 +1,22 @@
+policy_name, affect_activity, affect_ef
+"Bicycle and Pedestrian Improvement Projects", 1, 0
+"Bikesharing", 1, 0
+"Carsharing", 1, 0
+"Diesel Engine Retrofit Technologies", 0, 1
+"Dust Mitigation", 0, 1
+"Electric Vehicle Charging Stations", 1, 0
+"Employee Transit Benefits", 1, 0
+"Extreme Temperature Cold-start Technologies", 0, 1
+"Heavy-Duty Vehicle Replacements", 0, 1
+"Idle Reduction Strategies", 1, 0
+"Incident Management", NA, NA
+"Intermodal Freight Facilities and Programs", 0.5, 0.5
+"Intersection Improvements", 1, 0
+"Natural Gas Re-Fueling Infrastructure", 0, 1
+"Park and Ride", 1, 0
+"Rideshare Programs", 1, 0
+"Roundabouts", 1, 0
+"Subsidized Transit Fares", 1, 0
+"Traffic Signal Synchronization", 1, 0
+"Transit Amenity Improvements", 1, 0
+"Transit Service Expansion", 1, 0

@@ -1,0 +1,10 @@
+name,statistic,se,description
+Base Emissions in 2025,57.5 M,NA,For n = 62 counties. From CATSERVER. Emissions fluctuate over time due to atmospheric factors.
+Cost by 2050,16.3 G,NA,For n = 62 counties
+Reduction by 2050,10.9 M,NA,For n = 62 counties
+Emissions by 2050,45.1 M,NA,For n = 62 counties
+Average Total County Cost by 2050,262.4 M,18.4 M,For n = 62 counties
+2.5th Percentile of Total Cost by 2050,45.3 M,NA,For n = 62 counties
+97.5th Percentile of Total Cost by 2050,579.7 M,NA,For n = 62 counties
+Average Annual Cost per County,10.1 M,3.8 M,For n = 62 county(ies) over n = 26 year(s).
+Average Annual Emissions Reduction per County,6.7 k,1.1 k,For n = 62 county(ies) over n = 26 year(s).

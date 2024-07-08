@@ -1,0 +1,2538 @@
+state,area_desc,mpo_desc,state_id,mpo_id,geoid
+AK,NA,Anchorage Metropolitan Area Transportation Solutions,AK,02196800,02020
+AK,NA,Anchorage Metropolitan Area Transportation Study,AK,02196800,02020
+AK,Anchorage,Anchorage Metropolitan Area Transportation Study,AK,02196800,02020
+AK,No Nonattainment Area Selected,Anchorage Metropolitan Area Transportation Study,AK,02196800,02020
+AK,NA,Fairbanks Area Surface Transportation Planning,AK,02200300,02090
+AK,Fairbanks,Fairbanks Area Surface Transportation Planning,AK,02200300,02090
+AK,No Nonattainment Area Selected,Fairbanks Area Surface Transportation Planning,AK,02200300,02090
+AK,NA,NA,AK,NA,NA
+AK,Anchorage,No MPO Identified,AK,02196800,02020
+AK,Fairbanks,No MPO Identified,AK,02200300,NA
+AK,NA,No MPO identified/State sponsored project,AK,NA,NA
+AK,Juneau PM10,No MPO identified/State sponsored project,AK,NA,02110
+AK,No Nonattainment Area Selected,No MPO identified/State sponsored project,AK,NA,NA
+AK,Fairbanks,No MPO identified/State sponsored project,AK,02200300,02090
+AK,Fairbanks,State Sponsored Project,AK,02200300,02090
+AK,Anchorage,State Sponsored Project,AK,02196800,02020
+AK,No Nonattainment Area Selected,State Sponsored Project,AK,NA,NA
+AL,NA,Birmingham MPO,AL,01197700,01009
+AL,NA,Birmingham MPO,AL,01197700,01117
+AL,NA,Birmingham MPO,AL,01197700,01115
+AL,NA,Birmingham MPO,AL,01197700,01073
+AL,NA,Birmingham RPC,AL,01197700,01009
+AL,NA,Birmingham RPC,AL,01197700,01117
+AL,NA,Birmingham RPC,AL,01197700,01115
+AL,NA,Birmingham RPC,AL,01197700,01073
+AL,Birmingham,Birmingham RPC,AL,01197700,01009
+AL,Birmingham,Birmingham RPC,AL,01197700,01117
+AL,Birmingham,Birmingham RPC,AL,01197700,01115
+AL,Birmingham,Birmingham RPC,AL,01197700,01073
+AL,NA,NA,AL,NA,NA
+AL,Alabama capital,No MPO Identified,AL,NA,10101
+AL,Birmingham,No MPO Identified,AL,01197700,01009
+AL,Birmingham,No MPO Identified,AL,01197700,01117
+AL,Birmingham,No MPO Identified,AL,01197700,01115
+AL,Birmingham,No MPO Identified,AL,01197700,01073
+AR,NA,Arkhoma RPC,AR,NA,NA
+AR,NA,Central Arkansas Regional Transportation Study,AR,05197400,05045
+AR,NA,Central Arkansas Regional Transportation Study,AR,05197400,05085
+AR,NA,Central Arkansas Regional Transportation Study,AR,05197400,05125
+AR,NA,Central Arkansas Regional Transportation Study,AR,05197400,05119
+AR,No Nonattainment Area Selected,Central Arkansas Regional Transportation Study,AR,05197400,05045
+AR,No Nonattainment Area Selected,Central Arkansas Regional Transportation Study,AR,05197400,05085
+AR,No Nonattainment Area Selected,Central Arkansas Regional Transportation Study,AR,05197400,05125
+AR,No Nonattainment Area Selected,Central Arkansas Regional Transportation Study,AR,05197400,05119
+AR,NA,Hot Springs Area MPO,AR,05200301,05051
+AR,No Nonattainment Area Selected,Hot Springs Area MPO,AR,05200301,05051
+AR,NA,Jonesboro MPO,AR,05200302,05031
+AR,No Nonattainment Area Selected,Jonesboro MPO,AR,05200302,05031
+AR,NA,Metroplan,AR,05197400,05045
+AR,NA,Metroplan,AR,05197400,05085
+AR,NA,Metroplan,AR,05197400,05125
+AR,NA,Metroplan,AR,05197400,05119
+AR,NA,NA,AR,NA,NA
+AR,NA,No MPO Identified,AR,NA,NA
+AR,NA,No MPO identified/State sponsored project,AR,NA,NA
+AR,No Nonattainment Area Selected,No MPO identified/State sponsored project,AR,NA,NA
+AR,NA,Northwest Arkansas RPC,AR,05198200,05007
+AR,NA,Northwest Arkansas RPC,AR,05198200,05143
+AR,No Nonattainment Area Selected,Northwest Arkansas RPC,AR,05198200,05007
+AR,No Nonattainment Area Selected,Northwest Arkansas RPC,AR,05198200,05143
+AR,NA,Southeast Arkansas RPC,AR,05196400,05069
+AR,No Nonattainment Area Selected,Southeast Arkansas RPC,AR,05196400,05069
+AR,No Nonattainment Area Selected,State Sponsored Project,AR,NA,NA
+AR,NA,State Sponsored Project,AR,NA,NA
+AR,NA,West Memphis Area Transportation Study,AR,05198300,05035
+AR,Crittenden County,West Memphis Area Transportation Study,AR,05198300,05035
+AR,No Nonattainment Area Selected,West Memphis Area Transportation Study,AR,05198300,05035
+AZ,NA,Maricopa Association of Governments,AZ,04197301,04021
+AZ,NA,Maricopa Association of Governments,AZ,04197301,04013
+AZ,Phoenix,Maricopa Association of Governments,AZ,04197301,04013
+AZ,Phoenix,Maricopa Association of Governments,AZ,04197301,04013
+AZ,Pinal County,Maricopa Association of Governments,AZ,04197301,04021
+AZ,Pinal County,Maricopa Association of Governments,AZ,04197301,04021
+AZ,NA,NA,AZ,NA,NA
+AZ,Phoenix,No MPO Identified,AZ,04197301,04013
+AZ,NA,No MPO identified/State sponsored project,AZ,NA,NA
+AZ,Nogales PM2.5,No MPO identified/State sponsored project,AZ,NA,04023
+CA,NA,Amador County RTPA,CA,NA,06005
+CA,Amador (Central Mountain County),Amador County RTPA,CA,NA,06005
+CA,Monterey Bay,Association of Monterey Bay Area Governments,CA,06197502,06069
+CA,Monterey Bay,Association of Monterey Bay Area Governments,CA,06197502,06053
+CA,Monterey Bay,Association of Monterey Bay Area Governments,CA,06197502,06087
+CA,NA,Butte County Association of Governments,CA,06198000,06007
+CA,Chico,Butte County Association of Governments,CA,06198000,06007
+CA,Los Angeles-South Coast Air Basin,Butte County Association of Governments,CA,06198000,06007
+CA,NA,Calaveras County RTPA,CA,NA,06009
+CA,Calaveras (Central Mountain County),Calaveras County RTPA,CA,NA,06009
+CA,NA,Council of Fresno County Governments,CA,06197202,06019
+CA,San Joaquin Valley,Council of Fresno County Governments,CA,06197202,06019
+CA,NA,Fresno Council of Governments,CA,06197202,06019
+CA,NA,Kern County Council of Governments,CA,06197002,06029
+CA,San Joaquin Valley,Kern County Council of Governments,CA,06197002,06029
+CA,Eastern Kern,Kern County Council of Governments,CA,06197002,06029
+CA,Indian Wells PM,Kern County Council of Governments,CA,06197002,06029
+CA,NA,Kings County Association of Governments,CA,06196800,06077
+CA,San Joaquin Valley,Kings County Association of Governments,CA,06196800,06077
+CA,NA,Madera County Transportation Commission,CA,06200302,06039
+CA,San Joaquin Valley,Madera County Transportation Commission,CA,06200302,06039
+CA,NA,Mariposa County RTPA,CA,NA,06043
+CA,Mariposa (Southern Mountain County),Mariposa County RTPA,CA,NA,06043
+CA,NA,Merced County Association of Governments,CA,06198600,06047
+CA,San Joaquin Valley,Merced County Association of Governments,CA,06198600,06047
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06001
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06075
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06095
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06041
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06055
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06097
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06081
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06013
+CA,NA,Metropolitan Transportation Commission,CA,06197001,06085
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06001
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06075
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06095
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06041
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06055
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06097
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06081
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06013
+CA,San Francisco Bay Area,Metropolitan Transportation Commission,CA,06197001,06085
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06001
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06075
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06095
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06041
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06055
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06097
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06081
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06013
+CA,Sacramento Metro,Metropolitan Transportation Commission,CA,06197001,06085
+CA,NA,NA,CA,NA,NA
+CA,NA,Nevada County RTPA,CA,NA,06057
+CA,Nevada County (Western part),Nevada County RTPA,CA,NA,06057
+CA,Monterey Bay,No MPO Identified,CA,06197502,06069
+CA,Monterey Bay,No MPO Identified,CA,06197502,06053
+CA,Monterey Bay,No MPO Identified,CA,06197502,06087
+CA,Los Angeles-South Coast Air Basin,No MPO Identified,CA,06197501,NA
+CA,NA,No MPO identified/State sponsored project,CA,NA,NA
+CA,Tehama,No MPO identified/State sponsored project,CA,NA,06103
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06017
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06061
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06101
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06113
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06067
+CA,NA,Sacramento Area Council of Governments,CA,06196700,06115
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06017
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06061
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06101
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06113
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06067
+CA,Sacramento Metro,Sacramento Area Council of Governments,CA,06196700,06115
+CA,NA,San Diego Association of Governments,CA,06197201,06073
+CA,San Diego,San Diego Association of Governments,CA,06197201,06073
+CA,NA,San Joaquin County Council of Governments,CA,06196800,06077
+CA,San Joaquin Valley,San Joaquin County Council of Governments,CA,06196800,06077
+CA,NA,San Luis Obispo Area Coordinating Council,CA,06199200,06079
+CA,No Nonattainment Area Selected,San Luis Obispo Area Coordinating Council,CA,06199200,06079
+CA,Santa Barbara-Santa Maria-Lompoc,Santa Barbara County Association of Governments,CA,06196600,06083
+CA,Los Angeles-South Coast Air Basin,Santa Barbara County Association of Governments,CA,06196600,06083
+CA,NA,SCAG (Imperial),CA,06197501,06037
+CA,NA,SCAG (Imperial),CA,06197501,06111
+CA,NA,SCAG (Imperial),CA,06197501,06025
+CA,NA,SCAG (Imperial),CA,06197501,06071
+CA,NA,SCAG (Imperial),CA,06197501,06059
+CA,NA,SCAG (Imperial),CA,06197501,06065
+CA,Imperial,SCAG (Imperial),CA,06197501,06037
+CA,Imperial,SCAG (Imperial),CA,06197501,06111
+CA,Imperial,SCAG (Imperial),CA,06197501,06025
+CA,Imperial,SCAG (Imperial),CA,06197501,06071
+CA,Imperial,SCAG (Imperial),CA,06197501,06059
+CA,Imperial,SCAG (Imperial),CA,06197501,06065
+CA,NA,SCAG (LAMTA),CA,06197501,06037
+CA,NA,SCAG (LAMTA),CA,06197501,06111
+CA,NA,SCAG (LAMTA),CA,06197501,06025
+CA,NA,SCAG (LAMTA),CA,06197501,06071
+CA,NA,SCAG (LAMTA),CA,06197501,06059
+CA,NA,SCAG (LAMTA),CA,06197501,06065
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06037
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06111
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06025
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06071
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06059
+CA,Los Angeles-South Coast Air Basin,SCAG (LAMTA),CA,06197501,06065
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06037
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06111
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06025
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06071
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06059
+CA,Southeast Desert Modified AQMA,SCAG (LAMTA),CA,06197501,06065
+CA,NA,SCAG (OCTA),CA,06197501,06037
+CA,NA,SCAG (OCTA),CA,06197501,06111
+CA,NA,SCAG (OCTA),CA,06197501,06025
+CA,NA,SCAG (OCTA),CA,06197501,06071
+CA,NA,SCAG (OCTA),CA,06197501,06059
+CA,NA,SCAG (OCTA),CA,06197501,06065
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06037
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06111
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06025
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06071
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06059
+CA,Los Angeles-South Coast Air Basin,SCAG (OCTA),CA,06197501,06065
+CA,NA,SCAG (RCTC),CA,06197501,06037
+CA,NA,SCAG (RCTC),CA,06197501,06111
+CA,NA,SCAG (RCTC),CA,06197501,06025
+CA,NA,SCAG (RCTC),CA,06197501,06071
+CA,NA,SCAG (RCTC),CA,06197501,06059
+CA,NA,SCAG (RCTC),CA,06197501,06065
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06037
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06111
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06025
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06071
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06059
+CA,Coachella Valley (PM10),SCAG (RCTC),CA,06197501,06065
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06037
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06111
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06025
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06071
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06059
+CA,Los Angeles-South Coast Air Basin,SCAG (RCTC),CA,06197501,06065
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06037
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06111
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06025
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06071
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06059
+CA,No Nonattainment Area Selected,SCAG (RCTC),CA,06197501,06065
+CA,NA,SCAG (SBCTC),CA,06197501,06037
+CA,NA,SCAG (SBCTC),CA,06197501,06111
+CA,NA,SCAG (SBCTC),CA,06197501,06025
+CA,NA,SCAG (SBCTC),CA,06197501,06071
+CA,NA,SCAG (SBCTC),CA,06197501,06059
+CA,NA,SCAG (SBCTC),CA,06197501,06065
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06037
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06111
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06025
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06071
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06059
+CA,Los Angeles-South Coast Air Basin,SCAG (SBCTC),CA,06197501,06065
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06037
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06111
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06025
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06071
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06059
+CA,Southeast Desert Modified AQMA,SCAG (SBCTC),CA,06197501,06065
+CA,NA,SCAG (VCTC),CA,06197501,06037
+CA,NA,SCAG (VCTC),CA,06197501,06111
+CA,NA,SCAG (VCTC),CA,06197501,06025
+CA,NA,SCAG (VCTC),CA,06197501,06071
+CA,NA,SCAG (VCTC),CA,06197501,06059
+CA,NA,SCAG (VCTC),CA,06197501,06065
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06037
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06111
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06025
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06071
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06059
+CA,Ventura Co.,SCAG (VCTC),CA,06197501,06065
+CA,NA,Southern California Association of Governments,CA,06197501,06037
+CA,NA,Southern California Association of Governments,CA,06197501,06111
+CA,NA,Southern California Association of Governments,CA,06197501,06025
+CA,NA,Southern California Association of Governments,CA,06197501,06071
+CA,NA,Southern California Association of Governments,CA,06197501,06059
+CA,NA,Southern California Association of Governments,CA,06197501,06065
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06037
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06111
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06025
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06071
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06059
+CA,Los Angeles-South Coast Air Basin,Southern California Association of Governments,CA,06197501,06065
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06037
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06111
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06025
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06071
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06059
+CA,Coachella Valley (PM10),Southern California Association of Governments,CA,06197501,06065
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06037
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06111
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06025
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06071
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06059
+CA,Ventura Co.,Southern California Association of Governments,CA,06197501,06065
+CA,Imperial,Southern California Association of Governments,CA,06197501,06037
+CA,Imperial,Southern California Association of Governments,CA,06197501,06111
+CA,Imperial,Southern California Association of Governments,CA,06197501,06025
+CA,Imperial,Southern California Association of Governments,CA,06197501,06071
+CA,Imperial,Southern California Association of Governments,CA,06197501,06059
+CA,Imperial,Southern California Association of Governments,CA,06197501,06065
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06037
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06111
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06025
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06071
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06059
+CA,No Nonattainment Area Selected,Southern California Association of Governments,CA,06197501,06065
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06037
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06111
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06025
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06071
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06059
+CA,Southeast Desert Modified AQMA,Southern California Association of Governments,CA,06197501,06065
+CA,NA,Stanislaus Association of Governments,CA,06197203,06099
+CA,San Joaquin Valley,Stanislaus Association of Governments,CA,06197203,06099
+CA,NA,Tahoe MPO,CA,32199800,06017
+CA,NA,Tahoe MPO,CA,32199800,32510
+CA,Lake Tahoe,Tahoe MPO,CA,32199800,06017
+CA,Lake Tahoe,Tahoe MPO,CA,32199800,32510
+CA,Sacramento Metro,Tahoe MPO,CA,32199800,06017
+CA,Sacramento Metro,Tahoe MPO,CA,32199800,32510
+CA,NA,Tulare County Association of Governments,CA,06198200,06107
+CA,San Joaquin Valley,Tulare County Association of Governments,CA,06198200,06107
+CA,NA,Tuolumne County RTPA,CA,NA,06109
+CA,Tuolumne (Southern Mountain County),Tuolumne County RTPA,CA,NA,06109
+CO,NA,Denver Regional COG,CO,08197701,08035
+CO,NA,Denver Regional COG,CO,08197701,08005
+CO,NA,Denver Regional COG,CO,08197701,08014
+CO,NA,Denver Regional COG,CO,08197701,08013
+CO,NA,Denver Regional COG,CO,08197701,08001
+CO,NA,Denver Regional COG,CO,08197701,08031
+CO,NA,Denver Regional COG,CO,08197701,08059
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08035
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08005
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08014
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08013
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08001
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08031
+CO,Denver-Boulder-Longmont,Denver Regional COG,CO,08197701,08059
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08035
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08005
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08014
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08013
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08001
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08031
+CO,Denver-Boulder,Denver Regional COG,CO,08197701,08059
+CO,NA,NA,CO,NA,NA
+CO,Denver-Boulder,No MPO Identified,CO,08197701,NA
+CO,Canon City Particulate Maintenance Area (moderate),No MPO Identified,CO,NA,08043
+CO,Steamboat Springs Particulate Moderate NA Area,No MPO Identified,CO,NA,08107
+CO,Fort Collins,No MPO Identified,CO,08198800,08069
+CO,Aspen Particulate Moderate Nonattainment Area,No MPO Identified,CO,NA,08097
+CO,Colorado Springs,No MPO Identified,CO,NA,08041
+CO,Pagosa Springs Particulate Maintenance Area (mod.),No MPO Identified,CO,NA,08007
+CO,Telluride Particulate Maintenance Area (moderate),No MPO Identified,CO,NA,08113
+CO,NA,No MPO identified/State sponsored project,CO,NA,NA
+CO,Telluride/Mtn Village,No MPO identified/State sponsored project,CO,NA,08113
+CO,No Nonattainment Area Selected,No MPO identified/State sponsored project,CO,NA,NA
+CO,Pagosa Springs,No MPO identified/State sponsored project,CO,NA,08007
+CO,Steamboat Spgs/Routt County,No MPO identified/State sponsored project,CO,NA,08107
+CO,Aspen/Pitkin County,No MPO identified/State sponsored project,CO,NA,08097
+CO,Canon City,No MPO identified/State sponsored project,CO,NA,08043
+CO,Colorado Springs,No MPO identified/State sponsored project,CO,NA,08041
+CO,Denver-Boulder-Longmont,No MPO identified/State sponsored project,CO,08197701,NA
+CO,NA,North Front Range MPO,CO,08198800,08069
+CO,Fort Collins,North Front Range MPO,CO,08198800,08069
+CO,Fort Collins,North Front Range Transportation and Air Quality Planning Council,CO,08198800,08069
+CO,NA,Pikes Peak Area COG,CO,08197702,08041
+CO,Colorado Springs,Pikes Peak Area COG,CO,08197702,08041
+CO,Steamboat Springs Particulate Moderate NA Area,State Sponsored Project,CO,NA,08107
+CO,Denver-Boulder,State Sponsored Project,CO,08197701,NA
+CO,Telluride Particulate Maintenance Area (moderate),State Sponsored Project,CO,NA,08113
+CO,Pagosa Springs Particulate Maintenance Area (mod.),State Sponsored Project,CO,NA,08007
+CO,Lamar Particulate Moderate Nonattainment Area,State Sponsored Project,CO,NA,08099
+CT,NA,Capitol Region COG,CT,09197501,09013
+CT,NA,Capitol Region COG,CT,09197501,09003
+CT,Greater Connecticut,Capitol Region COG,CT,09197501,09013
+CT,Greater Connecticut,Capitol Region COG,CT,09197501,09003
+CT,NA,Central Connecticut Regional Planning Agency,CT,09197503,NA
+CT,Greater Connecticut,Central Connecticut Regional Planning Agency,CT,09197503,NA
+CT,New York-N. New Jersey-L. Island,Central Connecticut Regional Planning Agency,CT,09197503,NA
+CT,NA,COG of Central Naugatuck Valley,CT,09197502,09009
+CT,NA,COG of Central Naugatuck Valley,CT,09197502,09005
+CT,Greater Connecticut,COG of Central Naugatuck Valley,CT,09197502,09009
+CT,Greater Connecticut,COG of Central Naugatuck Valley,CT,09197502,09005
+CT,New York-N. New Jersey-L. Island,COG of Central Naugatuck Valley,CT,09197502,09009
+CT,New York-N. New Jersey-L. Island,COG of Central Naugatuck Valley,CT,09197502,09005
+CT,NA,Greater Bridgeport Regional Planning Agency,CT,09198101,09001
+CT,New York-N. New Jersey-L. Island,Greater Bridgeport Regional Planning Agency,CT,09198101,09001
+CT,Greater Connecticut,Greater Bridgeport Regional Planning Agency,CT,09198101,09001
+CT,NA,Housatonic Valley Council of Elected Officials,CT,09197504,09001
+CT,New York-N. New Jersey-L. Island,Housatonic Valley Council of Elected Officials,CT,09197504,09001
+CT,NA,Lower Connecticut River Valley MPO,CT,09201499,09007
+CT,New York-N. New Jersey-L. Island,Midstate Regional Planning Agency (MRPA),CT,09197504,09001
+CT,NA,NA,CT,NA,NA
+CT,Greater Connecticut,No MPO Identified,CT,09197503,NA
+CT,New York-N. New Jersey-L. Island,No MPO Identified,CT,09197503,NA
+CT,NA,No MPO identified/State sponsored project,CT,NA,NA
+CT,Greater Connecticut,No MPO identified/State sponsored project,CT,09197503,NA
+CT,No Nonattainment Area Selected,No MPO identified/State sponsored project,CT,NA,NA
+CT,New York-N. New Jersey-L. Island,No MPO identified/State sponsored project,CT,09197503,NA
+CT,NA,South Central Regional COG,CT,09197401,09009
+CT,New York-N. New Jersey-L. Island,South Central Regional COG,CT,09197401,09009
+CT,Greater Connecticut,South Central Regional COG,CT,09197401,09009
+CT,NA,South Western Regional Planning Agency,CT,09198100,09001
+CT,New York-N. New Jersey-L. Island,South Western Regional Planning Agency,CT,09198100,09001
+CT,Greater Connecticut,Southeastern Connecticut COG,CT,09197402,09011
+CT,New York-N. New Jersey-L. Island,Southeastern Connecticut COG,CT,09197402,09011
+CT,Greater Connecticut,State Sponsored Project,CT,09197503,NA
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51510
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,11001
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51013
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51600
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51685
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51683
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,24017
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51153
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51107
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,24033
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,24021
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51059
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,24031
+DC,Washington DC-MD-VA,Metropolitan Washington COG,DC,11196500,51610
+DC,NA,Metropolitan Washington COG,DC,11196500,51510
+DC,NA,Metropolitan Washington COG,DC,11196500,11001
+DC,NA,Metropolitan Washington COG,DC,11196500,51013
+DC,NA,Metropolitan Washington COG,DC,11196500,51600
+DC,NA,Metropolitan Washington COG,DC,11196500,51685
+DC,NA,Metropolitan Washington COG,DC,11196500,51683
+DC,NA,Metropolitan Washington COG,DC,11196500,24017
+DC,NA,Metropolitan Washington COG,DC,11196500,51153
+DC,NA,Metropolitan Washington COG,DC,11196500,51107
+DC,NA,Metropolitan Washington COG,DC,11196500,24033
+DC,NA,Metropolitan Washington COG,DC,11196500,24021
+DC,NA,Metropolitan Washington COG,DC,11196500,51059
+DC,NA,Metropolitan Washington COG,DC,11196500,24031
+DC,NA,Metropolitan Washington COG,DC,11196500,51610
+DC,NA,NA,DC,11196500,11001
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51510
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,11001
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51013
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51600
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51685
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51683
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,24017
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51153
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51107
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,24033
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,24021
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51059
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,24031
+DC,NA,National Capital Region Transportation Planning Board,DC,11196500,51610
+DC,Washington DC-MD-VA,No MPO Identified,DC,11196500,11001
+DE,NA,Dover/Kent County MPO,DE,10199000,10001
+DE,No Nonattainment Area Selected,Dover/Kent County MPO,DE,10199000,10001
+DE,Philadelphia-Wilmington-Trenton,Dover/Kent County MPO,DE,10199000,10001
+DE,NA,NA,DE,NA,NA
+DE,No Nonattainment Area Selected,No MPO Identified,DE,NA,NA
+DE,Philadelphia-Wilmington-Trenton,No MPO Identified,DE,NA,NA
+DE,NA,No MPO identified/State sponsored project,DE,NA,NA
+DE,Philadelphia-Wilmington-Trenton,No MPO identified/State sponsored project,DE,NA,NA
+DE,No Nonattainment Area Selected,No MPO identified/State sponsored project,DE,NA,NA
+DE,Philadelphia-Wilmington-Trenton,State Sponsored Project,DE,NA,NA
+DE,No Nonattainment Area Selected,State Sponsored Project,DE,NA,NA
+DE,NA,Wilmington Area Planning Council,DE,10197100,24015
+DE,NA,Wilmington Area Planning Council,DE,10197100,10003
+DE,Philadelphia-Wilmington-Trenton,Wilmington Area Planning Council,DE,10197100,24015
+DE,Philadelphia-Wilmington-Trenton,Wilmington Area Planning Council,DE,10197100,10003
+FL,NA,Bay County Transportation Planning Organization,FL,12198002,12005
+FL,NA,Brevard MPO,FL,NA,NA
+FL,No Nonattainment Area Selected,Brevard MPO,FL,NA,NA
+FL,NA,Broward County MPO,FL,12197702,12011
+FL,No Nonattainment Area Selected,Broward County MPO,FL,12197702,12011
+FL,Miami-Ft. Lauderdale-W. Palm Beach,Broward County MPO,FL,12197702,12011
+FL,NA,Capital Region Transportation Planning Agency,FL,12197706,12039
+FL,NA,Capital Region Transportation Planning Agency,FL,12197706,12073
+FL,NA,Capital Region Transportation Planning Agency,FL,12197706,12129
+FL,NA,Capital Region Transportation Planning Agency,FL,12197706,12065
+FL,NA,Charlotte County-Punta Gorda MPO,FL,12199201,12015
+FL,No Nonattainment Area Selected,Charlotte County-Punta Gorda MPO,FL,12199201,12015
+FL,NA,Collier MPO,FL,12198202,12021
+FL,NA,Florida MPO Advisory Council,FL,NA,NA
+FL,No Nonattainment Area Selected,Florida MPO Advisory Council,FL,NA,NA
+FL,NA,Florida-Alabama Transportation Planning Organization,FL,12197000,12033
+FL,NA,Florida-Alabama Transportation Planning Organization,FL,12197000,12113
+FL,NA,Hernando County MPO,FL,12199202,12053
+FL,NA,Hernando County MPO,FL,12199202,12017
+FL,NA,Hillsborough County MPO,FL,12197704,12057
+FL,Tampa-St. Petersburg-Clearwater,Hillsborough County MPO,FL,12197704,12057
+FL,No Nonattainment Area Selected,Hillsborough County MPO,FL,12197704,12057
+FL,NA,Jacksonville MPO,FL,12197802,12109
+FL,NA,Jacksonville MPO,FL,12197802,12019
+FL,NA,Jacksonville MPO,FL,12197802,12089
+FL,NA,Jacksonville MPO,FL,12197802,12031
+FL,No Nonattainment Area Selected,Jacksonville MPO,FL,12197802,12109
+FL,No Nonattainment Area Selected,Jacksonville MPO,FL,12197802,12019
+FL,No Nonattainment Area Selected,Jacksonville MPO,FL,12197802,12089
+FL,No Nonattainment Area Selected,Jacksonville MPO,FL,12197802,12031
+FL,NA,Lake Sumter,FL,12200300,12119
+FL,NA,Lake Sumter,FL,12200300,12069
+FL,NA,Martin County MPO,FL,12199301,12085
+FL,NA,Metroplan Orlando,FL,12197703,12095
+FL,NA,Metroplan Orlando,FL,12197703,12097
+FL,NA,Metroplan Orlando,FL,12197703,12117
+FL,No Nonattainment Area Selected,Metroplan Orlando,FL,12197703,12095
+FL,No Nonattainment Area Selected,Metroplan Orlando,FL,12197703,12097
+FL,No Nonattainment Area Selected,Metroplan Orlando,FL,12197703,12117
+FL,NA,Miami Urbanized Area MPO,FL,12197701,12086
+FL,Miami-Ft. Lauderdale-W. Palm Beach,Miami Urbanized Area MPO,FL,12197701,12086
+FL,No Nonattainment Area Selected,Miami Urbanized Area MPO,FL,12197701,12086
+FL,NA,NA,FL,NA,NA
+FL,Miami-Ft. Lauderdale-W. Palm Beach,NA,FL,NA,NA
+FL,NA,Naples Urbanized Area MPO,FL,12198202,12021
+FL,No Nonattainment Area Selected,Naples Urbanized Area MPO,FL,12198202,12021
+FL,NA,No MPO Identified,FL,NA,NA
+FL,Tampa-St. Petersburg-Clearwater,No MPO Identified,FL,NA,NA
+FL,Miami-Ft. Lauderdale-W. Palm Beach,No MPO Identified,FL,NA,NA
+FL,NA,No MPO identified/State sponsored project,FL,NA,NA
+FL,No Nonattainment Area Selected,No MPO identified/State sponsored project,FL,NA,NA
+FL,NA,North Florida Transportation Planning Organization,FL,12197802,12109
+FL,NA,North Florida Transportation Planning Organization,FL,12197802,12019
+FL,NA,North Florida Transportation Planning Organization,FL,12197802,12089
+FL,NA,North Florida Transportation Planning Organization,FL,12197802,12031
+FL,NA,Ocala/Marion County MPO,FL,12198100,12083
+FL,NA,Okaloosa-Walton Transportation Planning Organization,FL,12198001,12131
+FL,NA,Okaloosa-Walton Transportation Planning Organization,FL,12198001,12091
+FL,NA,Palm Beach County MPO,FL,12197801,12099
+FL,Miami-Ft. Lauderdale-W. Palm Beach,Palm Beach County MPO,FL,12197801,12099
+FL,No Nonattainment Area Selected,Palm Beach County MPO,FL,12197801,12099
+FL,NA,Panama City MPO,FL,NA,NA
+FL,No Nonattainment Area Selected,Panama City MPO,FL,NA,NA
+FL,NA,Pasco County MPO,FL,12198201,12101
+FL,NA,Pensacola MPO,FL,12197000,12033
+FL,NA,Pensacola MPO,FL,12197000,12113
+FL,No Nonattainment Area Selected,Pensacola MPO,FL,12197000,12033
+FL,No Nonattainment Area Selected,Pensacola MPO,FL,12197000,12113
+FL,NA,Pinellas County MPO,FL,12197803,12103
+FL,Tampa-St. Petersburg-Clearwater,Pinellas County MPO,FL,12197803,12103
+FL,No Nonattainment Area Selected,Pinellas County MPO,FL,12197803,12103
+FL,NA,Polk MPO,FL,12197805,12105
+FL,No Nonattainment Area Selected,Polk MPO,FL,12197805,12105
+FL,NA,River to Sea Transporation Planning Organization MPA,FL,12197705,12035
+FL,NA,River to Sea Transporation Planning Organization MPA,FL,12197705,12127
+FL,NA,Sarasota/Manatee MPO,FL,12197804,12115
+FL,NA,Sarasota/Manatee MPO,FL,12197804,12081
+FL,No Nonattainment Area Selected,Sarasota/Manatee MPO,FL,12197804,12115
+FL,No Nonattainment Area Selected,Sarasota/Manatee MPO,FL,12197804,12081
+FL,NA,Space Coast Transportation Planning Organization,FL,12198300,12009
+FL,NA,St. Lucie MPO,FL,12198203,12111
+FL,No Nonattainment Area Selected,St. Lucie MPO,FL,12198203,12111
+FL,NA,Volusia County MPO,FL,NA,NA
+FL,No Nonattainment Area Selected,Volusia County MPO,FL,NA,NA
+GA,No Nonattainment Area Selected,Albany Planning and Development Services,GA,13197100,NA
+GA,Atlanta,Albany Planning and Development Services,GA,13197100,NA
+GA,NA,Atlanta Regional Commission,GA,13197100,13063
+GA,NA,Atlanta Regional Commission,GA,13197100,13077
+GA,NA,Atlanta Regional Commission,GA,13197100,13013
+GA,NA,Atlanta Regional Commission,GA,13197100,13217
+GA,NA,Atlanta Regional Commission,GA,13197100,13113
+GA,NA,Atlanta Regional Commission,GA,13197100,13247
+GA,NA,Atlanta Regional Commission,GA,13197100,13097
+GA,NA,Atlanta Regional Commission,GA,13197100,13067
+GA,NA,Atlanta Regional Commission,GA,13197100,13057
+GA,NA,Atlanta Regional Commission,GA,13197100,13255
+GA,NA,Atlanta Regional Commission,GA,13197100,13297
+GA,NA,Atlanta Regional Commission,GA,13197100,13135
+GA,NA,Atlanta Regional Commission,GA,13197100,13151
+GA,NA,Atlanta Regional Commission,GA,13197100,13121
+GA,NA,Atlanta Regional Commission,GA,13197100,13117
+GA,NA,Atlanta Regional Commission,GA,13197100,13089
+GA,NA,Atlanta Regional Commission,GA,13197100,13223
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13063
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13077
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13013
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13217
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13113
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13247
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13097
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13067
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13057
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13255
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13297
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13135
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13151
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13121
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13117
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13089
+GA,Atlanta,Atlanta Regional Commission,GA,13197100,13223
+GA,NA,Gainesville-Hall MPO,GA,13200301,13157
+GA,NA,Gainesville-Hall MPO,GA,13200301,13139
+GA,NA,Macon Area Transportation Study,GA,13196402,13169
+GA,NA,Macon Area Transportation Study,GA,13196402,13021
+GA,Atlanta,Macon Area Transportation Study,GA,13196402,13169
+GA,Atlanta,Macon Area Transportation Study,GA,13196402,13021
+GA,No Nonattainment Area Selected,Macon Area Transportation Study,GA,13196402,13169
+GA,No Nonattainment Area Selected,Macon Area Transportation Study,GA,13196402,13021
+GA,NA,NA,GA,NA,NA
+GA,Atlanta,No MPO Identified,GA,NA,NA
+GA,Atlanta,No MPO identified/State sponsored project,GA,NA,NA
+GA,No Nonattainment Area Selected,No MPO identified/State sponsored project,GA,NA,NA
+GA,Atlanta,Rome/Floyd County Planning Commission,GA,13198302,13115
+HI,NA,Maui MPO,HI,15201300,15009
+HI,NA,NA,HI,NA,NA
+HI,NA,No MPO Identified,HI,NA,NA
+HI,NA,No MPO identified/State sponsored project,HI,NA,NA
+HI,No Nonattainment Area Selected,No MPO identified/State sponsored project,HI,NA,NA
+HI,NA,Oahu MPO,HI,15197500,15003
+HI,No Nonattainment Area Selected,Oahu MPO,HI,15197500,15003
+HI,No Nonattainment Area Selected,State Sponsored Project,HI,NA,NA
+HI,NA,State Sponsored Project,HI,NA,NA
+IA,NA,Ames MPO,IA,19200300,19169
+IA,No Nonattainment Area Selected,Ames MPO,IA,19200300,19169
+IA,NA,Bi-State Regional Commission,IA,17196600,17161
+IA,NA,Bi-State Regional Commission,IA,17196600,19163
+IA,No Nonattainment Area Selected,Bi-State Regional Commission,IA,17196600,17161
+IA,No Nonattainment Area Selected,Bi-State Regional Commission,IA,17196600,19163
+IA,NA,Corridor Metropolitan Planning Organization,IA,19196400,19113
+IA,NA,Des Moines Area MPO,IA,19198300,19153
+IA,NA,Des Moines Area MPO,IA,19198300,19049
+IA,NA,Des Moines Area MPO,IA,19198300,19181
+IA,No Nonattainment Area Selected,Des Moines Area MPO,IA,19198300,19153
+IA,No Nonattainment Area Selected,Des Moines Area MPO,IA,19198300,19049
+IA,No Nonattainment Area Selected,Des Moines Area MPO,IA,19198300,19181
+IA,NA,East Central Intergovernmental Association,IA,19197400,19061
+IA,No Nonattainment Area Selected,East Central Intergovernmental Association,IA,19197400,19061
+IA,NA,Iowa Northland Regional COG,IA,19198000,19103
+IA,NA,Johnson County COG,IA,19198000,19103
+IA,No Nonattainment Area Selected,Johnson County COG,IA,19198000,19103
+IA,NA,Linn County RPC,IA,NA,19113
+IA,No Nonattainment Area Selected,Linn County RPC,IA,NA,19113
+IA,NA,NA,IA,NA,NA
+IA,No Nonattainment Area Selected,No MPO Identified,IA,NA,NA
+IA,NA,No MPO Identified,IA,NA,NA
+IA,NA,No MPO identified/State sponsored project,IA,NA,NA
+IA,No Nonattainment Area Selected,No MPO identified/State sponsored project,IA,NA,NA
+IA,NA,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,31153
+IA,NA,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,19155
+IA,NA,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,31055
+IA,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,31153
+IA,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,19155
+IA,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Planning Agency,IA,31197400,31055
+IA,NA,Siouxland Interstate Metropolitan Planning Commission,IA,NA,NA
+IA,No Nonattainment Area Selected,Siouxland Interstate Metropolitan Planning Commission,IA,NA,NA
+IA,NA,State Sponsored Project,IA,NA,NA
+ID,Boise-Northern Ada Co. CO Nonattainment Area,Ada Planning Association,ID,NA,16001
+ID,Fort Hall Reservation Particulate Nonattainment,Ada Planning Association,ID,NA,16001
+ID,No Nonattainment Area Selected,Ada Planning Association,ID,NA,16001
+ID,NA,Bannock Planning Organization,ID,16198200,NA
+ID,Portneuf Valley Particulate Nonattainment Area,Bannock Planning Organization,ID,16198200,NA
+ID,Fort Hall Reservation Particulate Nonattainment,Bannock Planning Organization,ID,16198200,NA
+ID,No Nonattainment Area Selected,Bonneville MPO,ID,16199200,NA
+ID,NA,Community Planning Association of Southeast Idaho,ID,16197700,16001
+ID,NA,Community Planning Association of Southeast Idaho,ID,16197700,16027
+ID,Boise-Northern Ada Co. CO Nonattainment Area,Community Planning Association of Southeast Idaho,ID,16197700,16001
+ID,Boise-Northern Ada Co. CO Nonattainment Area,Community Planning Association of Southeast Idaho,ID,16197700,16027
+ID,NA,Kootenai MPO,ID,16200301,16055
+ID,No Nonattainment Area Selected,Kootenai MPO,ID,16200301,16055
+ID,NA,NA,ID,NA,NA
+ID,No Nonattainment Area Selected,No MPO Identified,ID,NA,NA
+ID,Bonner County Particulate Nonattainment  Area,No MPO Identified,ID,NA,16017
+ID,Fort Hall Reservation Particulate Nonattainment,No MPO Identified,ID,NA,NA
+ID,Not in a designated nonattainment/maintenance area,No MPO Identified,ID,NA,NA
+ID,Boise-Northern Ada Co. CO Nonattainment Area,No MPO Identified,ID,NA,NA
+ID,NA,No MPO Identified,ID,NA,NA
+ID,NA,No MPO identified/State sponsored project,ID,NA,NA
+ID,Bonner County Particulate Nonattainment  Area,No MPO identified/State sponsored project,ID,NA,16017
+ID,No Nonattainment Area Selected,No MPO identified/State sponsored project,ID,NA,NA
+ID,Boise-Northern Ada Co. CO Nonattainment Area,No MPO identified/State sponsored project,ID,NA,NA
+ID,Shoshone County Particulate Nonattainment Area,No MPO identified/State sponsored project,ID,NA,NA
+ID,No Nonattainment Area Selected,State Sponsored Project,ID,NA,NA
+ID,Not in a designated nonattainment/maintenance area,State Sponsored Project,ID,NA,NA
+IL,St. Louis MO,Bi-State Regional Commission,IL,17196600,17161
+IL,St. Louis MO,Bi-State Regional Commission,IL,17196600,19163
+IL,St. Louis MO,Champaign-Urbana Urbanized Area Transportation Area,IL,17196402,17019
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17097
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17089
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17111
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17031
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17043
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17197
+IL,NA,Chicago Metropolitan Agency for Planning,IL,17196201,17093
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17097
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17089
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17111
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17031
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17043
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17197
+IL,Chicago-Gary-Lake County,Chicago Metropolitan Agency for Planning,IL,17196201,17093
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,17163
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,29071
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,17133
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,29510
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,17119
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,29099
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,29189
+IL,NA,East-West Gateway Coordinating Council,IL,29197300,29183
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,17163
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,29071
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,17133
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,29510
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,17119
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,29099
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,29189
+IL,St. Louis MO,East-West Gateway Coordinating Council,IL,29197300,29183
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,17163
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,29071
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,17133
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,29510
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,17119
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,29099
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,29189
+IL,Chicago-Gary-Lake County,East-West Gateway Coordinating Council,IL,29197300,29183
+IL,NA,NA,IL,NA,NA
+IL,Chicago-Gary-Lake County,No MPO Identified,IL,NA,17031
+IL,Chicago-Gary-Lake County,No MPO Identified,IL,NA,17097
+IL,St. Louis MO,No MPO Identified,IL,NA,NA
+IL,No Nonattainment Area Selected,State Sponsored Project,IL,NA,NA
+IN,Evansville,Area Planning Commission of Tippecanoe County,IN,18197601,18157
+IN,Chicago-Gary-Lake County,Area Planning Commission of Tippecanoe County,IN,18197601,18157
+IN,NA,Delaware-Muncie Metropolitan Transportation Commission,IN,18197602,18035
+IN,Muncie-Delaware County,Delaware-Muncie Metropolitan Transportation Commission,IN,18197602,18035
+IN,NA,Evansville Metropolitan Planning Organization,IN,18198600,21101
+IN,NA,Evansville Metropolitan Planning Organization,IN,18198600,18163
+IN,NA,Evansville Metropolitan Planning Organization,IN,18198600,18173
+IN,Evansville,Evansville Metropolitan Planning Organization,IN,18198600,21101
+IN,Evansville,Evansville Metropolitan Planning Organization,IN,18198600,18163
+IN,Evansville,Evansville Metropolitan Planning Organization,IN,18198600,18173
+IN,NA,Indianapolis MPO,IN,18197800,18109
+IN,NA,Indianapolis MPO,IN,18197800,18081
+IN,NA,Indianapolis MPO,IN,18197800,18059
+IN,NA,Indianapolis MPO,IN,18197800,18057
+IN,NA,Indianapolis MPO,IN,18197800,18063
+IN,NA,Indianapolis MPO,IN,18197800,18011
+IN,NA,Indianapolis MPO,IN,18197800,18145
+IN,NA,Indianapolis MPO,IN,18197800,18097
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18109
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18081
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18059
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18057
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18063
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18011
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18145
+IN,Indianapolis,Indianapolis MPO,IN,18197800,18097
+IN,NA,Kentuckiana Regional Planning and Development District,IN,21197300,21029
+IN,NA,Kentuckiana Regional Planning and Development District,IN,21197300,21111
+IN,NA,Kentuckiana Regional Planning and Development District,IN,21197300,18043
+IN,NA,Kentuckiana Regional Planning and Development District,IN,21197300,18019
+IN,NA,Kentuckiana Regional Planning and Development District,IN,21197300,21185
+IN,Louisville KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21029
+IN,Louisville KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21111
+IN,Louisville KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,18043
+IN,Louisville KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,18019
+IN,Louisville KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21185
+IN,Cincinnati OH-KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21029
+IN,Cincinnati OH-KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21111
+IN,Cincinnati OH-KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,18043
+IN,Cincinnati OH-KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,18019
+IN,Cincinnati OH-KY-IN,Kentuckiana Regional Planning and Development District,IN,21197300,21185
+IN,Indianapolis,Kentuckiana Regional Planning and Development District,IN,21197300,21029
+IN,Indianapolis,Kentuckiana Regional Planning and Development District,IN,21197300,21111
+IN,Indianapolis,Kentuckiana Regional Planning and Development District,IN,21197300,18043
+IN,Indianapolis,Kentuckiana Regional Planning and Development District,IN,21197300,18019
+IN,Indianapolis,Kentuckiana Regional Planning and Development District,IN,21197300,21185
+IN,NA,Madison County COG,IN,18196900,18095
+IN,Anderson,Madison County COG,IN,18196900,18095
+IN,Indianapolis,Madison County COG,IN,18196900,18095
+IN,NA,Michiana Area COG,IN,18197401,18141
+IN,NA,Michiana Area COG,IN,18197401,18039
+IN,South Bend-Elkhart,Michiana Area COG,IN,18197401,18141
+IN,South Bend-Elkhart,Michiana Area COG,IN,18197401,18039
+IN,NA,NA,IN,NA,NA
+IN,Evansville,No MPO Identified,IN,NA,NA
+IN,Chicago-Gary-Lake County,No MPO Identified,IN,NA,NA
+IN,South Bend-Elkhart,No MPO Identified,IN,NA,NA
+IN,NA,No MPO identified/State sponsored project,IN,NA,NA
+IN,Cincinnati OH-KY-IN,No MPO identified/State sponsored project,IN,NA,NA
+IN,Indianapolis,No MPO identified/State sponsored project,IN,NA,NA
+IN,No Nonattainment Area Selected,No MPO identified/State sponsored project,IN,NA,NA
+IN,NA,Northeastern Indiana Regional Coordinating Council,IN,18197402,18003
+IN,Fort Wayne-Allen County,Northeastern Indiana Regional Coordinating Council,IN,18197402,18003
+IN,No Nonattainment Area Selected,Northeastern Indiana Regional Coordinating Council,IN,18197402,18003
+IN,NA,Northwestern Indiana RPC,IN,18197501,18089
+IN,NA,Northwestern Indiana RPC,IN,18197501,18127
+IN,NA,Northwestern Indiana RPC,IN,18197501,18091
+IN,Chicago-Gary-Lake County,Northwestern Indiana RPC,IN,18197501,18089
+IN,Chicago-Gary-Lake County,Northwestern Indiana RPC,IN,18197501,18127
+IN,Chicago-Gary-Lake County,Northwestern Indiana RPC,IN,18197501,18091
+IN,LaPorte County,Northwestern Indiana RPC,IN,18197501,18089
+IN,LaPorte County,Northwestern Indiana RPC,IN,18197501,18127
+IN,LaPorte County,Northwestern Indiana RPC,IN,18197501,18091
+IN,Fort Wayne-Allen County,Northwestern Indiana RPC,IN,18197501,18089
+IN,Fort Wayne-Allen County,Northwestern Indiana RPC,IN,18197501,18127
+IN,Fort Wayne-Allen County,Northwestern Indiana RPC,IN,18197501,18091
+IN,NA,West Central Indiana Economic Development District Inc.,IN,18197502,18167
+IN,NA,West Central Indiana Economic Development District Inc.,IN,18197502,18021
+IN,Terre Haute-Vigo County,West Central Indiana Economic Development District Inc.,IN,18197502,18167
+IN,Terre Haute-Vigo County,West Central Indiana Economic Development District Inc.,IN,18197502,18021
+KS,No Nonattainment Area Selected,Lawrence-Douglas MPO,KS,20198200,20045
+KS,NA,Mid-America Regional Council,KS,29197401,29047
+KS,NA,Mid-America Regional Council,KS,29197401,20091
+KS,NA,Mid-America Regional Council,KS,29197401,20121
+KS,NA,Mid-America Regional Council,KS,29197401,20209
+KS,NA,Mid-America Regional Council,KS,29197401,29165
+KS,NA,Mid-America Regional Council,KS,29197401,29037
+KS,NA,Mid-America Regional Council,KS,29197401,29095
+KS,NA,Mid-America Regional Council,KS,29197401,20103
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,29047
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,20091
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,20121
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,20209
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,29165
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,29037
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,29095
+KS,No Nonattainment Area Selected,Mid-America Regional Council,KS,29197401,20103
+KS,Kansas City,Mid-America Regional Council,KS,29197401,29047
+KS,Kansas City,Mid-America Regional Council,KS,29197401,20091
+KS,Kansas City,Mid-America Regional Council,KS,29197401,20121
+KS,Kansas City,Mid-America Regional Council,KS,29197401,20209
+KS,Kansas City,Mid-America Regional Council,KS,29197401,29165
+KS,Kansas City,Mid-America Regional Council,KS,29197401,29037
+KS,Kansas City,Mid-America Regional Council,KS,29197401,29095
+KS,Kansas City,Mid-America Regional Council,KS,29197401,20103
+KS,NA,NA,KS,NA,NA
+KS,No Nonattainment Area Selected,No MPO Identified,KS,NA,NA
+KS,Kansas City,No MPO Identified,KS,NA,NA
+KS,NA,No MPO identified/State sponsored project,KS,NA,NA
+KS,No Nonattainment Area Selected,No MPO identified/State sponsored project,KS,NA,NA
+KS,NA,Wichita Area MPO,KS,20197600,20173
+KS,No Nonattainment Area Selected,Wichita Area MPO,KS,20197600,20173
+KS,Kansas City,Wichita-Sedgwick County Metropolitan Area Planning Commission,KS,20197600,20173
+KS,No Nonattainment Area Selected,Wichita-Sedgwick County Metropolitan Area Planning Commission,KS,20197600,20173
+KY,Huntington-Ashland,Ashland Area MPO,KY,21198800,NA
+KY,NA,Cincinnati Area MPO,KY,39197400,21015
+KY,NA,Cincinnati Area MPO,KY,39197400,39165
+KY,NA,Cincinnati Area MPO,KY,39197400,18029
+KY,NA,Cincinnati Area MPO,KY,39197400,21037
+KY,NA,Cincinnati Area MPO,KY,39197400,39061
+KY,NA,Cincinnati Area MPO,KY,39197400,21117
+KY,NA,Cincinnati Area MPO,KY,39197400,39025
+KY,NA,Cincinnati Area MPO,KY,39197400,39017
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,21015
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,39165
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,18029
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,21037
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,39061
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,21117
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,39025
+KY,Lexington-Fayette,Cincinnati Area MPO,KY,39197400,39017
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,21015
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,39165
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,18029
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,21037
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,39061
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,21117
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,39025
+KY,Cincinnati-Hamilton,Cincinnati Area MPO,KY,39197400,39017
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,21015
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,39165
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,18029
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,21037
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,39061
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,21117
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,39025
+KY,Louisville KY-IN,Cincinnati Area MPO,KY,39197400,39017
+KY,NA,Clarksville Area MPO,KY,47197802,47125
+KY,"Clarksville-Hopkinsville, TN-KY",Clarksville Area MPO,KY,47197802,47125
+KY,Owensboro,Green River Area Development District,KY,21197402,21059
+KY,Louisville KY-IN,Kentuckiana Regional Planning and Development Agency,KY,21197300,21029
+KY,Louisville KY-IN,Kentuckiana Regional Planning and Development Agency,KY,21197300,21111
+KY,Louisville KY-IN,Kentuckiana Regional Planning and Development Agency,KY,21197300,18043
+KY,Louisville KY-IN,Kentuckiana Regional Planning and Development Agency,KY,21197300,18019
+KY,Louisville KY-IN,Kentuckiana Regional Planning and Development Agency,KY,21197300,21185
+KY,Huntington-Ashland,Kentuckiana Regional Planning and Development Agency,KY,21197300,21029
+KY,Huntington-Ashland,Kentuckiana Regional Planning and Development Agency,KY,21197300,21111
+KY,Huntington-Ashland,Kentuckiana Regional Planning and Development Agency,KY,21197300,18043
+KY,Huntington-Ashland,Kentuckiana Regional Planning and Development Agency,KY,21197300,18019
+KY,Huntington-Ashland,Kentuckiana Regional Planning and Development Agency,KY,21197300,21185
+KY,NA,Lexington Area MPO,KY,21197401,21067
+KY,NA,Lexington Area MPO,KY,21197401,21113
+KY,Lexington-Fayette,Lexington Area MPO,KY,21197401,21067
+KY,Lexington-Fayette,Lexington Area MPO,KY,21197401,21113
+KY,Louisville KY-IN,Lexington Area MPO,KY,21197401,21067
+KY,Louisville KY-IN,Lexington Area MPO,KY,21197401,21113
+KY,NA,Louisville Area MPO,KY,21197300,21029
+KY,NA,Louisville Area MPO,KY,21197300,21111
+KY,NA,Louisville Area MPO,KY,21197300,18043
+KY,NA,Louisville Area MPO,KY,21197300,18019
+KY,NA,Louisville Area MPO,KY,21197300,21185
+KY,Louisville KY-IN,Louisville Area MPO,KY,21197300,21029
+KY,Louisville KY-IN,Louisville Area MPO,KY,21197300,21111
+KY,Louisville KY-IN,Louisville Area MPO,KY,21197300,18043
+KY,Louisville KY-IN,Louisville Area MPO,KY,21197300,18019
+KY,Louisville KY-IN,Louisville Area MPO,KY,21197300,21185
+KY,NA,NA,KY,NA,NA
+KY,Huntington-Ashland,No MPO Identified,KY,NA,NA
+KY,Owensboro,No MPO Identified,KY,NA,NA
+KY,Cincinnati-Hamilton,No MPO Identified,KY,NA,NA
+KY,Lexington-Fayette,No MPO Identified,KY,NA,NA
+KY,NA,No MPO identified/State sponsored project,KY,NA,NA
+KY,No Nonattainment Area Selected,No MPO identified/State sponsored project,KY,NA,NA
+KY,Cincinnati-Hamilton,No MPO identified/State sponsored project,KY,NA,NA
+KY,Louisville KY-IN,No MPO identified/State sponsored project,KY,NA,NA
+KY,Huntington-Ashland,No MPO identified/State sponsored project,KY,NA,NA
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,21015
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,39165
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,18029
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,21037
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,39061
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,21117
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,39025
+KY,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,KY,39197400,39017
+KY,NA,Owensboro/Daviess Co MPO,KY,21197402,21059
+KY,Owensboro,Owensboro/Daviess Co MPO,KY,21197402,21059
+KY,Edmonson,State Sponsored Project,KY,NA,NA
+KY,All Nonattainment and Maintenance Areas Statewide,State Sponsored Project,KY,NA,NA
+LA,NA,Capital Regional Planning Commission,LA,22197201,22033
+LA,NA,Capital Regional Planning Commission,LA,22197201,22047
+LA,NA,Capital Regional Planning Commission,LA,22197201,22063
+LA,NA,Capital Regional Planning Commission,LA,22197201,22005
+LA,NA,Capital Regional Planning Commission,LA,22197201,22121
+LA,Baton Rouge,Capital Regional Planning Commission,LA,22197201,22033
+LA,Baton Rouge,Capital Regional Planning Commission,LA,22197201,22047
+LA,Baton Rouge,Capital Regional Planning Commission,LA,22197201,22063
+LA,Baton Rouge,Capital Regional Planning Commission,LA,22197201,22005
+LA,Baton Rouge,Capital Regional Planning Commission,LA,22197201,22121
+LA,No Nonattainment Area Selected,Capital Regional Planning Commission,LA,22197201,22033
+LA,No Nonattainment Area Selected,Capital Regional Planning Commission,LA,22197201,22047
+LA,No Nonattainment Area Selected,Capital Regional Planning Commission,LA,22197201,22063
+LA,No Nonattainment Area Selected,Capital Regional Planning Commission,LA,22197201,22005
+LA,No Nonattainment Area Selected,Capital Regional Planning Commission,LA,22197201,22121
+LA,NA,Imperial Calcasieu Regional Planning and Development Commission,LA,22198400,22019
+LA,Lake Charles,Imperial Calcasieu Regional Planning and Development Commission,LA,22198400,22019
+LA,NA,Lafayette Consolidated Government,LA,22197202,22045
+LA,NA,Lafayette Consolidated Government,LA,22197202,22099
+LA,NA,Lafayette Consolidated Government,LA,22197202,22055
+LA,No Nonattainment Area Selected,Lafayette Consolidated Government,LA,22197202,22045
+LA,No Nonattainment Area Selected,Lafayette Consolidated Government,LA,22197202,22099
+LA,No Nonattainment Area Selected,Lafayette Consolidated Government,LA,22197202,22055
+LA,NA,NA,LA,NA,NA
+LA,Baton Rouge,No MPO Identified,LA,NA,NA
+LA,Lake Charles,No MPO Identified,LA,NA,NA
+LA,NA,No MPO identified/State sponsored project,LA,NA,NA
+LA,No Nonattainment Area Selected,No MPO identified/State sponsored project,LA,NA,NA
+LA,NA,Northwest Louisiana COG,LA,22196800,22119
+LA,NA,Northwest Louisiana COG,LA,22196800,22031
+LA,NA,Northwest Louisiana COG,LA,22196800,22017
+LA,NA,Northwest Louisiana COG,LA,22196800,22015
+LA,NA,Regional Planning Commission,LA,22196200,22089
+LA,NA,Regional Planning Commission,LA,22196200,22105
+LA,NA,Regional Planning Commission,LA,22196200,22095
+LA,NA,Regional Planning Commission,LA,22196200,22051
+LA,NA,Regional Planning Commission,LA,22196200,22103
+LA,NA,Regional Planning Commission,LA,22196200,22071
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22089
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22105
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22095
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22051
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22103
+LA,No Nonattainment Area Selected,Regional Planning Commission,LA,22196200,22071
+LA,Baton Rouge,State Sponsored Project,LA,NA,NA
+LA,No Nonattainment Area Selected,State Sponsored Project,LA,NA,NA
+MA,NA,Berkshire County RPC,MA,25197202,25003
+MA,Springfield(Western MA),Berkshire County RPC,MA,25197202,25003
+MA,Boston-Lawrence-Worchester,Berkshire County RPC,MA,25197202,25003
+MA,NA,Boston MPO,MA,25197300,25009
+MA,NA,Boston MPO,MA,25197300,25023
+MA,NA,Boston MPO,MA,25197300,25025
+MA,NA,Boston MPO,MA,25197300,25021
+MA,NA,Boston MPO,MA,25197300,25017
+MA,Boston-Lawrence-Worchester,Boston MPO,MA,25197300,25009
+MA,Boston-Lawrence-Worchester,Boston MPO,MA,25197300,25023
+MA,Boston-Lawrence-Worchester,Boston MPO,MA,25197300,25025
+MA,Boston-Lawrence-Worchester,Boston MPO,MA,25197300,25021
+MA,Boston-Lawrence-Worchester,Boston MPO,MA,25197300,25017
+MA,NA,Cape Cod Commission,MA,25199000,25001
+MA,Boston-Lawrence-Worchester,Cape Cod Commission,MA,25199000,25001
+MA,NA,Central Massachusetts RPC,MA,25197602,25027
+MA,Boston-Lawrence-Worchester,Central Massachusetts RPC,MA,25197602,25027
+MA,NA,Franklin Regional Council of Governments,MA,NA,NA
+MA,Springfield(Western MA),Franklin Regional Council of Governments,MA,25197601,25013
+MA,Springfield(Western MA),Franklin Regional Council of Governments,MA,25197601,25015
+MA,Boston-Lawrence-Worchester,Franklin Regional Council of Governments,MA,NA,NA
+MA,NA,Marthas Vineyard Commission,MA,NA,NA
+MA,Boston-Lawrence-Worchester,Marthas Vineyard Commission,MA,NA,NA
+MA,NA,Merrimack Valley Planning Commission,MA,25197603,25009
+MA,Boston-Lawrence-Worchester,Merrimack Valley Planning Commission,MA,25197603,25009
+MA,NA,Montachusett RPC,MA,25198700,25027
+MA,NA,Montachusett RPC,MA,25198700,25017
+MA,Boston-Lawrence-Worchester,Montachusett RPC,MA,25198700,25027
+MA,Boston-Lawrence-Worchester,Montachusett RPC,MA,25198700,25017
+MA,NA,NA,MA,NA,NA
+MA,NA,Nantucket Planning and Economic Development Commission,MA,NA,NA
+MA,Boston-Lawrence-Worchester,Nantucket Planning and Economic Development Commission,MA,NA,NA
+MA,Springfield(Western MA),No MPO Identified,MA,NA,NA
+MA,Boston-Lawrence-Worchester,No MPO Identified,MA,NA,NA
+MA,NA,No MPO identified/State sponsored project,MA,NA,NA
+MA,Boston-Lawrence-Worchester,No MPO identified/State sponsored project,MA,NA,NA
+MA,No Nonattainment Area Selected,No MPO identified/State sponsored project,MA,NA,NA
+MA,Springfield(Western MA),No MPO identified/State sponsored project,MA,NA,NA
+MA,NA,Northern Middlesex COG,MA,25197300,25009
+MA,NA,Northern Middlesex COG,MA,25197300,25023
+MA,NA,Northern Middlesex COG,MA,25197300,25025
+MA,NA,Northern Middlesex COG,MA,25197300,25021
+MA,NA,Northern Middlesex COG,MA,25197300,25017
+MA,Boston-Lawrence-Worchester,Northern Middlesex COG,MA,25197300,25009
+MA,Boston-Lawrence-Worchester,Northern Middlesex COG,MA,25197300,25023
+MA,Boston-Lawrence-Worchester,Northern Middlesex COG,MA,25197300,25025
+MA,Boston-Lawrence-Worchester,Northern Middlesex COG,MA,25197300,25021
+MA,Boston-Lawrence-Worchester,Northern Middlesex COG,MA,25197300,25017
+MA,NA,Old Colony Planning Council,MA,25197201,25023
+MA,Boston-Lawrence-Worchester,Old Colony Planning Council,MA,25197201,25023
+MA,NA,Pioneer Valley Planning Commission,MA,25197601,25013
+MA,NA,Pioneer Valley Planning Commission,MA,25197601,25015
+MA,Springfield(Western MA),Pioneer Valley Planning Commission,MA,25197601,25013
+MA,Springfield(Western MA),Pioneer Valley Planning Commission,MA,25197601,25015
+MA,Boston-Lawrence-Worchester,Pioneer Valley Planning Commission,MA,25197601,25013
+MA,Boston-Lawrence-Worchester,Pioneer Valley Planning Commission,MA,25197601,25015
+MA,NA,Southeastern Regional Planning and Economic Development District,MA,25199800,25005
+MA,NA,Southeastern Regional Planning and Economic Development District,MA,25199800,25023
+MA,Boston-Lawrence-Worchester,Southeastern Regional Planning and Economic Development District,MA,25199800,25005
+MA,Boston-Lawrence-Worchester,Southeastern Regional Planning and Economic Development District,MA,25199800,25023
+MA,Boston-Lawrence-Worchester,State Sponsored Project,MA,NA,NA
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51510
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,11001
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51013
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51600
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51685
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51683
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,24017
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51153
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51107
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,24033
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,24021
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51059
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,24031
+MD,Washington DC-MD-VA,"Allegany County, Department of Planning and Zoning Commission",MD,11196500,51610
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24013
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24025
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24005
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24003
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24027
+MD,NA,Baltimore Metropolitan Council,MD,24199200,24510
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24013
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24025
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24005
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24003
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24027
+MD,Washington DC-MD-VA,Baltimore Metropolitan Council,MD,24199200,24510
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24013
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24025
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24005
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24003
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24027
+MD,Baltimore,Baltimore Metropolitan Council,MD,24199200,24510
+MD,NA,Hagerstown Area MPO,MD,24198600,54003
+MD,NA,Hagerstown Area MPO,MD,24198600,54037
+MD,NA,Hagerstown Area MPO,MD,24198600,24043
+MD,No Nonattainment Area Selected,Hagerstown Area MPO,MD,24198600,54003
+MD,No Nonattainment Area Selected,Hagerstown Area MPO,MD,24198600,54037
+MD,No Nonattainment Area Selected,Hagerstown Area MPO,MD,24198600,24043
+MD,NA,Metropolitan Washington COG,MD,11196500,51510
+MD,NA,Metropolitan Washington COG,MD,11196500,11001
+MD,NA,Metropolitan Washington COG,MD,11196500,51013
+MD,NA,Metropolitan Washington COG,MD,11196500,51600
+MD,NA,Metropolitan Washington COG,MD,11196500,51685
+MD,NA,Metropolitan Washington COG,MD,11196500,51683
+MD,NA,Metropolitan Washington COG,MD,11196500,24017
+MD,NA,Metropolitan Washington COG,MD,11196500,51153
+MD,NA,Metropolitan Washington COG,MD,11196500,51107
+MD,NA,Metropolitan Washington COG,MD,11196500,24033
+MD,NA,Metropolitan Washington COG,MD,11196500,24021
+MD,NA,Metropolitan Washington COG,MD,11196500,51059
+MD,NA,Metropolitan Washington COG,MD,11196500,24031
+MD,NA,Metropolitan Washington COG,MD,11196500,51610
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51510
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,11001
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51013
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51600
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51685
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51683
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,24017
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51153
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51107
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,24033
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,24021
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51059
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,24031
+MD,Washington DC-MD-VA,Metropolitan Washington COG,MD,11196500,51610
+MD,NA,NA,MD,NA,NA
+MD,Baltimore,No MPO Identified,MD,24199200,NA
+MD,Washington DC-MD-VA,No MPO Identified,MD,11196500,NA
+MD,NA,No MPO identified/State sponsored project,MD,NA,NA
+MD,No Nonattainment Area Selected,No MPO identified/State sponsored project,MD,NA,NA
+MD,Baltimore,No MPO identified/State sponsored project,MD,24199200,NA
+MD,Philadelphia-Wilmingon-Trenton,No MPO identified/State sponsored project,MD,NA,NA
+MD,Washington DC-MD-VA,No MPO identified/State sponsored project,MD,11196500,NA
+MD,NA,State Sponsored Project,MD,NA,NA
+MD,Washington DC-MD-VA,State Sponsored Project,MD,11196500,NA
+MD,Baltimore,State Sponsored Project,MD,24199200,NA
+MD,NA,Wilmington Area Planning Coulcil,MD,NA,NA
+MD,NA,Wilmington Area Planning Council,MD,NA,NA
+ME,NA,Androscoggin Transportation Resource Center,ME,23196400,23001
+ME,NA,Bangor Area Comprehensive Transportation Study,ME,23198201,NA
+ME,No Nonattainment Area Selected,Bangor Area Comprehensive Transportation Study,ME,23198201,NA
+ME,Hancock & Waldo,Bangor Area Comprehensive Transportation Study,ME,23198201,NA
+ME,NA,Kittery Area Comprehensive Transportation Study,ME,23198202,23031
+ME,Portland,Kittery Area Comprehensive Transportation Study,ME,23198202,23031
+ME,Hancock & Waldo,Kittery Area Comprehensive Transportation Study,ME,23198202,23031
+ME,Lewiston - Auburn,Lewiston-Auburn Comprehensive Transportation Study,ME,NA,NA
+ME,Hancock & Waldo,Lewiston-Auburn Comprehensive Transportation Study,ME,NA,NA
+ME,NA,NA,ME,NA,NA
+ME,Portland,No MPO Identified,ME,23197500,23005
+ME,Hancock & Waldo,No MPO Identified,ME,NA,NA
+ME,NA,No MPO identified/State sponsored project,ME,NA,NA
+ME,Lewiston - Auburn,No MPO identified/State sponsored project,ME,NA,NA
+ME,No Nonattainment Area Selected,No MPO identified/State sponsored project,ME,NA,NA
+ME,Portland,No MPO identified/State sponsored project,ME,23197500,23005
+ME,Knox and Lincoln,No MPO identified/State sponsored project,ME,NA,NA
+ME,Hancock & Waldo,No MPO identified/State sponsored project,ME,NA,NA
+ME,NA,Portland Area Comprehensive Transportation Study,ME,23197500,23005
+ME,Portland,Portland Area Comprehensive Transportation Study,ME,23197500,23005
+ME,Lewiston - Auburn,Portland Area Comprehensive Transportation Study,ME,23197500,23005
+ME,Hancock & Waldo,Portland Area Comprehensive Transportation Study,ME,23197500,23005
+ME,Hancock & Waldo,State Sponsored Project,ME,NA,NA
+MI,NA,Battle Creek Area Transportation Study,MI,26197403,26025
+MI,"Kalamazoo-Battle Creek, MI",Battle Creek Area Transportation Study,MI,26197403,26025
+MI,Muskegon,Battle Creek Area Transportation Study,MI,26197403,26025
+MI,NA,Genesee County Metropolitan Planning Commission,MI,26196300,26049
+MI,"Flint, MI",Genesee County Metropolitan Planning Commission,MI,26196300,26049
+MI,Muskegon,Genesee County Metropolitan Planning Commission,MI,26196300,26049
+MI,Grand Rapids,Genesee County Metropolitan Planning Commission,MI,26196300,26049
+MI,NA,Grand Valley Metropolitan Council,MI,26199000,26081
+MI,NA,Grand Valley Metropolitan Council,MI,26199000,26139
+MI,Grand Rapids,Grand Valley Metropolitan Council,MI,26199000,26081
+MI,Grand Rapids,Grand Valley Metropolitan Council,MI,26199000,26139
+MI,NA,Kalamazoo Area Transportation Study,MI,26197900,26159
+MI,NA,Kalamazoo Area Transportation Study,MI,26197900,26077
+MI,"Kalamazoo-Battle Creek, MI",Kalamazoo Area Transportation Study,MI,26197900,26159
+MI,"Kalamazoo-Battle Creek, MI",Kalamazoo Area Transportation Study,MI,26197900,26077
+MI,NA,Macatawa Area Coordinating Council,MI,26199100,26139
+MI,Grand Rapids,Macatawa Area Coordinating Council,MI,26199100,26139
+MI,Allegan Co,Macatawa Area Coordinating Council,MI,26199100,26139
+MI,Muskegon,Macatawa Area Coordinating Council,MI,26199100,26139
+MI,NA,NA,MI,NA,NA
+MI,Detroit-Ann Arbor,No MPO Identified,MI,NA,NA
+MI,Grand Rapids,No MPO Identified,MI,NA,NA
+MI,Muskegon,No MPO Identified,MI,NA,NA
+MI,NA,No MPO identified/State sponsored project,MI,NA,NA
+MI,Detroit-Ann Arbor,No MPO identified/State sponsored project,MI,NA,NA
+MI,"Huron Co, MI",No MPO identified/State sponsored project,MI,NA,NA
+MI,Allegan Co,No MPO identified/State sponsored project,MI,NA,NA
+MI,"Flint, MI",No MPO identified/State sponsored project,MI,NA,NA
+MI,"Kalamazoo-Battle Creek, MI",No MPO identified/State sponsored project,MI,NA,NA
+MI,Benton Harbor,No MPO identified/State sponsored project,MI,NA,NA
+MI,Muskegon,No MPO identified/State sponsored project,MI,NA,NA
+MI,Benzie Co,No MPO identified/State sponsored project,MI,NA,NA
+MI,Cass Co,No MPO identified/State sponsored project,MI,NA,NA
+MI,"Mason Co, MI",No MPO identified/State sponsored project,MI,NA,NA
+MI,"Lansing-East Lansing, MI",No MPO identified/State sponsored project,MI,NA,NA
+MI,Grand Rapids,No MPO identified/State sponsored project,MI,NA,NA
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26093
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26099
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26161
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26115
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26147
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26125
+MI,NA,Southeast Michigan Council of Governments,MI,26197401,26163
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26093
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26099
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26161
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26115
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26147
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26125
+MI,Detroit-Ann Arbor,Southeast Michigan Council of Governments,MI,26197401,26163
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26093
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26099
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26161
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26115
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26147
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26125
+MI,"Huron Co, MI",Southeast Michigan Council of Governments,MI,26197401,26163
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26093
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26099
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26161
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26115
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26147
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26125
+MI,NA,Southwest Michigan Planning Commission,MI,26197401,26163
+MI,Benton Harbor,Southwest Michigan Planning Commission,MI,26197402,26021
+MI,Benton Harbor,Southwest Michigan Planning Commission,MI,26197402,26027
+MI,Cass Co,Southwest Michigan Planning Commission,MI,26197402,26021
+MI,Cass Co,Southwest Michigan Planning Commission,MI,26197402,26027
+MI,"Kalamazoo-Battle Creek, MI",Southwest Michigan Planning Commission,MI,26197402,26021
+MI,"Kalamazoo-Battle Creek, MI",Southwest Michigan Planning Commission,MI,26197402,26027
+MI,Muskegon,Southwest Michigan Planning Commission,MI,26197402,26021
+MI,Muskegon,Southwest Michigan Planning Commission,MI,26197402,26027
+MI,Benzie Co,Southwest Michigan Planning Commission,MI,26197402,26021
+MI,Benzie Co,Southwest Michigan Planning Commission,MI,26197402,26027
+MI,NA,State Sponsored Project,MI,NA,NA
+MI,Detroit-Ann Arbor,State Sponsored Project,MI,NA,NA
+MI,Grand Rapids,State Sponsored Project,MI,NA,NA
+MI,NA,Tri-County Regional Planning Commission,MI,26197301,26037
+MI,NA,Tri-County Regional Planning Commission,MI,26197301,26045
+MI,NA,Tri-County Regional Planning Commission,MI,26197301,26065
+MI,"Lansing-East Lansing, MI",Tri-County Regional Planning Commission,MI,26197301,26037
+MI,"Lansing-East Lansing, MI",Tri-County Regional Planning Commission,MI,26197301,26045
+MI,"Lansing-East Lansing, MI",Tri-County Regional Planning Commission,MI,26197301,26065
+MI,NA,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26139
+MI,NA,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26121
+MI,Muskegon,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26139
+MI,Muskegon,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26121
+MI,Grand Rapids,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26139
+MI,Grand Rapids,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26121
+MI,Benzie Co,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26139
+MI,Benzie Co,West Michigan Metropolitan Transportation Planning Program,MI,26197302,26121
+MI,NA,West Michigan Shoreline Regional Development Commission,MI,26197302,26139
+MI,NA,West Michigan Shoreline Regional Development Commission,MI,26197302,26121
+MI,Muskegon,West Michigan Shoreline Regional Development Commission,MI,26197302,26139
+MI,Muskegon,West Michigan Shoreline Regional Development Commission,MI,26197302,26121
+MI,Grand Rapids,West Michigan Shoreline Regional Development Commission,MI,26197302,26139
+MI,Grand Rapids,West Michigan Shoreline Regional Development Commission,MI,26197302,26121
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27019
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27123
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27053
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27037
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27139
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27003
+MN,NA,Metropolitan Council of the Twin Cities Area,MN,27197300,27163
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27019
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27123
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27053
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27037
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27139
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27003
+MN,Minneapolis-St. Paul,Metropolitan Council of the Twin Cities Area,MN,27197300,27163
+MN,NA,NA,MN,NA,NA
+MN,Duluth,No MPO Identified,MN,NA,NA
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,17163
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,29071
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,17133
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,29510
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,17119
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,29099
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,29189
+MO,NA,East-West Gateway Coordinating Council,MO,29197300,29183
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,17163
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,29071
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,17133
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,29510
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,17119
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,29099
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,29189
+MO,St. Louis,East-West Gateway Coordinating Council,MO,29197300,29183
+MO,NA,Mid-America Regional Council,MO,29197401,29047
+MO,NA,Mid-America Regional Council,MO,29197401,20091
+MO,NA,Mid-America Regional Council,MO,29197401,20121
+MO,NA,Mid-America Regional Council,MO,29197401,20209
+MO,NA,Mid-America Regional Council,MO,29197401,29165
+MO,NA,Mid-America Regional Council,MO,29197401,29037
+MO,NA,Mid-America Regional Council,MO,29197401,29095
+MO,NA,Mid-America Regional Council,MO,29197401,20103
+MO,Kansas City,Mid-America Regional Council,MO,29197401,29047
+MO,Kansas City,Mid-America Regional Council,MO,29197401,20091
+MO,Kansas City,Mid-America Regional Council,MO,29197401,20121
+MO,Kansas City,Mid-America Regional Council,MO,29197401,20209
+MO,Kansas City,Mid-America Regional Council,MO,29197401,29165
+MO,Kansas City,Mid-America Regional Council,MO,29197401,29037
+MO,Kansas City,Mid-America Regional Council,MO,29197401,29095
+MO,Kansas City,Mid-America Regional Council,MO,29197401,20103
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,29047
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,20091
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,20121
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,20209
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,29165
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,29037
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,29095
+MO,No Nonattainment Area Selected,Mid-America Regional Council,MO,29197401,20103
+MO,St. Louis,Mid-America Regional Council,MO,29197401,29047
+MO,St. Louis,Mid-America Regional Council,MO,29197401,20091
+MO,St. Louis,Mid-America Regional Council,MO,29197401,20121
+MO,St. Louis,Mid-America Regional Council,MO,29197401,20209
+MO,St. Louis,Mid-America Regional Council,MO,29197401,29165
+MO,St. Louis,Mid-America Regional Council,MO,29197401,29037
+MO,St. Louis,Mid-America Regional Council,MO,29197401,29095
+MO,St. Louis,Mid-America Regional Council,MO,29197401,20103
+MO,NA,NA,MO,NA,NA
+MO,Kansas City,No MPO Identified,MO,NA,NA
+MO,St. Louis,No MPO Identified,MO,NA,NA
+MO,NA,Springfield Area Transportation Study,MO,29197101,29043
+MO,NA,Springfield Area Transportation Study,MO,29197101,29077
+MS,NA,Central Mississippi Planning and Development District,MS,28197500,28121
+MS,NA,Central Mississippi Planning and Development District,MS,28197500,28049
+MS,NA,Central Mississippi Planning and Development District,MS,28197500,28089
+MS,No Nonattainment Area Selected,Central Mississippi Planning and Development District,MS,28197500,28121
+MS,No Nonattainment Area Selected,Central Mississippi Planning and Development District,MS,28197500,28049
+MS,No Nonattainment Area Selected,Central Mississippi Planning and Development District,MS,28197500,28089
+MS,NA,Gulf RPC,MS,28197300,28059
+MS,NA,Gulf RPC,MS,28197300,28047
+MS,NA,Gulf RPC,MS,28197300,28045
+MS,No Nonattainment Area Selected,Gulf RPC,MS,28197300,28059
+MS,No Nonattainment Area Selected,Gulf RPC,MS,28197300,28047
+MS,No Nonattainment Area Selected,Gulf RPC,MS,28197300,28045
+MS,NA,Memphis MPO,MS,NA,NA
+MS,NA,NA,MS,NA,NA
+MS,No Nonattainment Area Selected,No MPO Identified,MS,NA,NA
+MS,NA,No MPO Identified,MS,NA,NA
+MS,NA,No MPO identified/State sponsored project,MS,NA,NA
+MS,No Nonattainment Area Selected,No MPO identified/State sponsored project,MS,NA,NA
+MT,NA,Great Falls City-County Planning Board,MT,30197100,NA
+MT,No Nonattainment Area Selected,Great Falls City-County Planning Board,MT,30197100,NA
+MT,Missoula,Great Falls City-County Planning Board,MT,30197100,NA
+MT,NA,Missoula Transportation Policy Coordinating Committee,MT,30198200,30063
+MT,Missoula,Missoula Transportation Policy Coordinating Committee,MT,30198200,30063
+MT,Butte Moderate Particulate Nonattainment Area,Missoula Transportation Policy Coordinating Committee,MT,30198200,30063
+MT,NA,NA,MT,NA,NA
+MT,Butte Moderate Particulate Nonattainment Area,No MPO Identified,MT,NA,NA
+MT,Missoula,No MPO Identified,MT,NA,NA
+MT,NA,No MPO identified/State sponsored project,MT,NA,NA
+MT,Libby Moderate Particulate Nonattainment Area,No MPO identified/State sponsored project,MT,NA,NA
+MT,No Nonattainment Area Selected,No MPO identified/State sponsored project,MT,NA,NA
+MT,Butte Moderate Particulate Nonattainment Area,No MPO identified/State sponsored project,MT,NA,NA
+MT,Kalispell Moderate Particulate Nonattainment Area,No MPO identified/State sponsored project,MT,NA,NA
+MT,Missoula,No MPO identified/State sponsored project,MT,NA,NA
+MT,Lame Dear Moderate Particulate Nonattainment Area,No MPO identified/State sponsored project,MT,NA,NA
+MT,Polson Moderate Particulate Nonattainment Area,No MPO identified/State sponsored project,MT,NA,NA
+MT,Flathead County; Whitefish and Vicinity PM-10 NA,No MPO identified/State sponsored project,MT,NA,NA
+MT,No Nonattainment Area Selected,State Sponsored Project,MT,NA,NA
+MT,Kalispell Moderate Particulate Nonattainment Area,State Sponsored Project,MT,NA,NA
+MT,Missoula,State Sponsored Project,MT,NA,NA
+MT,Butte Moderate Particulate Nonattainment Area,State Sponsored Project,MT,NA,NA
+MT,Lame Dear Moderate Particulate Nonattainment Area,State Sponsored Project,MT,NA,NA
+MT,Polson Moderate Particulate Nonattainment Area,State Sponsored Project,MT,NA,NA
+MT,NA,State Sponsored Project,MT,NA,NA
+MT,NA,Yellowstone County MPO,MT,30196400,NA
+MT,No Nonattainment Area Selected,Yellowstone County MPO,MT,30196400,NA
+NC,Charlotte-Gastonia,Asheville Metropolitan Planning Organization,NC,37197000,37089
+NC,Charlotte-Gastonia,Asheville Metropolitan Planning Organization,NC,37197000,37087
+NC,Charlotte-Gastonia,Asheville Metropolitan Planning Organization,NC,37197000,37021
+NC,Charlotte-Gastonia,Asheville Metropolitan Planning Organization,NC,37197000,37115
+NC,Swain County,Asheville Metropolitan Planning Organization,NC,37197000,37089
+NC,Swain County,Asheville Metropolitan Planning Organization,NC,37197000,37087
+NC,Swain County,Asheville Metropolitan Planning Organization,NC,37197000,37021
+NC,Swain County,Asheville Metropolitan Planning Organization,NC,37197000,37115
+NC,NA,Burlington-Graham MPO,NC,37197300,37001
+NC,Guilford County,Burlington-Graham MPO,NC,37197300,37001
+NC,NA,Cabarrus/South Rowan MPO,NC,37198002,37025
+NC,NA,Cabarrus/South Rowan MPO,NC,37198002,37159
+NC,Cabarrus County,Cabarrus/South Rowan MPO,NC,37198002,37025
+NC,Cabarrus County,Cabarrus/South Rowan MPO,NC,37198002,37159
+NC,Charlotte-Gastonia,Cabarrus/South Rowan MPO,NC,37198002,37025
+NC,Charlotte-Gastonia,Cabarrus/South Rowan MPO,NC,37198002,37159
+NC,Rowan County,Cabarrus/South Rowan MPO,NC,37198002,37025
+NC,Rowan County,Cabarrus/South Rowan MPO,NC,37198002,37159
+NC,NA,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,NA,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,NA,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,NA,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,NA,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,Raleigh-Durham,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,Raleigh-Durham,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,Raleigh-Durham,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,Raleigh-Durham,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,Raleigh-Durham,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,Wake County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,Wake County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,Wake County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,Wake County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,Wake County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,Granville County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,Granville County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,Granville County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,Granville County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,Granville County,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,Charlotte-Gastonia,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,Charlotte-Gastonia,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,Charlotte-Gastonia,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,Charlotte-Gastonia,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,Charlotte-Gastonia,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,No Nonattainment Area Selected,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37077
+NC,No Nonattainment Area Selected,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37183
+NC,No Nonattainment Area Selected,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37069
+NC,No Nonattainment Area Selected,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37085
+NC,No Nonattainment Area Selected,Capital Area Metropolitan Planning Organization/Local Planning Agency,NC,37196400,37101
+NC,NA,Charlotte Regional Transportation Planning Organization,NC,37197900,37179
+NC,NA,Charlotte Regional Transportation Planning Organization,NC,37197900,37097
+NC,NA,Charlotte Regional Transportation Planning Organization,NC,37197900,37119
+NC,NA,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,NA,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,Raleigh-Durham,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,Raleigh-Durham,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,Chatham County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,Chatham County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,Durham County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,Durham County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,Charlotte-Gastonia,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,Charlotte-Gastonia,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,Orange County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37135
+NC,Orange County,Durham-Chapel Hill-Carrboro MPO,NC,37198001,37063
+NC,NA,Gaston Cleveland Lincoln MPO,NC,37197403,37071
+NC,NA,Gaston Cleveland Lincoln MPO,NC,37197403,37045
+NC,NA,Gaston Cleveland Lincoln MPO,NC,37197403,37109
+NC,NA,Gastonia Metropolitan Planning Organization,NC,37197403,37071
+NC,NA,Gastonia Metropolitan Planning Organization,NC,37197403,37045
+NC,NA,Gastonia Metropolitan Planning Organization,NC,37197403,37109
+NC,Gaston County,Gastonia Metropolitan Planning Organization,NC,37197403,37071
+NC,Gaston County,Gastonia Metropolitan Planning Organization,NC,37197403,37045
+NC,Gaston County,Gastonia Metropolitan Planning Organization,NC,37197403,37109
+NC,Charlotte-Gastonia,Gastonia Metropolitan Planning Organization,NC,37197403,37071
+NC,Charlotte-Gastonia,Gastonia Metropolitan Planning Organization,NC,37197403,37045
+NC,Charlotte-Gastonia,Gastonia Metropolitan Planning Organization,NC,37197403,37109
+NC,NA,Greater Hickory MPO,NC,37198201,37027
+NC,NA,Greater Hickory MPO,NC,37198201,37003
+NC,NA,Greater Hickory MPO,NC,37198201,37023
+NC,NA,Greater Hickory MPO,NC,37198201,37035
+NC,NA,Greensboro Metropolitan Planning Organization,NC,37196000,37081
+NC,Guilford County,Greensboro Metropolitan Planning Organization,NC,37196000,37081
+NC,Greensboro-Winston Salem-High Point,Greensboro Metropolitan Planning Organization,NC,37196000,37081
+NC,NA,Greenville Metropolitan Planning Organization,NC,37196000,37081
+NC,NA,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37027
+NC,NA,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37003
+NC,NA,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37023
+NC,NA,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37035
+NC,Catawba County,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37027
+NC,Catawba County,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37003
+NC,Catawba County,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37023
+NC,Catawba County,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37035
+NC,Greensboro-Winston Salem-High Point,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37027
+NC,Greensboro-Winston Salem-High Point,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37003
+NC,Greensboro-Winston Salem-High Point,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37023
+NC,Greensboro-Winston Salem-High Point,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37035
+NC,No Nonattainment Area Selected,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37027
+NC,No Nonattainment Area Selected,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37003
+NC,No Nonattainment Area Selected,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37023
+NC,No Nonattainment Area Selected,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37035
+NC,Charlotte-Gastonia,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37027
+NC,Charlotte-Gastonia,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37003
+NC,Charlotte-Gastonia,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37023
+NC,Charlotte-Gastonia,Hickory-Newton-Conover Metropolitan Planning Organization,NC,37198201,37035
+NC,NA,High Point Metropolitan Planning Organization,NC,37198003,37057
+NC,NA,High Point Metropolitan Planning Organization,NC,37198003,37081
+NC,NA,High Point Metropolitan Planning Organization,NC,37198003,37151
+NC,Guilford County,High Point Metropolitan Planning Organization,NC,37198003,37057
+NC,Guilford County,High Point Metropolitan Planning Organization,NC,37198003,37081
+NC,Guilford County,High Point Metropolitan Planning Organization,NC,37198003,37151
+NC,Davidson County,High Point Metropolitan Planning Organization,NC,37198003,37057
+NC,Davidson County,High Point Metropolitan Planning Organization,NC,37198003,37081
+NC,Davidson County,High Point Metropolitan Planning Organization,NC,37198003,37151
+NC,Greensboro-Winston Salem-High Point,High Point Metropolitan Planning Organization,NC,37198003,37057
+NC,Greensboro-Winston Salem-High Point,High Point Metropolitan Planning Organization,NC,37198003,37081
+NC,Greensboro-Winston Salem-High Point,High Point Metropolitan Planning Organization,NC,37198003,37151
+NC,Greensboro-Winston Salem-High Point,High Point Transportation Advisory Committee,NC,37198003,37057
+NC,Greensboro-Winston Salem-High Point,High Point Transportation Advisory Committee,NC,37198003,37081
+NC,Greensboro-Winston Salem-High Point,High Point Transportation Advisory Committee,NC,37198003,37151
+NC,NA,Kerr Tar RPO,NC,NA,NA
+NC,Wake County,Kerr Tar RPO,NC,NA,NA
+NC,Person County,Kerr Tar RPO,NC,NA,NA
+NC,Franklin County,Kerr Tar RPO,NC,NA,NA
+NC,Granville County,Kerr Tar RPO,NC,NA,NA
+NC,NA,Lake Norman RPO,NC,37197403,37071
+NC,NA,Lake Norman RPO,NC,37197403,37045
+NC,NA,Lake Norman RPO,NC,37197403,37109
+NC,Lincoln County,Lake Norman RPO,NC,37197403,37071
+NC,Lincoln County,Lake Norman RPO,NC,37197403,37045
+NC,Lincoln County,Lake Norman RPO,NC,37197403,37109
+NC,Iredell County,Lake Norman RPO,NC,37197403,37071
+NC,Iredell County,Lake Norman RPO,NC,37197403,37045
+NC,Iredell County,Lake Norman RPO,NC,37197403,37109
+NC,Gaston County,Lake Norman RPO,NC,37197403,37071
+NC,Gaston County,Lake Norman RPO,NC,37197403,37045
+NC,Gaston County,Lake Norman RPO,NC,37197403,37109
+NC,NA,Land of Sky RPO,NC,NA,NA
+NC,Swain County,Land of Sky RPO,NC,NA,NA
+NC,Haywood County,Land of Sky RPO,NC,NA,NA
+NC,NA,Mecklenburg-Union MPO,NC,NA,NA
+NC,Charlotte-Gastonia,Mecklenburg-Union MPO,NC,NA,NA
+NC,Mecklenburg County,Mecklenburg-Union MPO,NC,NA,NA
+NC,Union County,Mecklenburg-Union MPO,NC,NA,NA
+NC,Raleigh-Durham,Mecklenburg-Union MPO,NC,NA,NA
+NC,NA,NA,NC,NA,NA
+NC,Charlotte-Gastonia,No MPO Identified,NC,NA,NA
+NC,NA,No MPO identified/State sponsored project,NC,NA,NA
+NC,Charlotte-Gastonia,No MPO identified/State sponsored project,NC,NA,NA
+NC,No Nonattainment Area Selected,No MPO identified/State sponsored project,NC,NA,NA
+NC,Wake County,No MPO identified/State sponsored project,NC,NA,NA
+NC,Raleigh-Durham,No MPO identified/State sponsored project,NC,NA,NA
+NC,Granville County,No MPO identified/State sponsored project,NC,NA,NA
+NC,Davidson County,No MPO identified/State sponsored project,NC,NA,NA
+NC,Greensboro-Winston Salem-High Point,No MPO identified/State sponsored project,NC,NA,NA
+NC,NA,Piedmont Triad RPO,NC,NA,NA
+NC,Davidson County,Piedmont Triad RPO,NC,NA,NA
+NC,No Nonattainment Area Selected,Piedmont Triad RPO,NC,NA,NA
+NC,NA,Rocky Mount Metropolitan Planning Organization,NC,37199202,37127
+NC,NA,Rocky Mount Metropolitan Planning Organization,NC,37199202,37065
+NC,Edgecombe County,Rocky Mount Metropolitan Planning Organization,NC,37199202,37127
+NC,Edgecombe County,Rocky Mount Metropolitan Planning Organization,NC,37199202,37065
+NC,No Nonattainment Area Selected,Rocky Mount Metropolitan Planning Organization,NC,37199202,37127
+NC,No Nonattainment Area Selected,Rocky Mount Metropolitan Planning Organization,NC,37199202,37065
+NC,Nash County,Rocky Mount Metropolitan Planning Organization,NC,37199202,37127
+NC,Nash County,Rocky Mount Metropolitan Planning Organization,NC,37199202,37065
+NC,Raleigh-Durham,Rocky Mount Metropolitan Planning Organization,NC,37199202,37127
+NC,Raleigh-Durham,Rocky Mount Metropolitan Planning Organization,NC,37199202,37065
+NC,Charlotte-Gastonia,State Sponsored Project,NC,NA,NA
+NC,Raleigh-Durham,State Sponsored Project,NC,NA,NA
+NC,NA,Triangle RPO,NC,NA,NA
+NC,Orange County,Triangle RPO,NC,NA,NA
+NC,Chatham County,Triangle RPO,NC,NA,NA
+NC,NA,Winston-Salem MPO,NC,37197401,37169
+NC,NA,Winston-Salem MPO,NC,37197401,37057
+NC,NA,Winston-Salem MPO,NC,37197401,37059
+NC,NA,Winston-Salem MPO,NC,37197401,37067
+NC,Forsyth County,Winston-Salem MPO,NC,37197401,37169
+NC,Forsyth County,Winston-Salem MPO,NC,37197401,37057
+NC,Forsyth County,Winston-Salem MPO,NC,37197401,37059
+NC,Forsyth County,Winston-Salem MPO,NC,37197401,37067
+NC,Greensboro-Winston Salem-High Point,Winston-Salem MPO,NC,37197401,37169
+NC,Greensboro-Winston Salem-High Point,Winston-Salem MPO,NC,37197401,37057
+NC,Greensboro-Winston Salem-High Point,Winston-Salem MPO,NC,37197401,37059
+NC,Greensboro-Winston Salem-High Point,Winston-Salem MPO,NC,37197401,37067
+ND,No Nonattainment Area Selected,Bismarck-Mandan MPO,ND,38198201,38015
+ND,NA,Bismarck-Mandan MPO,ND,38198201,38015
+ND,NA,Fargo-Moorhead Metro COG,ND,38197200,27027
+ND,NA,Fargo-Moorhead Metro COG,ND,38197200,38017
+ND,No Nonattainment Area Selected,Fargo-Moorhead Metro COG,ND,38197200,27027
+ND,No Nonattainment Area Selected,Fargo-Moorhead Metro COG,ND,38197200,38017
+ND,NA,Grand Forks/East Grand Forks MPO,ND,38198202,NA
+ND,No Nonattainment Area Selected,Grand Forks/East Grand Forks MPO,ND,38198202,NA
+ND,NA,NA,ND,NA,NA
+ND,NA,No MPO Identified,ND,NA,NA
+ND,NA,No MPO identified/State sponsored project,ND,NA,NA
+ND,No Nonattainment Area Selected,No MPO identified/State sponsored project,ND,NA,NA
+ND,NA,State Sponsored Project,ND,NA,NA
+NE,NA,Lincoln/Lancaster MPO,NE,31197300,31109
+NE,No Nonattainment Area Selected,Lincoln/Lancaster MPO,NE,31197300,31109
+NE,NA,NA,NE,NA,NA
+NE,No Nonattainment Area Selected,No MPO Identified,NE,NA,NA
+NE,NA,No MPO Identified,NE,NA,NA
+NE,NA,No MPO identified/State sponsored project,NE,NA,NA
+NE,No Nonattainment Area Selected,No MPO identified/State sponsored project,NE,NA,NA
+NE,NA,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,31153
+NE,NA,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,19155
+NE,NA,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,31055
+NE,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,31153
+NE,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,19155
+NE,No Nonattainment Area Selected,Omaha-Council Bluffs Metropolitan Area Planning Agency,NE,31197400,31055
+NH,NA,NA,NH,NA,NA
+NH,NA,Nashua Regional Planning Commission,NH,33197302,33011
+NH,Boston Suburbs,Nashua Regional Planning Commission,NH,33197302,33011
+NH,No Nonattainment Area Selected,Nashua Regional Planning Commission,NH,33197302,33011
+NH,Portsmouth - Dover - Rochester,Nashua Regional Planning Commission,NH,33197302,33011
+NH,Manchester,No MPO Identified,NH,NA,NA
+NH,Boston Suburbs,No MPO Identified,NH,NA,NA
+NH,NA,No MPO Identified,NH,NA,NA
+NH,NA,No MPO identified/State sponsored project,NH,NA,NA
+NH,Manchester,No MPO identified/State sponsored project,NH,NA,NA
+NH,No Nonattainment Area Selected,No MPO identified/State sponsored project,NH,NA,NA
+NH,Portsmouth - Dover - Rochester,No MPO identified/State sponsored project,NH,NA,NA
+NH,NA,Rockingham MPO,NH,33197200,33015
+NH,Portsmouth - Dover - Rochester,Rockingham MPO,NH,33197200,33015
+NH,No Nonattainment Area Selected,Rockingham MPO,NH,33197200,33015
+NH,Boston Suburbs,Salem-Plaistow-Windham MPO,NH,33197301,33011
+NH,Boston Suburbs,Salem-Plaistow-Windham MPO,NH,33197301,33015
+NH,Portsmouth - Dover - Rochester,Seacoast MPO,NH,33197301,33011
+NH,Portsmouth - Dover - Rochester,Seacoast MPO,NH,33197301,33015
+NH,Manchester,Seacoast MPO,NH,33197301,33011
+NH,Manchester,Seacoast MPO,NH,33197301,33015
+NH,Boston Suburbs,Seacoast MPO,NH,33197301,33011
+NH,Boston Suburbs,Seacoast MPO,NH,33197301,33015
+NH,NA,Southern New Hampshire Planning Commission,NH,33197301,33011
+NH,NA,Southern New Hampshire Planning Commission,NH,33197301,33015
+NH,No Nonattainment Area Selected,Southern New Hampshire Planning Commission,NH,33197301,33011
+NH,No Nonattainment Area Selected,Southern New Hampshire Planning Commission,NH,33197301,33015
+NH,Manchester,Southern New Hampshire Planning Commission,NH,33197301,33011
+NH,Manchester,Southern New Hampshire Planning Commission,NH,33197301,33015
+NH,Boston Suburbs,State Sponsored Project,NH,NA,NA
+NH,Portsmouth - Dover - Rochester,State Sponsored Project,NH,NA,NA
+NH,NA,Strafford MPO,NH,33198200,33017
+NH,NA,Strafford MPO,NH,33198200,33015
+NH,Portsmouth - Dover - Rochester,Strafford MPO,NH,33198200,33017
+NH,Portsmouth - Dover - Rochester,Strafford MPO,NH,33198200,33015
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,34021
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,34015
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,34007
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,42017
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,34005
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,42091
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,42045
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,42029
+NJ,NA,Delaware Valley Regional Planning Commission,NJ,42196501,42101
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,34021
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,34015
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,34007
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,42017
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,34005
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,42091
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,42045
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,42029
+NJ,Phildelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,NJ,42196501,42101
+NJ,NA,NA,NJ,NA,NA
+NJ,Phildelphia-Wilmington-Trenton,No MPO Identified,NJ,NA,NA
+NJ,New York-N. New Jersey-L. Island,No MPO Identified,NJ,NA,NA
+NJ,NA,No MPO identified/State sponsored project,NJ,NA,NA
+NJ,No Nonattainment Area Selected,No MPO identified/State sponsored project,NJ,NA,NA
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34013
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34029
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34027
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34039
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34041
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34037
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34035
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34003
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34023
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34031
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34017
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34025
+NJ,NA,North Jersey Transportation Planning Authority,NJ,34198200,34019
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34013
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34029
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34027
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34039
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34041
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34037
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34035
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34003
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34023
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34031
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34017
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34025
+NJ,New York-N. New Jersey-L. Island,North Jersey Transportation Planning Authority,NJ,34198200,34019
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34013
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34029
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34027
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34039
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34041
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34037
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34035
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34003
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34023
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34031
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34017
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34025
+NJ,No Nonattainment Area Selected,North Jersey Transportation Planning Authority,NJ,34198200,34019
+NJ,NA,South Jersey Transportation Planning Organization,NJ,34199300,34001
+NJ,NA,South Jersey Transportation Planning Organization,NJ,34199300,34009
+NJ,NA,South Jersey Transportation Planning Organization,NJ,34199300,34011
+NJ,NA,South Jersey Transportation Planning Organization,NJ,34199300,34033
+NJ,Phildelphia-Wilmington-Trenton,South Jersey Transportation Planning Organization,NJ,34199300,34001
+NJ,Phildelphia-Wilmington-Trenton,South Jersey Transportation Planning Organization,NJ,34199300,34009
+NJ,Phildelphia-Wilmington-Trenton,South Jersey Transportation Planning Organization,NJ,34199300,34011
+NJ,Phildelphia-Wilmington-Trenton,South Jersey Transportation Planning Organization,NJ,34199300,34033
+NJ,No Nonattainment Area Selected,South Jersey Transportation Planning Organization,NJ,34199300,34001
+NJ,No Nonattainment Area Selected,South Jersey Transportation Planning Organization,NJ,34199300,34009
+NJ,No Nonattainment Area Selected,South Jersey Transportation Planning Organization,NJ,34199300,34011
+NJ,No Nonattainment Area Selected,South Jersey Transportation Planning Organization,NJ,34199300,34033
+NM,No Nonattainment Area Selected,Las Cruces MPO,NM,35198201,35013
+NM,NA,Mid-Region COG,NM,35197200,35043
+NM,NA,Mid-Region COG,NM,35197200,35001
+NM,NA,Mid-Region COG,NM,35197200,35061
+NM,NA,Middle Rio Grande COG,NM,35197200,35043
+NM,NA,Middle Rio Grande COG,NM,35197200,35001
+NM,NA,Middle Rio Grande COG,NM,35197200,35061
+NM,Albuquerque,Middle Rio Grande COG,NM,35197200,35043
+NM,Albuquerque,Middle Rio Grande COG,NM,35197200,35001
+NM,Albuquerque,Middle Rio Grande COG,NM,35197200,35061
+NM,NA,NA,NM,NA,NA
+NM,Albuquerque,No MPO Identified,NM,NA,NA
+NM,Sunland Park,No MPO Identified,NM,NA,NA
+NM,NA,No MPO identified/State sponsored project,NM,NA,NA
+NM,Sunland Park,No MPO identified/State sponsored project,NM,NA,NA
+NM,No Nonattainment Area Selected,No MPO identified/State sponsored project,NM,NA,NA
+NM,NA,Santa Fe MPO,NM,35198202,35049
+NM,Albuquerque,Santa Fe MPO,NM,35198202,35049
+NM,Albuquerque,State Sponsored Project,NM,NA,NA
+NM,No Nonattainment Area Selected,State Sponsored Project,NM,NA,NA
+NV,NA,NA,NV,NA,NA
+NV,Reno,No MPO Identified,NV,NA,32031
+NV,NA,Regional Transportation Commission of Clark County,NV,36197300,32003
+NV,Las Vegas,Regional Transportation Commission of Clark County,NV,36197300,32003
+NV,NA,Regional Transportation Commission of Southern Nevada,NV,32198300,32003
+NV,NA,Washoe County Regional Transportation Commission,NV,32197900,32031
+NV,Reno,Washoe County Regional Transportation Commission,NV,32197900,32031
+NY,New York-N. New Jersey-L. Island,Adirondack-Glens Falls Transportation Council,NY,36198204,36113
+NY,New York-N. New Jersey-L. Island,Adirondack-Glens Falls Transportation Council,NY,36198204,36115
+NY,NA,Capital District Transportation Committee,NY,36197300,36001
+NY,NA,Capital District Transportation Committee,NY,36197300,36083
+NY,NA,Capital District Transportation Committee,NY,36197300,36091
+NY,NA,Capital District Transportation Committee,NY,36197300,36093
+NY,Albany - Schenectady - Troy,Capital District Transportation Committee,NY,36197300,36001
+NY,Albany - Schenectady - Troy,Capital District Transportation Committee,NY,36197300,36083
+NY,Albany - Schenectady - Troy,Capital District Transportation Committee,NY,36197300,36091
+NY,Albany - Schenectady - Troy,Capital District Transportation Committee,NY,36197300,36093
+NY,NA,Genesee Transportation Council,NY,36197700,36117
+NY,NA,Genesee Transportation Council,NY,36197700,36051
+NY,NA,Genesee Transportation Council,NY,36197700,36069
+NY,NA,Genesee Transportation Council,NY,36197700,36055
+NY,No Nonattainment Area Selected,Genesee Transportation Council,NY,36197700,36117
+NY,No Nonattainment Area Selected,Genesee Transportation Council,NY,36197700,36051
+NY,No Nonattainment Area Selected,Genesee Transportation Council,NY,36197700,36069
+NY,No Nonattainment Area Selected,Genesee Transportation Council,NY,36197700,36055
+NY,Buffalo-Niagara Falls,Genesee Transportation Council,NY,36197700,36117
+NY,Buffalo-Niagara Falls,Genesee Transportation Council,NY,36197700,36051
+NY,Buffalo-Niagara Falls,Genesee Transportation Council,NY,36197700,36069
+NY,Buffalo-Niagara Falls,Genesee Transportation Council,NY,36197700,36055
+NY,Syracuse,Genesee Transportation Council,NY,36197700,36117
+NY,Syracuse,Genesee Transportation Council,NY,36197700,36051
+NY,Syracuse,Genesee Transportation Council,NY,36197700,36069
+NY,Syracuse,Genesee Transportation Council,NY,36197700,36055
+NY,NA,Greater Buffalo-Niagara Regional Transportation Council,NY,36197401,36063
+NY,NA,Greater Buffalo-Niagara Regional Transportation Council,NY,36197401,36029
+NY,NA,Greater Buffalo-Niagara Transportation Council,NY,36197401,36063
+NY,NA,Greater Buffalo-Niagara Transportation Council,NY,36197401,36029
+NY,Buffalo-Niagara Falls,Greater Buffalo-Niagara Transportation Council,NY,36197401,36063
+NY,Buffalo-Niagara Falls,Greater Buffalo-Niagara Transportation Council,NY,36197401,36029
+NY,NA,NA,NY,NA,NA
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36087
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36061
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36059
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36005
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36081
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36085
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36103
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36119
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36079
+NY,NA,New York Metropolitan Transportation Council,NY,36198201,36047
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36087
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36061
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36059
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36005
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36081
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36085
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36103
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36119
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36079
+NY,New York-N. New Jersey-L. Island,New York Metropolitan Transportation Council,NY,36198201,36047
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36087
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36061
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36059
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36005
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36081
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36085
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36103
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36119
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36079
+NY,Poughkeepsie,New York Metropolitan Transportation Council,NY,36198201,36047
+NY,NA,Newburgh-Orange County Transportation Council,NY,36198202,36071
+NY,New York-N. New Jersey-L. Island,Newburgh-Orange County Transportation Council,NY,36198202,36071
+NY,Poughkeepsie,Newburgh-Orange County Transportation Council,NY,36198202,36071
+NY,Jefferson,No MPO Identified,NY,NA,NA
+NY,Albany - Schenectady - Troy,No MPO Identified,NY,NA,NA
+NY,New York-N. New Jersey-L. Island,No MPO Identified,NY,NA,NA
+NY,NA,No MPO identified/State sponsored project,NY,NA,NA
+NY,No Nonattainment Area Selected,No MPO identified/State sponsored project,NY,NA,NA
+NY,Jefferson,No MPO identified/State sponsored project,NY,NA,NA
+NY,New York-N. New Jersey-L. Island,No MPO identified/State sponsored project,NY,NA,NA
+NY,NA,Orange County Transportation Council,NY,36198202,36071
+NY,NA,Poughkeepsie-Dutchess County Transportation Council,NY,36198203,36027
+NY,Poughkeepsie,Poughkeepsie-Dutchess County Transportation Council,NY,36198203,36027
+NY,New York-N. New Jersey-L. Island,Poughkeepsie-Dutchess County Transportation Council,NY,36198203,36027
+NY,New York-N. New Jersey-L. Island,State Sponsored Project,NY,NA,NA
+NY,Jefferson,State Sponsored Project,NY,NA,NA
+NY,NA,Syracuse Metropolitan Transportation Council,NY,36196500,36067
+NY,Syracuse,Syracuse Metropolitan Transportation Council,NY,36196500,36067
+NY,NA,Watertown-Jefferson County Transportation Council,NY,36201400,NA
+OH,NA,Akron Metropolitan Transportation Study,OH,39196201,39153
+OH,NA,Akron Metropolitan Transportation Study,OH,39196201,39169
+OH,NA,Akron Metropolitan Transportation Study,OH,39196201,39133
+OH,Cleveland-Arkon-Lorain,Akron Metropolitan Transportation Study,OH,39196201,39153
+OH,Cleveland-Arkon-Lorain,Akron Metropolitan Transportation Study,OH,39196201,39169
+OH,Cleveland-Arkon-Lorain,Akron Metropolitan Transportation Study,OH,39196201,39133
+OH,NA,"Bel-O-Mar (Wheeling, WV)",OH,54197502,54069
+OH,NA,"Bel-O-Mar (Wheeling, WV)",OH,54197502,39013
+OH,NA,"Bel-O-Mar (Wheeling, WV)",OH,54197502,54051
+OH,NA,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,54029
+OH,NA,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,39081
+OH,NA,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,54009
+OH,Jefferson Co PM10,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,54029
+OH,Jefferson Co PM10,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,39081
+OH,Jefferson Co PM10,Brooke-Hancock-Jefferson Metropolitan Planning Commission,OH,39197304,54009
+OH,NA,Clark-Springfield Transportation Study,OH,39196401,39023
+OH,Dayton-Springfield,Clark-Springfield Transportation Study,OH,39196401,39023
+OH,Cleveland-Arkon-Lorain,Clark-Springfield Transportation Study,OH,39196401,39023
+OH,Columbus,Clark-Springfield Transportation Study,OH,39196401,39023
+OH,NA,Eastgate Development and Transportation Agency,OH,39197303,39155
+OH,NA,Eastgate Development and Transportation Agency,OH,39197303,39099
+OH,Youngstown-Warren-Sharon,Eastgate Development and Transportation Agency,OH,39197303,39155
+OH,Youngstown-Warren-Sharon,Eastgate Development and Transportation Agency,OH,39197303,39099
+OH,Canton,Eastgate Development and Transportation Agency,OH,39197303,39155
+OH,Canton,Eastgate Development and Transportation Agency,OH,39197303,39099
+OH,Cleveland-Arkon-Lorain,Eastgate Development and Transportation Agency,OH,39197303,39155
+OH,Cleveland-Arkon-Lorain,Eastgate Development and Transportation Agency,OH,39197303,39099
+OH,NA,KYOVA Interstate Planning Commission,OH,54197400,54011
+OH,NA,KYOVA Interstate Planning Commission,OH,54197400,54099
+OH,NA,KYOVA Interstate Planning Commission,OH,54197400,39087
+OH,NA,KYOVA Interstate Planning Commission,OH,54197400,21019
+OH,NA,KYOVA Interstate Planning Commission,OH,54197400,21089
+OH,Huntington-Ashland WV-KY-OH,KYOVA Interstate Planning Commission,OH,54197400,54011
+OH,Huntington-Ashland WV-KY-OH,KYOVA Interstate Planning Commission,OH,54197400,54099
+OH,Huntington-Ashland WV-KY-OH,KYOVA Interstate Planning Commission,OH,54197400,39087
+OH,Huntington-Ashland WV-KY-OH,KYOVA Interstate Planning Commission,OH,54197400,21019
+OH,Huntington-Ashland WV-KY-OH,KYOVA Interstate Planning Commission,OH,54197400,21089
+OH,NA,Licking County Area Transportation Study,OH,39198200,39089
+OH,Columbus,Licking County Area Transportation Study,OH,39198200,39089
+OH,NA,Lima/Allen County RPC,OH,39196402,39003
+OH,Lima,Lima/Allen County RPC,OH,39196402,39003
+OH,NA,Miami Valley RPC,OH,39197302,39109
+OH,NA,Miami Valley RPC,OH,39197302,39057
+OH,NA,Miami Valley RPC,OH,39197302,39113
+OH,Dayton-Springfield,Miami Valley RPC,OH,39197302,39109
+OH,Dayton-Springfield,Miami Valley RPC,OH,39197302,39057
+OH,Dayton-Springfield,Miami Valley RPC,OH,39197302,39113
+OH,NA,Mid-Ohio Regional Planning Commission,OH,39197301,39041
+OH,NA,Mid-Ohio Regional Planning Commission,OH,39197301,39045
+OH,NA,Mid-Ohio Regional Planning Commission,OH,39197301,39049
+OH,Columbus,Mid-Ohio Regional Planning Commission,OH,39197301,39041
+OH,Columbus,Mid-Ohio Regional Planning Commission,OH,39197301,39045
+OH,Columbus,Mid-Ohio Regional Planning Commission,OH,39197301,39049
+OH,NA,NA,OH,NA,NA
+OH,Toledo,No MPO Identified,OH,NA,NA
+OH,Cincinnati-Hamilton,No MPO Identified,OH,NA,NA
+OH,Columbus,No MPO Identified,OH,NA,NA
+OH,NA,No MPO identified/State sponsored project,OH,NA,NA
+OH,Cincinnati-Hamilton,No MPO identified/State sponsored project,OH,NA,NA
+OH,Columbus,No MPO identified/State sponsored project,OH,NA,NA
+OH,Youngstown-Warren-Sharon,No MPO identified/State sponsored project,OH,NA,NA
+OH,No Nonattainment Area Selected,No MPO identified/State sponsored project,OH,NA,NA
+OH,Cleveland-Arkon-Lorain,No MPO identified/State sponsored project,OH,NA,NA
+OH,Dayton-Springfield,No MPO identified/State sponsored project,OH,NA,NA
+OH,Canton,No MPO identified/State sponsored project,OH,NA,NA
+OH,Toledo,No MPO identified/State sponsored project,OH,NA,NA
+OH,Parkersburg-Marietta WV-OH,No MPO identified/State sponsored project,OH,NA,NA
+OH,NA,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39085
+OH,NA,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39055
+OH,NA,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39103
+OH,NA,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39035
+OH,NA,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39093
+OH,Cleveland-Arkon-Lorain,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39085
+OH,Cleveland-Arkon-Lorain,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39055
+OH,Cleveland-Arkon-Lorain,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39103
+OH,Cleveland-Arkon-Lorain,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39035
+OH,Cleveland-Arkon-Lorain,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39093
+OH,Canton,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39085
+OH,Canton,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39055
+OH,Canton,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39103
+OH,Canton,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39035
+OH,Canton,Northeast Ohio Areawide Coordinating Agency,OH,39196800,39093
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,21015
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,39165
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,18029
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,21037
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,39061
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,21117
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,39025
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional COG,OH,39197400,39017
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,21015
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,39165
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,18029
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,21037
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,39061
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,21117
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,39025
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments,OH,39197400,39017
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21015
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39165
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,18029
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21037
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39061
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21117
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39025
+OH,NA,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39017
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21015
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39165
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,18029
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21037
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39061
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,21117
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39025
+OH,Cincinnati-Hamilton,Ohio-Kentucky-Indiana Regional Council of Governments (OKI),OH,39197400,39017
+OH,NA,Policy Committee of the Erie Regional Planning Commission,OH,39200300,39043
+OH,NA,Richland County RPC,OH,39196203,39139
+OH,NA,Stark County Area Transportation Study,OH,39196202,39151
+OH,Canton,Stark County Area Transportation Study,OH,39196202,39151
+OH,Columbus,State Sponsored Project,OH,NA,NA
+OH,NA,Toledo Metropolitan Area Council of Governments,OH,39197500,39173
+OH,NA,Toledo Metropolitan Area Council of Governments,OH,39197500,39095
+OH,Toledo,Toledo Metropolitan Area Council of Governments,OH,39197500,39173
+OH,Toledo,Toledo Metropolitan Area Council of Governments,OH,39197500,39095
+OH,NA,Wood-Washington-Wirt Interstate Planning Commission,OH,54197503,39167
+OH,NA,Wood-Washington-Wirt Interstate Planning Commission,OH,54197503,54107
+OH,Parkersburg-Marietta WV-OH,Wood-Washington-Wirt Interstate Planning Commission,OH,54197503,39167
+OH,Parkersburg-Marietta WV-OH,Wood-Washington-Wirt Interstate Planning Commission,OH,54197503,54107
+OK,NA,Association of Central Oklahoma Governments,OK,40196500,40027
+OK,NA,Association of Central Oklahoma Governments,OK,40196500,40109
+OK,NA,Association of Central Oklahoma Governments,OK,40196500,40083
+OK,NA,Association of Central Oklahoma Governments,OK,40196500,40017
+OK,NA,Association of Central Oklahoma Governments,OK,40196500,40087
+OK,NA,Indian Nations COG,OK,40197400,40131
+OK,NA,Indian Nations COG,OK,40197400,40113
+OK,NA,Indian Nations COG,OK,40197400,40145
+OK,NA,Indian Nations COG,OK,40197400,40037
+OK,NA,Indian Nations COG,OK,40197400,40143
+OK,NA,Lawton MPO,OK,40197300,NA
+OK,NA,NA,OK,NA,NA
+OK,No Nonattainment Area Selected,No MPO Identified,OK,NA,NA
+OK,NA,No MPO Identified,OK,NA,NA
+OK,NA,No MPO identified/State sponsored project,OK,NA,NA
+OK,No Nonattainment Area Selected,No MPO identified/State sponsored project,OK,NA,NA
+OK,NA,State Sponsored Project,OK,NA,NA
+OR,NA,Central Lane Metropolitan Planning Organization (CLMPO),OR,41197300,NA
+OR,NA,Metro,OR,41197900,41067
+OR,NA,Metro,OR,41197900,41051
+OR,Portland-Vancouver,Metro,OR,41197900,41067
+OR,Portland-Vancouver,Metro,OR,41197900,41051
+OR,NA,Middle Rogue Metropolitan Planning Organization (MRMPO),OR,41201302,NA
+OR,NA,NA,OR,NA,NA
+OR,Klamath Falls,No MPO Identified,OR,NA,NA
+OR,Grants Pass,No MPO Identified,OR,NA,NA
+OR,No Nonattainment Area Selected,No MPO Identified,OR,NA,NA
+OR,Portland-Vancouver,No MPO Identified,OR,NA,NA
+OR,NA,No MPO identified/State sponsored project,OR,NA,NA
+OR,Klamath Falls,No MPO identified/State sponsored project,OR,NA,NA
+OR,LaGrande PM10,No MPO identified/State sponsored project,OR,NA,NA
+OR,Grants Pass,No MPO identified/State sponsored project,OR,NA,NA
+OR,No Nonattainment Area Selected,No MPO identified/State sponsored project,OR,NA,NA
+OR,Lane Co PM10,No MPO identified/State sponsored project,OR,NA,NA
+OR,Lake Co PM10,No MPO identified/State sponsored project,OR,NA,NA
+OR,NA,Rogue Valley Metropolitan Planning Organization (RVMPO),OR,41198200,NA
+OR,Grants Pass,Rogue Valley Metropolitan Planning Organization (RVMPO),OR,41198200,NA
+OR,Medford,Rogue Valley Metropolitan Planning Organization (RVMPO),OR,41198200,NA
+OR,No Nonattainment Area Selected,Rogue Valley Metropolitan Planning Organization (RVMPO),OR,41198200,NA
+OR,NA,Salem-Keizer Area Transportation Study (SKATS),OR,41198700,NA
+OR,Medford,State Sponsored Project,OR,NA,NA
+OR,Portland-Vancouver,State Sponsored Project,OR,NA,NA
+PA,NA,Adams County RPO,PA,42201314,42001
+PA,York/Adams,Adams County RPO,PA,42201314,42001
+PA,No Nonattainment Area Selected,Adams County RPO,PA,42201314,42001
+PA,York,Adams County RPO,PA,42201314,42001
+PA,NA,Altoona MPO,PA,42196504,42013
+PA,Altoona,Altoona MPO,PA,42196504,42013
+PA,No Nonattainment Area Selected,Altoona MPO,PA,42196504,42013
+PA,Altoona,Blair County MPO,PA,42196504,42013
+PA,NA,Centre County MPO,PA,42198201,42027
+PA,Centre,Centre County MPO,PA,42198201,42027
+PA,No Nonattainment Area Selected,Centre County MPO,PA,42198201,42027
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,34021
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,34015
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,34007
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,42017
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,34005
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,42091
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,42045
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,42029
+PA,NA,Delaware Valley Regional Planning Commission,PA,42196501,42101
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,34021
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,34015
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,34007
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,42017
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,34005
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,42091
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,42045
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,42029
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission,PA,42196501,42101
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,34021
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,34015
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,34007
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,42017
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,34005
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,42091
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,42045
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,42029
+PA,NA,Delaware Valley Regional Planning Commission MPO,PA,42196501,42101
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,34021
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,34015
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,34007
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,42017
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,34005
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,42091
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,42045
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,42029
+PA,Philadelphia-Wilmington-Trenton,Delaware Valley Regional Planning Commission MPO,PA,42196501,42101
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,34021
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,34015
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,34007
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,42017
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,34005
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,42091
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,42045
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,42029
+PA,No Nonattainment Area Selected,Delaware Valley Regional Planning Commission MPO,PA,42196501,42101
+PA,NA,Erie Area MPO,PA,42196406,42049
+PA,Erie,Erie Area MPO,PA,42196406,42049
+PA,Youngstown-Warren-Sharon,Erie Area Transportation Study,PA,42196406,42049
+PA,NA,Franklin County,PA,42201313,42055
+PA,Franklin,Franklin County,PA,42201313,42055
+PA,No Nonattainment Area Selected,Franklin County,PA,42201313,42055
+PA,NA,Harrisburg MPO,PA,42196502,42043
+PA,NA,Harrisburg MPO,PA,42196502,42099
+PA,NA,Harrisburg MPO,PA,42196502,42041
+PA,Harrisburg-Lebanon-Carlisle,Harrisburg MPO,PA,42196502,42043
+PA,Harrisburg-Lebanon-Carlisle,Harrisburg MPO,PA,42196502,42099
+PA,Harrisburg-Lebanon-Carlisle,Harrisburg MPO,PA,42196502,42041
+PA,Johnstown,Johnstown Area Transportation Study,PA,42196402,42079
+PA,Johnstown,Johnstown Area Transportation Study,PA,42196402,42069
+PA,NA,Johnstown MPO,PA,42196402,42079
+PA,NA,Johnstown MPO,PA,42196402,42069
+PA,Johnstown,Johnstown MPO,PA,42196402,42079
+PA,Johnstown,Johnstown MPO,PA,42196402,42069
+PA,Scranton-Wilkes-Barre,Johnstown MPO,PA,42196402,42079
+PA,Scranton-Wilkes-Barre,Johnstown MPO,PA,42196402,42069
+PA,NA,Lackawanna / Luzerne MPO,PA,42196402,42079
+PA,NA,Lackawanna / Luzerne MPO,PA,42196402,42069
+PA,Scranton-Wilkes-Barre,Lackawanna / Luzerne MPO,PA,42196402,42079
+PA,Scranton-Wilkes-Barre,Lackawanna / Luzerne MPO,PA,42196402,42069
+PA,Scranton-Wilkes-Barre,Lackawanna County RPC,PA,42196402,42079
+PA,Scranton-Wilkes-Barre,Lackawanna County RPC,PA,42196402,42069
+PA,NA,Lancaster County MPO,PA,42196403,42071
+PA,Lancaster,Lancaster County MPO,PA,42196403,42071
+PA,Lancaster,Lancaster County Transportation Coordinating Committee,PA,42196403,42071
+PA,NA,Lebanon County MPO,PA,42200300,42075
+PA,Harrisburg-Lebanon-Carlisle,Lebanon County MPO,PA,42200300,42075
+PA,NA,Lehigh Valley MPO,PA,42196401,42095
+PA,NA,Lehigh Valley MPO,PA,42196401,42077
+PA,Allentown-Bethlehem-Easton,Lehigh Valley MPO,PA,42196401,42095
+PA,Allentown-Bethlehem-Easton,Lehigh Valley MPO,PA,42196401,42077
+PA,Allentown-Bethlehem-Easton,Lehigh Valley Planning Commission,PA,42196401,42095
+PA,Allentown-Bethlehem-Easton,Lehigh Valley Planning Commission,PA,42196401,42077
+PA,NA,NA,PA,NA,NA
+PA,Lancaster,No MPO Identified,PA,NA,NA
+PA,Philadelphia-Wilmington-Trenton,No MPO identified/State sponsored project,PA,NA,NA
+PA,No Nonattainment Area Selected,North Central PA Regional Planning & Development Commission RPO,PA,NA,NA
+PA,NA,North Central PA RPO,PA,NA,NA
+PA,Clearfield/Indiana,North Central PA RPO,PA,NA,NA
+PA,No Nonattainment Area Selected,North Central PA RPO,PA,NA,NA
+PA,NA,Northeastern Pennsylvania Alliance RPO,PA,42201311,42025
+PA,NA,Northeastern Pennsylvania Alliance RPO,PA,42201311,42103
+PA,NA,Northeastern Pennsylvania Alliance RPO,PA,42201311,42107
+PA,NA,Northeastern Pennsylvania Alliance RPO,PA,42201311,42089
+PA,Scranton-Wilkes-Barre,Northeastern Pennsylvania Alliance RPO,PA,42201311,42025
+PA,Scranton-Wilkes-Barre,Northeastern Pennsylvania Alliance RPO,PA,42201311,42103
+PA,Scranton-Wilkes-Barre,Northeastern Pennsylvania Alliance RPO,PA,42201311,42107
+PA,Scranton-Wilkes-Barre,Northeastern Pennsylvania Alliance RPO,PA,42201311,42089
+PA,Allentown-Bethlehem-Easton,Northeastern Pennsylvania Alliance RPO,PA,42201311,42025
+PA,Allentown-Bethlehem-Easton,Northeastern Pennsylvania Alliance RPO,PA,42201311,42103
+PA,Allentown-Bethlehem-Easton,Northeastern Pennsylvania Alliance RPO,PA,42201311,42107
+PA,Allentown-Bethlehem-Easton,Northeastern Pennsylvania Alliance RPO,PA,42201311,42089
+PA,NA,Northern Tier Regional Planning & Development Commission RPO,PA,NA,NA
+PA,Scranton-Wilkes-Barre,Northern Tier Regional Planning & Development Commission RPO,PA,42196402,42079
+PA,Scranton-Wilkes-Barre,Northern Tier Regional Planning & Development Commission RPO,PA,42196402,42069
+PA,No Nonattainment Area Selected,Northern Tier Regional Planning & Development Commission RPO,PA,NA,NA
+PA,Reading,Reading Area Transportation Study,PA,42196405,42011
+PA,NA,Reading MPO,PA,42196405,42011
+PA,Reading,Reading MPO,PA,42196405,42011
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42067
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42093
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42035
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42097
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42119
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42037
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42087
+PA,No Nonattainment Area Selected,SEDA-COG,PA,42201312,42109
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42067
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42093
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42035
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42097
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42119
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42037
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42087
+PA,Scranton-Wilkes-Barre,SEDA-COG,PA,42201312,42109
+PA,NA,Shenango Valley MPO,PA,42198202,42085
+PA,Youngstown-Warren-Sharon,Shenango Valley MPO,PA,42198202,42085
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42007
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42019
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42125
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42129
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42005
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42063
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42051
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42003
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42059
+PA,NA,Southwestern Pennsylvania Commission MPO,PA,42197400,42073
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42007
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42019
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42125
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42129
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42005
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42063
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42051
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42003
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42059
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Commission MPO,PA,42197400,42073
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42007
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42019
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42125
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42129
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42005
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42063
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42051
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42003
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42059
+PA,No Nonattainment Area Selected,Southwestern Pennsylvania Commission MPO,PA,42197400,42073
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42007
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42019
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42125
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42129
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42005
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42063
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42051
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42003
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42059
+PA,Pittsburg-Beaver Valley,Southwestern Pennsylvania Regional Planning Commission,PA,42197400,42073
+PA,Harrisburg-Lebanon-Carlisle,Tri County Regional Planning Commission,PA,42196502,42043
+PA,Harrisburg-Lebanon-Carlisle,Tri County Regional Planning Commission,PA,42196502,42099
+PA,Harrisburg-Lebanon-Carlisle,Tri County Regional Planning Commission,PA,42196502,42041
+PA,York,York County Planning Commission,PA,42196404,42133
+PA,NA,York MPO,PA,42196404,42133
+PA,York,York MPO,PA,42196404,42133
+PA,York/Adams,York MPO,PA,42196404,42133
+PR,NA,NA,PR,NA,NA
+RI,NA,NA,RI,NA,NA
+RI,NA,No MPO Identified,RI,NA,NA
+RI,NA,Rhode Island State Planning Council,RI,44197400,44001
+RI,NA,Rhode Island State Planning Council,RI,44197400,44003
+RI,NA,Rhode Island State Planning Council,RI,44197400,44005
+RI,NA,Rhode Island State Planning Council,RI,44197400,44007
+RI,NA,Rhode Island State Planning Council,RI,44197400,44009
+RI,Providence (All RI),Rhode Island State Planning Council,RI,44197400,44001
+RI,Providence (All RI),Rhode Island State Planning Council,RI,44197400,44003
+RI,Providence (All RI),Rhode Island State Planning Council,RI,44197400,44005
+RI,Providence (All RI),Rhode Island State Planning Council,RI,44197400,44007
+RI,Providence (All RI),Rhode Island State Planning Council,RI,44197400,44009
+RQ,NA,No MPO identified/State sponsored project,RQ,NA,NA
+SC,No Nonattainment Area Selected,B-C-D COG,SC,NA,NA
+SC,No Nonattainment Area Selected,Central Midlands Council of Governments,SC,NA,NA
+SC,No Nonattainment Area Selected,City of Anderson,SC,45199300,45007
+SC,No Nonattainment Area Selected,Florence Municipal/County Planning & Building Inspection Department,SC,45198200,45031
+SC,No Nonattainment Area Selected,Florence Municipal/County Planning & Building Inspection Department,SC,45198200,45041
+SC,No Nonattainment Area Selected,Grand Strand MPO,SC,45199200,37019
+SC,No Nonattainment Area Selected,Grand Strand MPO,SC,45199200,45043
+SC,No Nonattainment Area Selected,Grand Strand MPO,SC,45199200,45051
+SC,No Nonattainment Area Selected,Greenville County Planning Commission,SC,45196200,45077
+SC,No Nonattainment Area Selected,Greenville County Planning Commission,SC,45196200,45007
+SC,No Nonattainment Area Selected,Greenville County Planning Commission,SC,45196200,45045
+SC,NA,NA,SC,NA,NA
+SC,Cherokee,No MPO Identified,SC,NA,NA
+SC,NA,No MPO identified/State sponsored project,SC,NA,NA
+SC,No Nonattainment Area Selected,No MPO identified/State sponsored project,SC,NA,NA
+SC,Cherokee,No MPO identified/State sponsored project,SC,NA,NA
+SC,NA,Rock Hill-Fort Mill Area Transportation Study,SC,45198300,45091
+SC,York County,Rock Hill-Fort Mill Area Transportation Study,SC,45198300,45091
+SC,No Nonattainment Area Selected,Rock Hill-Fort Mill Area Transportation Study,SC,45198300,45091
+SC,No Nonattainment Area Selected,Spartanburg County Planning and Development Council,SC,45197500,45083
+SC,No Nonattainment Area Selected,State Sponsored Project,SC,NA,NA
+SC,Cherokee,State Sponsored Project,SC,NA,NA
+SC,No Nonattainment Area Selected,Sumter City-County Planning Commission,SC,45199100,45085
+SC,No Nonattainment Area Selected,Waccamaw Regional Planning and Development District,SC,NA,NA
+SD,NA,NA,SD,NA,NA
+SD,No Nonattainment Area Selected,No MPO Identified,SD,NA,NA
+SD,NA,No MPO Identified,SD,NA,NA
+SD,NA,No MPO identified/State sponsored project,SD,NA,NA
+SD,No Nonattainment Area Selected,No MPO identified/State sponsored project,SD,NA,NA
+SD,NA,Rapid City Area MPO,SD,46198100,46103
+SD,No Nonattainment Area Selected,Rapid City Area MPO,SD,46198100,46103
+SD,NA,Sioux Falls Metropolitan Planning Organization,SD,46197300,46099
+SD,NA,Sioux Falls Metropolitan Planning Organization,SD,46197300,46083
+SD,No Nonattainment Area Selected,Sioux Falls Metropolitan Planning Organization,SD,46197300,46099
+SD,No Nonattainment Area Selected,Sioux Falls Metropolitan Planning Organization,SD,46197300,46083
+SD,NA,State Sponsored Project,SD,NA,NA
+TN,NA,Chattanooga Hamilton County RPC,TN,47197703,13047
+TN,NA,Chattanooga Hamilton County RPC,TN,47197703,13295
+TN,NA,Chattanooga Hamilton County RPC,TN,47197703,47065
+TN,Chattanooga,Chattanooga Hamilton County RPC,TN,47197703,13047
+TN,Chattanooga,Chattanooga Hamilton County RPC,TN,47197703,13295
+TN,Chattanooga,Chattanooga Hamilton County RPC,TN,47197703,47065
+TN,NA,Clarksville-Montgomery County RPC,TN,47197802,47125
+TN,Montgomery County,Clarksville-Montgomery County RPC,TN,47197802,47125
+TN,No Nonattainment Area Selected,Clarksville-Montgomery County RPC,TN,47197802,47125
+TN,NA,Cleveland Area MPO,TN,47200302,47011
+TN,NA,Knoxville Urbanized Area MPO,TN,47197801,47093
+TN,NA,Knoxville Urbanized Area MPO,TN,47197801,47001
+TN,NA,Knoxville Urbanized Area MPO,TN,47197801,47009
+TN,NA,Knoxville Urbanized Area MPO,TN,47197801,47145
+TN,NA,Knoxville Urbanized Area MPO,TN,47197801,47105
+TN,Knoxville,Knoxville Urbanized Area MPO,TN,47197801,47093
+TN,Knoxville,Knoxville Urbanized Area MPO,TN,47197801,47001
+TN,Knoxville,Knoxville Urbanized Area MPO,TN,47197801,47009
+TN,Knoxville,Knoxville Urbanized Area MPO,TN,47197801,47145
+TN,Knoxville,Knoxville Urbanized Area MPO,TN,47197801,47105
+TN,NA,Lakeway MPO,TN,47200301,47063
+TN,NA,Lakeway MPO,TN,47200301,47089
+TN,NA,Memphis MPO,TN,47197702,47047
+TN,NA,Memphis MPO,TN,47197702,28093
+TN,NA,Memphis MPO,TN,47197702,47157
+TN,NA,Memphis MPO,TN,47197702,28033
+TN,Memphis,Memphis MPO,TN,47197702,47047
+TN,Memphis,Memphis MPO,TN,47197702,28093
+TN,Memphis,Memphis MPO,TN,47197702,47157
+TN,Memphis,Memphis MPO,TN,47197702,28033
+TN,NA,NA,TN,NA,NA
+TN,NA,Nashville MPO,TN,47197701,47149
+TN,NA,Nashville MPO,TN,47197701,47187
+TN,NA,Nashville MPO,TN,47197701,47119
+TN,NA,Nashville MPO,TN,47197701,47189
+TN,NA,Nashville MPO,TN,47197701,47037
+TN,NA,Nashville MPO,TN,47197701,47165
+TN,NA,Nashville MPO,TN,47197701,47147
+TN,Nashville,Nashville MPO,TN,47197701,47149
+TN,Nashville,Nashville MPO,TN,47197701,47187
+TN,Nashville,Nashville MPO,TN,47197701,47119
+TN,Nashville,Nashville MPO,TN,47197701,47189
+TN,Nashville,Nashville MPO,TN,47197701,47037
+TN,Nashville,Nashville MPO,TN,47197701,47165
+TN,Nashville,Nashville MPO,TN,47197701,47147
+TN,Knoxville,No MPO Identified,TN,NA,NA
+TN,NA,No MPO identified/State sponsored project,TN,NA,NA
+TN,Nashville,No MPO identified/State sponsored project,TN,NA,NA
+TN,Knoxville,No MPO identified/State sponsored project,TN,NA,NA
+TN,Memphis,No MPO identified/State sponsored project,TN,NA,NA
+TN,Chattanooga,No MPO identified/State sponsored project,TN,NA,NA
+TN,Memphis,State Sponsored Project,TN,NA,NA
+TN,Knoxville,State Sponsored Project,TN,NA,NA
+TX,NA,Alamo Area MPO,TX,48197700,48259
+TX,NA,Alamo Area MPO,TX,48197700,48029
+TX,NA,Alamo Area MPO,TX,48197700,48187
+TX,NA,Alamo Area MPO,TX,48197700,48091
+TX,NA,El Paso MPO,TX,48197302,48141
+TX,El Paso TX,El Paso MPO,TX,48197302,48141
+TX,NA,Houston-Galveston Area Council,TX,48197402,48339
+TX,NA,Houston-Galveston Area Council,TX,48197402,48473
+TX,NA,Houston-Galveston Area Council,TX,48197402,48167
+TX,NA,Houston-Galveston Area Council,TX,48197402,48039
+TX,NA,Houston-Galveston Area Council,TX,48197402,48071
+TX,NA,Houston-Galveston Area Council,TX,48197402,48291
+TX,NA,Houston-Galveston Area Council,TX,48197402,48157
+TX,NA,Houston-Galveston Area Council,TX,48197402,48201
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48339
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48473
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48167
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48039
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48071
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48291
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48157
+TX,Houston-Galveston-Brazoria,Houston-Galveston Area Council,TX,48197402,48201
+TX,NA,NA,TX,NA,NA
+TX,Beaumont-Port Arthur,No MPO Identified,TX,NA,NA
+TX,No Nonattainment Area Selected,No MPO Identified,TX,NA,NA
+TX,NA,North Central Texas COG,TX,48197401,48139
+TX,NA,North Central Texas COG,TX,48197401,48397
+TX,NA,North Central Texas COG,TX,48197401,48367
+TX,NA,North Central Texas COG,TX,48197401,48121
+TX,NA,North Central Texas COG,TX,48197401,48497
+TX,NA,North Central Texas COG,TX,48197401,48221
+TX,NA,North Central Texas COG,TX,48197401,48231
+TX,NA,North Central Texas COG,TX,48197401,48439
+TX,NA,North Central Texas COG,TX,48197401,48257
+TX,NA,North Central Texas COG,TX,48197401,48085
+TX,NA,North Central Texas COG,TX,48197401,48251
+TX,NA,North Central Texas COG,TX,48197401,48113
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48139
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48397
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48367
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48121
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48497
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48221
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48231
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48439
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48257
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48085
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48251
+TX,Dallas-Fort Worth,North Central Texas COG,TX,48197401,48113
+TX,NA,South East Texas RPC,TX,48197001,48245
+TX,NA,South East Texas RPC,TX,48197001,48199
+TX,NA,South East Texas RPC,TX,48197001,48361
+TX,Beaumont-Port Arthur,South East Texas RPC,TX,48197001,48245
+TX,Beaumont-Port Arthur,South East Texas RPC,TX,48197001,48199
+TX,Beaumont-Port Arthur,South East Texas RPC,TX,48197001,48361
+UT,NA,Cache MPO,UT,49199200,49005
+UT,No Nonattainment Area Selected,Cache MPO,UT,49199200,49005
+UT,NA,Mountainland Association of Governments,UT,49197400,49049
+UT,Provo,Mountainland Association of Governments,UT,49197400,49049
+UT,NA,NA,UT,NA,NA
+UT,No Nonattainment Area Selected,No MPO Identified,UT,NA,NA
+UT,Ogden,No MPO Identified,UT,NA,NA
+UT,Salt Lake City,No MPO Identified,UT,NA,NA
+UT,NA,No MPO identified/State sponsored project,UT,NA,NA
+UT,Salt Lake City,State Sponsored Project,UT,NA,NA
+UT,NA,Wasatch Front Regional Council,UT,49197300,49011
+UT,NA,Wasatch Front Regional Council,UT,49197300,49035
+UT,NA,Wasatch Front Regional Council,UT,49197300,49057
+UT,Salt Lake City,Wasatch Front Regional Council,UT,49197300,49011
+UT,Salt Lake City,Wasatch Front Regional Council,UT,49197300,49035
+UT,Salt Lake City,Wasatch Front Regional Council,UT,49197300,49057
+UT,Ogden,Wasatch Front Regional Council,UT,49197300,49011
+UT,Ogden,Wasatch Front Regional Council,UT,49197300,49035
+UT,Ogden,Wasatch Front Regional Council,UT,49197300,49057
+VA,NA,Central Virginia Planning District Commission,VA,51197900,51680
+VA,NA,Central Virginia Planning District Commission,VA,51197900,51019
+VA,NA,Central Virginia Planning District Commission,VA,51197900,51009
+VA,NA,Central Virginia Planning District Commission,VA,51197900,51031
+VA,NA,Charlottesville-Albermarle MPO,VA,51198200,51003
+VA,NA,Charlottesville-Albermarle MPO,VA,51198200,51540
+VA,NA,Crater Planning District Commission,VA,NA,NA
+VA,Richmond,Crater Planning District Commission,VA,NA,NA
+VA,NA,Fredericksburg Area MPO,VA,51199200,51630
+VA,NA,Fredericksburg Area MPO,VA,51199200,51177
+VA,NA,Fredericksburg Area MPO,VA,51199200,51179
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51073
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51810
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51830
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51740
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51800
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51620
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51199
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51735
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51710
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51095
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51650
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51700
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51093
+VA,NA,Hampton Roads Planning District Commission,VA,51199100,51550
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51073
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51810
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51830
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51740
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51800
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51620
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51199
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51735
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51710
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51095
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51650
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51700
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51093
+VA,Norfolk-Virginia Beach-Newport News,Hampton Roads Planning District Commission,VA,51199100,51550
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51073
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51810
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51830
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51740
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51800
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51620
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51199
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51735
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51710
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51095
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51650
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51700
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51093
+VA,Washington DC-MD-VA,Hampton Roads Planning District Commission,VA,51199100,51550
+VA,NA,Metropolitan Washington COG,VA,11196500,51510
+VA,NA,Metropolitan Washington COG,VA,11196500,11001
+VA,NA,Metropolitan Washington COG,VA,11196500,51013
+VA,NA,Metropolitan Washington COG,VA,11196500,51600
+VA,NA,Metropolitan Washington COG,VA,11196500,51685
+VA,NA,Metropolitan Washington COG,VA,11196500,51683
+VA,NA,Metropolitan Washington COG,VA,11196500,24017
+VA,NA,Metropolitan Washington COG,VA,11196500,51153
+VA,NA,Metropolitan Washington COG,VA,11196500,51107
+VA,NA,Metropolitan Washington COG,VA,11196500,24033
+VA,NA,Metropolitan Washington COG,VA,11196500,24021
+VA,NA,Metropolitan Washington COG,VA,11196500,51059
+VA,NA,Metropolitan Washington COG,VA,11196500,24031
+VA,NA,Metropolitan Washington COG,VA,11196500,51610
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51510
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,11001
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51013
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51600
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51685
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51683
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,24017
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51153
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51107
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,24033
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,24021
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51059
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,24031
+VA,Washington DC-MD-VA,Metropolitan Washington COG,VA,11196500,51610
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51510
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,11001
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51013
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51600
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51685
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51683
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,24017
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51153
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51107
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,24033
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,24021
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51059
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,24031
+VA,Norfolk-Virginia Beach-Newport News,Metropolitan Washington COG,VA,11196500,51610
+VA,NA,NA,VA,NA,NA
+VA,Norfolk-Virginia Beach-Newport News,No MPO Identified,VA,NA,NA
+VA,Washington DC-MD-VA,No MPO Identified,VA,NA,NA
+VA,NA,No MPO identified/State sponsored project,VA,NA,NA
+VA,Washington DC-MD-VA,No MPO identified/State sponsored project,VA,NA,NA
+VA,Norfolk-Virginia Beach-Newport News,No MPO identified/State sponsored project,VA,NA,NA
+VA,Richmond,No MPO identified/State sponsored project,VA,NA,NA
+VA,NA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51630
+VA,NA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51177
+VA,NA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51179
+VA,Fredericksburg,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51630
+VA,Fredericksburg,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51177
+VA,Fredericksburg,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,51199200,51179
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51510
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,11001
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51013
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51600
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51685
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51683
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,24017
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51153
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51107
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,24033
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,24021
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51059
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,24031
+VA,Washington DC-MD-VA,Rappahannock Area Development Commission/Federicksburg Area MPO,VA,11196500,51610
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51085
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51041
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51036
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51145
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51760
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51075
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51087
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51127
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51085
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51041
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51036
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51145
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51760
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51075
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51087
+VA,NA,Richmond Regional Planning District Commission,VA,51197401,51127
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51085
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51041
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51036
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51145
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51760
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51075
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51087
+VA,Richmond,Richmond Regional Planning District Commission,VA,51197401,51127
+VA,NA,Tri Cities Area MPO,VA,51197403,51041
+VA,NA,Tri Cities Area MPO,VA,51197403,51570
+VA,NA,Tri Cities Area MPO,VA,51197403,51149
+VA,NA,Tri Cities Area MPO,VA,51197403,51670
+VA,NA,Tri Cities Area MPO,VA,51197403,51730
+VT,NA,Chittenden County MPO,VT,50198300,50007
+VT,No Nonattainment Area Selected,Chittenden County MPO,VT,50198300,50007
+VT,NA,NA,VT,NA,NA
+VT,No Nonattainment Area Selected,No MPO Identified,VT,NA,NA
+VT,NA,No MPO Identified,VT,NA,NA
+VT,NA,No MPO identified/State sponsored project,VT,NA,NA
+VT,No Nonattainment Area Selected,No MPO identified/State sponsored project,VT,NA,NA
+WA,NA,NA,WA,NA,NA
+WA,Portland-Vancouver,No MPO Identified,WA,NA,NA
+WA,NA,No MPO identified/State sponsored project,WA,NA,NA
+WA,NA,Puget Sound Regional Council,WA,53199100,53061
+WA,NA,Puget Sound Regional Council,WA,53199100,53035
+WA,NA,Puget Sound Regional Council,WA,53199100,53033
+WA,NA,Puget Sound Regional Council,WA,53199100,53053
+WA,Seattle-Tacoma,Puget Sound Regional Council,WA,53199100,53061
+WA,Seattle-Tacoma,Puget Sound Regional Council,WA,53199100,53035
+WA,Seattle-Tacoma,Puget Sound Regional Council,WA,53199100,53033
+WA,Seattle-Tacoma,Puget Sound Regional Council,WA,53199100,53053
+WA,Portland-Vancouver,Puget Sound Regional Council,WA,53199100,53061
+WA,Portland-Vancouver,Puget Sound Regional Council,WA,53199100,53035
+WA,Portland-Vancouver,Puget Sound Regional Council,WA,53199100,53033
+WA,Portland-Vancouver,Puget Sound Regional Council,WA,53199100,53053
+WA,NA,Southwest Washington Regional Transportation Council,WA,53199200,53011
+WA,Portland-Vancouver,Southwest Washington Regional Transportation Council,WA,53199200,53011
+WA,NA,Spokane Regional Transportation Council,WA,53197401,53063
+WA,Spokane,Spokane Regional Transportation Council,WA,53197401,53063
+WA,Seattle-Tacoma,Spokane Regional Transportation Council,WA,53197401,53063
+WA,Portland-Vancouver,Spokane Regional Transportation Council,WA,53197401,53063
+WA,No Nonattainment Area Selected,State Sponsored Project,WA,NA,NA
+WA,NA,Thurston Regional Planning Council,WA,53198201,53067
+WA,"Olympia, Tumwater, Lacey PM10",Thurston Regional Planning Council,WA,53198201,53067
+WA,NA,Yakima Valley Conference of Governments,WA,53197402,53077
+WA,Yakima PM10,Yakima Valley Conference of Governments,WA,53197402,53077
+WA,Seattle-Tacoma,Yakima Valley Conference of Governments,WA,53197402,53077
+WA,Spokane,Yakima Valley Conference of Governments,WA,53197402,53077
+WI,NA,Bay-Lake RPC,WI,55198202,55117
+WI,Sheboygan,Bay-Lake RPC,WI,55198202,55117
+WI,Manitowoc Co.,Bay-Lake RPC,WI,55198202,55117
+WI,NA,NA,WI,NA,NA
+WI,Milwaukee-Racine,No MPO Identified,WI,NA,NA
+WI,Manitowoc Co.,No MPO Identified,WI,NA,NA
+WI,NA,No MPO identified/State sponsored project,WI,NA,NA
+WI,NA,Sheboygan MPO,WI,55198202,55117
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55101
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55133
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55089
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55059
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55131
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55079
+WI,NA,Southeastern Wisconsin RPC,WI,55196100,55127
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55101
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55133
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55089
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55059
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55131
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55079
+WI,Milwaukee-Racine,Southeastern Wisconsin RPC,WI,55196100,55127
+WV,NA,BCKP Regional Intergovernmental Council,WV,54197501,54079
+WV,NA,BCKP Regional Intergovernmental Council,WV,54197501,54039
+WV,Charleston,BCKP Regional Intergovernmental Council,WV,54197501,54079
+WV,Charleston,BCKP Regional Intergovernmental Council,WV,54197501,54039
+WV,NA,Bel-O-Mar Regional Council,WV,54197502,54069
+WV,NA,Bel-O-Mar Regional Council,WV,54197502,39013
+WV,NA,Bel-O-Mar Regional Council,WV,54197502,54051
+WV,No Nonattainment Area Selected,Bel-O-Mar Regional Council,WV,54197502,54069
+WV,No Nonattainment Area Selected,Bel-O-Mar Regional Council,WV,54197502,39013
+WV,No Nonattainment Area Selected,Bel-O-Mar Regional Council,WV,54197502,54051
+WV,Parkerburg,Bel-O-Mar Regional Council,WV,54197502,54069
+WV,Parkerburg,Bel-O-Mar Regional Council,WV,54197502,39013
+WV,Parkerburg,Bel-O-Mar Regional Council,WV,54197502,54051
+WV,NA,Belmont-Ohio-Marshall Transportation Study,WV,54197502,54069
+WV,NA,Belmont-Ohio-Marshall Transportation Study,WV,54197502,39013
+WV,NA,Belmont-Ohio-Marshall Transportation Study,WV,54197502,54051
+WV,NA,Fayette/Raleigh MPO (FRMPO),WV,54201300,54019
+WV,NA,Fayette/Raleigh MPO (FRMPO),WV,54201300,54081
+WV,NA,KYOVA Interstate Planning Commission,WV,54197400,54011
+WV,NA,KYOVA Interstate Planning Commission,WV,54197400,54099
+WV,NA,KYOVA Interstate Planning Commission,WV,54197400,39087
+WV,NA,KYOVA Interstate Planning Commission,WV,54197400,21019
+WV,NA,KYOVA Interstate Planning Commission,WV,54197400,21089
+WV,Huntington-Ashland,KYOVA Interstate Planning Commission,WV,54197400,54011
+WV,Huntington-Ashland,KYOVA Interstate Planning Commission,WV,54197400,54099
+WV,Huntington-Ashland,KYOVA Interstate Planning Commission,WV,54197400,39087
+WV,Huntington-Ashland,KYOVA Interstate Planning Commission,WV,54197400,21019
+WV,Huntington-Ashland,KYOVA Interstate Planning Commission,WV,54197400,21089
+WV,No Nonattainment Area Selected,KYOVA Interstate Planning Commission,WV,54197400,54011
+WV,No Nonattainment Area Selected,KYOVA Interstate Planning Commission,WV,54197400,54099
+WV,No Nonattainment Area Selected,KYOVA Interstate Planning Commission,WV,54197400,39087
+WV,No Nonattainment Area Selected,KYOVA Interstate Planning Commission,WV,54197400,21019
+WV,No Nonattainment Area Selected,KYOVA Interstate Planning Commission,WV,54197400,21089
+WV,NA,Morgantown Monongalia MPO,WV,54200300,54061
+WV,NA,NA,WV,NA,NA
+WV,Charleston,No MPO Identified,WV,NA,54039
+WV,No Nonattainment Area Selected,No MPO Identified,WV,NA,NA
+WV,NA,No MPO identified/State sponsored project,WV,NA,NA
+WV,No Nonattainment Area Selected,No MPO identified/State sponsored project,WV,NA,NA
+WV,Greenbrier,No MPO identified/State sponsored project,WV,NA,54025
+WV,Weirton PM10,No MPO identified/State sponsored project,WV,NA,54029
+WV,NA,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,39167
+WV,NA,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,54107
+WV,Parkerburg,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,39167
+WV,Parkerburg,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,54107
+WV,No Nonattainment Area Selected,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,39167
+WV,No Nonattainment Area Selected,Wood-Washington-Wirt Interstate Planning Commission,WV,54197503,54107
+WY,NA,Casper Area MPO,WY,56198102,56025
+WY,NA,NA,WY,NA,NA
+WY,No Nonattainment Area Selected,No MPO Identified,WY,NA,NA
+WY,NA,No MPO Identified,WY,NA,NA
+WY,NA,No MPO identified/State sponsored project,WY,NA,NA
+WY,No Nonattainment Area Selected,No MPO identified/State sponsored project,WY,NA,NA
+WY,Sheridan PM10,No MPO identified/State sponsored project,WY,NA,56033

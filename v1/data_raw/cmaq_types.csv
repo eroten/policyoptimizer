@@ -1,0 +1,12 @@
+id,original,short,simple,affect_vmt,affect_ef
+1,Congestion Reduction and Traffic Flow Improvements,congestion,Congestion/Traffic,1,0
+2,Bicycle and Pedestrian Facilities and Programs,pedestrian,Bicycle/Pedestrians,1,0
+3,STP/CMAQ,stp_cmaq,STP,1,0
+4,Ride Sharing,ridesharing,Ridesharing,1,0
+5,Travel Demand Management,travel_demand,Travel Demand,1,0
+6,Inspection/Maintenance(I/M) Programs,im,Inspect/Maintenance,0,1
+7,Alternative Fuels and Vehicles,alt_fuels,Alt. Fuels & Vehicles,0,1
+8,Transit Improvements,transit_improv,Transit Improvements,1,0
+9,Freight/Intermodal,freight_intermodal,Freight/Intermodal,1,1
+10,Advanced Diesel Truck / Engine Technologies,diesel_engine,Advanced Diesel,0,1
+11,Other,other,Other,1,1

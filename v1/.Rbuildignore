@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^z$
+^commit.R
+^.Renviron
+^.Rhistory
+^dev.R
+^workflow.R
+^docs$
+^data_raw$
+^paper$
+^z$
