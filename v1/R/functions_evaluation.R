@@ -467,89 +467,71 @@ get_cost_effectiveness = function(
 }
 
 
-#' @name get_training
-#' @title get_training
-#' @importFrom dplyr `%>%` select any_of mutate
-get_training = function(.geoid = "36109", .pollutant = 98, .by = 16, test = TRUE){
-  
-  catdata = get_catdata(
-    input = list(geoid = .geoid,
-                 pollutant = c(.pollutant),
-                 by = .by),
-    test = test)
-  
-  # Get a training dataset
-  training = catdata %>%
-    select(any_of(c("pollutant", "geoid", "year", "emissions", "vmt"))) %>%
-    mutate(ef = emissions / vmt)
-  
-  return(training)
-}
 
-#' @name get_catdata
-#' @title `get_catdata()`
+#' @name check_status
+#' @title check_status()
 #' @author Tim Fraser
 #' @description
-#' Function to query catserver. Currently just relies on catdata_test
-#' @param input list of `geoid`, `pollutant`, and `by` aggregation type. Will be necessary for querying catserver eventually.
-#' @param test (logical) is this a test? If so, just return `catdata_test`. Otherwise, actually query the catserver, which requires a `.Renviron` file
-#' @note Depends on catviz package
-#' @importFrom dplyr `%>%` tbl filter select any_of collect
-#' @importFrom DBI dbConnect dbDisconnect
-#' @export
-get_catdata = function(input, test = FALSE){
+#' Function to query the CAT Public API and check the status of CATSERVER.
+#' Handy helper function that, if you run before using the optimizer,
+#' will ensure that the API is warmed up and ready to go for you.
+#' @importFrom httr GET add_headers
+#' @importFrom readr read_csv
+check_status = function(){
+  base = "https://api.cat-apps.com/"
+  endpoint = "status/"
+  # Build full URL
+  url = paste0(base, endpoint)
+  # Add Header
+  headers = add_headers("Content-Type" = "text/csv")
+  # Send it!
+  result = GET(url = url, headers, encode = "json")
+  # Convert from raw to character
+  output = rawToChar(result$content)
+  # Parse as csv
+  output = read_csv(output)
+  # Return
+  return(output)
+}
+
+#' @name get_training
+#' @title get_training()
+#' @author Tim Fraser
+#' @description Function to query catserver using CAT Public API.
+#' @param .geoid (character) Unique 2 or 5 digit state or county FIPS code.
+#' @param .pollutant (integer) Unique integer EPA pollutant ID code. 98 is CO2 equivalent emissions. Can handle multiple values as a vector of inputs. 
+#' @param .by (integer) aggregation ID. Defaults to 16 (overall). Now deprecated. 
+#' @param test (logical) Use test data? Defaults to FALSE. Now deprecated.
+#' @importFrom httr GET add_headers
+#' @importFrom readr read_csv
+get_training = function(.geoid = "36109", .pollutant = 98, .by = 16, test = FALSE){
+  # Display a warning message    
+  if(.by != 16){ warning("Optimizer currently only supports emissions aggregated overall (aggregation ID .by = 16). You selected a different aggregation level. Defaulting to overall (.by = 16)")}
+  if(test == TRUE){ warning("test argument is deprecated. Ignoring...")  }
   
-  # testing values only
-  # input = list(geoid = "36109", pollutant = 98, by = 16)  
-  # library(dplyr)  
-  if(test == TRUE){
+  # Get a training dataset from CATSERVER using CAT Public API
+
+    # Get base URL for api and endpoint
+    base = "https://api.cat-apps.com/"
+    endpoint = "policyoptimizer/v1/retrieve_data/"
+    # Build the query
+    query = paste0("?geoid=", .geoid, "&", "pollutant=", .pollutant)
+    # Build full URL
+    url = paste0(base, endpoint, query)
     
-    query = d36109
+    # Add Header
+    headers = add_headers("Content-Type" = "text/csv")
     
-  }else if(test == FALSE){
-    # Use catviz to connect
-    db = connect("granddata")
+    # Send it!
+    result = GET(url = url, headers, encode = "json")
     
-    table = paste0("d", input$geoid)
-    query = db %>%
-      tbl(table)
+    # Convert from raw to character
+    output = rawToChar(result$content)
+    # Parse as csv
+    output = read_csv(output)
     
-  }
-  
-  # Update the query
-  query = query %>%
-    filter(pollutant %in% !!input$pollutant, by %in% !!input$by)
-  
-  # If any of these filters are present, add them.
-  
-  if("sourcetype" %in% names(input)){      
-    query = query %>% filter(sourcetype %in% !!input$sourcetype)
-  }
-  
-  if("regclass" %in% names(input)){
-    query = query %>% filter(regclass %in% !!input$regclass)
-  } 
-  
-  if("roadtype" %in% names(input)){
-    query = query %>% filter(roadtype %in% !!input$roadtype)
-  }
-  
-  if("fueltype" %in% names(input)){
-    query = query %>% filter(fueltype %in% !!input$fueltype)
-  }
-  
-  query = query %>%
-    select(any_of(c("by", "year", "geoid", "pollutant", "emissions", "vmt", "sourcehours", "vehicles", "starts", "idlehours", "hoteld", "hotelb", "hotelo")))
-  
-  if(test == FALSE){
-    data = query %>% collect()
-    DBI::dbDisconnect(db); remove(db)
-    return(data)
-  }else if(test == TRUE){
-    data = query
-    return(data)
-  }
-  
+    # Return
+    return(output)
 }
 
 

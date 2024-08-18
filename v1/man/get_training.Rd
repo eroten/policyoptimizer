@@ -2,10 +2,22 @@
 % Please edit documentation in R/functions_evaluation.R
 \name{get_training}
 \alias{get_training}
-\title{get_training}
+\title{get_training()}
 \usage{
-get_training(.geoid = "36109", .pollutant = 98, .by = 16, test = TRUE)
+get_training(.geoid = "36109", .pollutant = 98, .by = 16, test = FALSE)
+}
+\arguments{
+\item{.geoid}{(character) Unique 2 or 5 digit state or county FIPS code.}
+
+\item{.pollutant}{(integer) Unique integer EPA pollutant ID code. 98 is CO2 equivalent emissions. Can handle multiple values as a vector of inputs.}
+
+\item{.by}{(integer) aggregation ID. Defaults to 16 (overall). Now deprecated.}
+
+\item{test}{(logical) Use test data? Defaults to FALSE. Now deprecated.}
 }
 \description{
-get_training
+Function to query catserver using CAT Public API.
+}
+\author{
+Tim Fraser
 }

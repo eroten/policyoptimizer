@@ -19,6 +19,7 @@ library(policyoptimizer)
 # Having any issues? These are the main packages that are dependencies.
 # They should have installed by default, but just in case, here they are.
 # library(dplyr)
+# library(httr)
 # library(tidyr)
 # library(readr)
 # library(purrr)
