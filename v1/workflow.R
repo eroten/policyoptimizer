@@ -3,7 +3,7 @@
 #' @description Script for test install of `policyoptimizer` package functions.
 
 # Set working directory anywhere
-setwd(rstudioapi::getActiveProject())
+# setwd(rstudioapi::getActiveProject())
 
 # You can download the package from github using the remotes package.
 # Be sure to request to install all dependencies.
@@ -30,6 +30,12 @@ library(policyoptimizer)
 # library(ROI.plugin.glpk, warn.conflicts = FALSE, quietly = TRUE)
 # library(ompr, warn.conflicts = FALSE, quietly = TRUE)
 # library(ompr.roi, warn.conflicts = FALSE, quietly = TRUE)
+
+# First, let's check and make sure that CATSERVER is on and running.
+# If you get a response back that says `online = TRUE`, we're in business.
+# Remember that sometiems CATSERVER is either (1) down for maintenance or (2) down during nights and weekends. 
+# We aim to increase access to CATSERVER as usage increases.
+check_status()
 
 
 # Run optimizer

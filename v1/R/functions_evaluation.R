@@ -475,8 +475,9 @@ get_cost_effectiveness = function(
 #' Function to query the CAT Public API and check the status of CATSERVER.
 #' Handy helper function that, if you run before using the optimizer,
 #' will ensure that the API is warmed up and ready to go for you.
-#' @importFrom httr GET add_headers
+#' @importFrom httr GET add_headers config timeout
 #' @importFrom readr read_csv
+#' @export
 check_status = function(){
   base = "https://api.cat-apps.com/"
   endpoint = "status/"
@@ -485,11 +486,12 @@ check_status = function(){
   # Add Header
   headers = add_headers("Content-Type" = "text/csv")
   # Send it!
-  result = GET(url = url, headers, encode = "json")
+  # Make the request timeout after 10 seconds.
+  result = GET(url = url, headers, encode = "json", config(timeout(10)))
   # Convert from raw to character
   output = rawToChar(result$content)
   # Parse as csv
-  output = read_csv(output)
+  output = read_csv(output, show_col_types = FALSE)
   # Return
   return(output)
 }
@@ -527,13 +529,13 @@ get_training = function(.geoid = "36109", .pollutant = 98, .by = 16, test = FALS
     # Add Header
     headers = add_headers("Content-Type" = "text/csv")
     
-    # Send it!
-    result = GET(url = url, headers, encode = "json")
+    # Send it! Make the request time out after 10 seconds.
+    result = GET(url = url, headers, encode = "json", config(timeout(10)))
     
     # Convert from raw to character
     output = rawToChar(result$content)
     # Parse as csv
-    output = read_csv(output)
+    output = read_csv(output, show_col_types = FALSE)
     
     # Return
     return(output)
