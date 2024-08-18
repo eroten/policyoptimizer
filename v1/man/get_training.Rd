@@ -7,7 +7,7 @@
 get_training(.geoid = "36109", .pollutant = 98, .by = 16, test = FALSE)
 }
 \arguments{
-\item{.geoid}{(character) Unique 2 or 5 digit state or county FIPS code.}
+\item{.geoid}{(character) Unique 2 or 5 digit state or county FIPS code. Can only do 1 geoid per request.}
 
 \item{.pollutant}{(integer) Unique integer EPA pollutant ID code. 98 is CO2 equivalent emissions. Can handle multiple values as a vector of inputs.}
 

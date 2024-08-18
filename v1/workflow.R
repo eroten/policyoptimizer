@@ -31,17 +31,11 @@ library(policyoptimizer)
 # library(ompr, warn.conflicts = FALSE, quietly = TRUE)
 # library(ompr.roi, warn.conflicts = FALSE, quietly = TRUE)
 
-# Currently you need to connect to Cornell's CATSERVER database to perform policy_optimizer() queries.
-# In the near future, we aim to replace that functionality with a public REST API. Stay tuned!
-
-# Read in REnviron file with sensitive connection credentials.
-readRenviron("v1/.Renviron")
-
 
 # Run optimizer
 output = policy_optimizer(
   # Basic Metadata
-  geoid = "36109",  pollutant = 98, by = 16, start_year = 2025, end_year = 2050, policies = 1:10,
+  geoid = "36109",  pollutant = 98, start_year = 2025, end_year = 2050, policies = 1:10,
   n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5, 
   # Cost Effectiveness Stats
   var = "epd", # measure cost effectiveness as tons of emissions per dollar
@@ -51,7 +45,6 @@ output = policy_optimizer(
   last_cost = 0, last_reduction98 = 0, target_year = 2005, target_change = 0.50
 )
 
-output
 
 # Were all runs a success?
 unique(output$status)
@@ -96,7 +89,7 @@ output2 = policy_optimizer(
   geoid = "36109",  pollutant = c(98, 2, 3), start_year = 2025, end_year = 2050, policies = 1:10,
   n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5, 
   # Cost Effectiveness Stats
-  var = "epd", prob = 0.50, range = 5, cmaq_path = "data_raw/cmaq.csv",
+  var = "epd", prob = 0.50, range = 5,
   # Any prior cumulative costs / reductions
   last_cost = 0, last_reduction98 = 0, target_year = 2005, target_change = 0.50
 )

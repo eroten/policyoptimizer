@@ -498,7 +498,7 @@ check_status = function(){
 #' @title get_training()
 #' @author Tim Fraser
 #' @description Function to query catserver using CAT Public API.
-#' @param .geoid (character) Unique 2 or 5 digit state or county FIPS code.
+#' @param .geoid (character) Unique 2 or 5 digit state or county FIPS code. Can only do 1 geoid per request.
 #' @param .pollutant (integer) Unique integer EPA pollutant ID code. 98 is CO2 equivalent emissions. Can handle multiple values as a vector of inputs. 
 #' @param .by (integer) aggregation ID. Defaults to 16 (overall). Now deprecated. 
 #' @param test (logical) Use test data? Defaults to FALSE. Now deprecated.
@@ -514,8 +514,13 @@ get_training = function(.geoid = "36109", .pollutant = 98, .by = 16, test = FALS
     # Get base URL for api and endpoint
     base = "https://api.cat-apps.com/"
     endpoint = "policyoptimizer/v1/retrieve_data/"
+    
     # Build the query
-    query = paste0("?geoid=", .geoid, "&", "pollutant=", .pollutant)
+    query = paste0(
+      "?",
+      "geoid=", .geoid, "&", 
+      paste0( paste0("pollutant=", .pollutant), collapse = "&") )
+    
     # Build full URL
     url = paste0(base, endpoint, query)
     
