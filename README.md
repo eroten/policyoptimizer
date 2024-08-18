@@ -17,7 +17,7 @@ Our team at Gao Labs is currently developing a REST API that anyone can use to c
 
 ### Using `policyoptimizer` in your research
 
-To use MOVESLite as an external user, you will need `CATSERVER` credentials to access the Cornell CATSERVER that MOVESLite queries. Since these credentials are sensitive, CATSERVER access is currently limited to research and development personnel. If you would like to be one of our user testing partners for `policyoptimizer`, reach out to Dr. Tim Fraser at Gao Labs @ Cornell at <tmf77@cornell.edu>.
+To use `policyoptimizer` as an external user, you will need `CATSERVER` credentials to access the Cornell CATSERVER that MOVESLite queries. Since these credentials are sensitive, CATSERVER access is currently limited to research and development personnel. If you would like to be one of our user testing partners for `policyoptimizer`, reach out to Dr. Tim Fraser at Gao Labs @ Cornell at <tmf77@cornell.edu>.
 
 
 ## Setup for `policyoptimizer`
