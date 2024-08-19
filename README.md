@@ -1,4 +1,9 @@
-# `policyoptimizer`
+<head>
+    <link rel="shortcut icon" type="image/png" href="extra/policyoptimizer_hexagon.png">
+</head>
+
+# `policyoptimizer` <a href="https://github.com/gao-labs/policyoptimizer"><img src="extra/policyoptimizer_hexagon.png" align="right" height="200" /></a>
+
 County-Level Policy Optimizer for Cost-Effective Reduction of Transportation Emissions
 
 - Team Lead: Tim Fraser, PhD
