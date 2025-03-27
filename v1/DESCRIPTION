@@ -1,28 +1,35 @@
-Package: policyoptimizer
 Type: Package
-Title: Package for selecting the optimal policy pathway for a geographic area that minimizes emissions and cost over time.
+Package: policyoptimizer
+Title: Package for selecting the optimal policy pathway for a geographic
+    area that minimizes emissions and cost over time.
 Version: 1.0
 Authors@R: c(
-  person("Fraser", "Timothy", , "tmf77@cornell.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-4509-0244")),
-  person("Leah", "Smith", , "lss254@cornell.edu", role = c("ctb")),
-  person("Kaylen", "Li", , "ql326@cornell.edu", role = c("ctb")),
-  person("Yan", "Guo", , "yg566@cornell.edu", role = c("ctb")),
-  person("Alireza", "Yazdiani", , "ay373@cornell.edu", role = c("ctb")),   
-  person("Oliver", "Gao", , "hg55@cornell.edu", role = c("fnd")) )
+    person("Fraser", "Timothy", , "tmf77@cornell.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4509-0244")),
+    person("Leah", "Smith", , "lss254@cornell.edu", role = "ctb"),
+    person("Kaylen", "Li", , "ql326@cornell.edu", role = "ctb"),
+    person("Yan", "Guo", , "yg566@cornell.edu", role = "ctb"),
+    person("Alireza", "Yazdiani", , "ay373@cornell.edu", role = "ctb"),
+    person("Oliver", "Gao", , "hg55@cornell.edu", role = "fnd")
+  )
 Maintainer: Timothy Fraser <tmf77@cornell.edu>
-Description: A system for running optimization procedures for climate action in transportation policies.
+Description: A system for running optimization procedures for climate
+    action in transportation policies.
 License: `use_gpl3_license()`
-Encoding: UTF-8
-LazyData: true
-Rxoygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 Depends: 
     R (>= 3.5.0)
-Import:
-    DBI (>= 1.1.3)
-    RMySQL (>= 0.10.25)
-    dbplyr (>= 2.3.2)
-    ROI (>= 1.0-1)
-    ROI.plugin.glpk (>= 1.0.0)
-    ompr (>= 1.0.4)
-    ompr.roi (>= 1.0.2.9000)
+Imports: 
+    DBI (>= 1.1.3),
+    dbplyr (>= 2.3.2),
+    eaf,
+    ompr (>= 1.0.4),
+    ompr.roi (>=1.0.2.9000),
+    RMySQL (>= 0.10.25),
+    ROI (>= 1.0-1),
+    ROI.plugin.glpk (>= 1.0.0),
+    shadowtext,
+    viridis
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Rxoygen: list(markdown = TRUE)

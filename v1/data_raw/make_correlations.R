@@ -15,7 +15,7 @@ library(tidyr)
 setwd(paste0(rstudioapi::getActiveProject(), "/v1"))
 readRenviron(".Renviron")
 
-connect = function(){
+connect <- function() {
   dbConnect(
     drv = RMySQL::MySQL(),
     user = Sys.getenv("CATSERVER_USERNAME"),
@@ -27,15 +27,15 @@ connect = function(){
 }
 
 # connect to database
-db = connect()
+db <- connect()
 # Get tables
-tab = tibble(table = db %>% dbListTables()) %>%
+tab <- tibble(table = db %>% dbListTables()) %>%
   # Keep just counties
   filter(str_detect(table, "d[0-9]{5}")) %>%
   # Give each a numeric id
   mutate(id = 1:n()) %>%
   # Split counties into 15 groups
-  mutate(group = ntile(id, 15))   
+  mutate(group = ntile(id, 15))
 # Disconnect
 dbDisconnect(db)
 
@@ -44,19 +44,21 @@ dir.create("data_raw/emissions")
 
 
 # Write a function to get the data per group
-get_data = function(data){
+get_data <- function(data) {
   # Connect to database
-  db = connect()
+  db <- connect()
   # Start with a blank table
-  q = db %>% tbl(data$table[1]) %>% head(0)
-  
+  q <- db %>%
+    tbl(data$table[1]) %>%
+    head(0)
+
   # Make a list of queries
-  n = length(data$table)
+  n <- length(data$table)
   # Get group id
-  g = data$group[1]
+  g <- data$group[1]
   # For each table...
-  for(i in 1:n){
-    q = db %>% 
+  for (i in 1:n) {
+    q <- db %>%
       tbl(data$table[i]) %>%
       filter(pollutant %in% c(98, 100, 110, 2, 3, 87, 33, 31), by == 16) %>%
       select(year, geoid, pollutant, emissions, vmt) %>%
@@ -65,18 +67,21 @@ get_data = function(data){
     cat(paste0("\ngroup: ", g, " - ", i, " / ", n))
   }
   # Every 200 counties, we'll collect and save the data.
-  path = paste0("data_raw/emissions/correlations_", g, ".rds")
-  q %>% 
-    collect() %>% 
+  path <- paste0("data_raw/emissions/correlations_", g, ".rds")
+  q %>%
+    collect() %>%
     saveRDS(path)
-  
-  if(file.exists(path)){
-    cat("\nsaved successfully.\n")    
-  }else{ stop("\nFile did not save successfully.") }
 
-  
+  if (file.exists(path)) {
+    cat("\nsaved successfully.\n")
+  } else {
+    stop("\nFile did not save successfully.")
+  }
+
+
   # Disconnect
-  dbDisconnect(db); remove(db)
+  dbDisconnect(db)
+  remove(db)
 }
 
 
@@ -86,16 +91,17 @@ get_data = function(data){
 # 2 = CO
 # 98 = CO2
 # 3 = NOx
-# 33 = NO2 
+# 33 = NO2
 # 31 = SO2
 
 # Run it all in a loop
-tab %>% 
+tab %>%
   split(.$group) %>%
-  walk(~get_data(data = .))
+  walk(~ get_data(data = .))
 
 
-dbDisconnect(db); remove(db)
+dbDisconnect(db)
+remove(db)
 
 
 rm(list = ls())
@@ -103,22 +109,19 @@ rm(list = ls())
 
 # Combine the files
 dir("data_raw/emissions", full.names = TRUE) %>%
-  map_dfr(~read_rds(.)) %>%
+  map_dfr(~ read_rds(.)) %>%
   select(year, geoid, pollutant, emissions) %>%
   tidyr::pivot_wider(
-    id_cols = c(geoid, year), 
-    names_from = pollutant, 
+    id_cols = c(geoid, year),
+    names_from = pollutant,
     names_prefix = "e",
-    values_from = emissions) %>%
+    values_from = emissions
+  ) %>%
   saveRDS("data_raw/catserver_stats.rds")
 
 
 
 dir("data_raw/emissions", full.names = TRUE) %>%
-  map_dfr(~read_rds(.)) %>%
+  map_dfr(~ read_rds(.)) %>%
   select(year, geoid, pollutant, emissions, vmt) %>%
   saveRDS("data_raw/catserver_stats_with_vmt.rds")
-
-
-
-

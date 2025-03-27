@@ -11,34 +11,36 @@
 #' Function to get most recent CMAQ dataset file path
 setwd(paste0(rstudioapi::getActiveProject(), "/v1"))
 
-cmaq_most_recent = function(folder = "data_raw"){
+cmaq_most_recent <- function(folder = "data_raw") {
   # Load packages
   library(dplyr)
   library(stringr)
   library(readr)
   library(lubridate)
-  
+
   # Find all cmaq files
-  f = tibble(file = dir(folder, full.names = TRUE, pattern = "cmaq_project_data")) %>%
+  f <- tibble(file = dir(folder, full.names = TRUE, pattern = "cmaq_project_data")) %>%
     # Extract data from file format
-    mutate(date = str_extract(file, "[0-9]{4}[_][0-9]{2}_[0-9]{2}") %>% str_replace_all("[_]", "-"),
-           date = as.Date(date))
-  
+    mutate(
+      date = str_extract(file, "[0-9]{4}[_][0-9]{2}_[0-9]{2}") %>% str_replace_all("[_]", "-"),
+      date = as.Date(date)
+    )
+
   # Find the most recent file and get its file path
-  path = f %>%
+  path <- f %>%
     filter(date == max(date, na.rm = TRUE)) %>%
     with(file)
-  
+
   return(path)
 }
 
-#path %>% read_csv()
+# path %>% read_csv()
 
 
 #' @name cmaq
 #' @title CMAQ Project Data Investigations
 #' @author Tim Fraser
-#' @description R Script for viewing and quick reformatting of CMAQ data. 
+#' @description R Script for viewing and quick reformatting of CMAQ data.
 
 # Load core packages
 library(dplyr)
@@ -72,18 +74,19 @@ dplyr::tribble(
   2, "Bicycle and Pedestrian Facilities and Programs", "pedestrian", "Bicycle/Pedestrians", 1, 0,
   3, "STP/CMAQ", "stp_cmaq", "STP", 1, 0,
   4, "Ride Sharing", "ridesharing", "Ridesharing", 1, 0,
-  5, "Travel Demand Management",  "travel_demand", "Travel Demand", 1, 0,
+  5, "Travel Demand Management", "travel_demand", "Travel Demand", 1, 0,
   6, "Inspection/Maintenance(I/M) Programs", "im", "Inspect/Maintenance", 0, 1,
   7, "Alternative Fuels and Vehicles", "alt_fuels", "Alt. Fuels & Vehicles", 0, 1,
-  8, "Transit Improvements", "transit_improv", "Transit Improvements", 1,0,
-  9, "Freight/Intermodal",   "freight_intermodal", "Freight/Intermodal", 1,1,
+  8, "Transit Improvements", "transit_improv", "Transit Improvements", 1, 0,
+  9, "Freight/Intermodal", "freight_intermodal", "Freight/Intermodal", 1, 1,
   10, "Advanced Diesel Truck / Engine Technologies", "diesel_engine", "Advanced Diesel", 0, 1,
-  11, "Other", "other", "Other", 1, 1) %>%
+  11, "Other", "other", "Other", 1, 1
+) %>%
   readr::write_csv("data_raw/cmaq_types.csv")
 
 #### policies ######################################
 
-policies_data = read_csv("data_raw/cmaq_types.csv") %>%
+policies_data <- read_csv("data_raw/cmaq_types.csv") %>%
   mutate(id = as.integer(id))
 save(policies_data, file = "data/policies_data.rda")
 
@@ -92,8 +95,8 @@ save(policies_data, file = "data/policies_data.rda")
 remove(policies_data)
 
 # view it
-#readr::read_csv("data_raw/policies_old.csv") %>% View()
-#readr::read_csv("data_raw/cmaq_types.csv") %>% tail(20)
+# readr::read_csv("data_raw/policies_old.csv") %>% View()
+# readr::read_csv("data_raw/cmaq_types.csv") %>% tail(20)
 
 
 # setwd(rstudioapi::getActiveProject())
@@ -120,23 +123,25 @@ remove(policies_data)
 #' @importFrom readr read_csv
 #' @importFrom tidyr pivot_wider pivot_longer
 
-get_cmaq_variables = function(path = "data_raw/cmaq_project_data_2023_04_06.csv"){
+get_cmaq_variables <- function(path = "data_raw/cmaq_project_data_2023_04_06.csv") {
   # Make a table of variables available from standard cmaq data
   readr::read_csv(file = path) %>%
     # Quick function {...} that where '.' refers to the data piped in from above
-    { 
+    {
       dplyr::bind_rows(
         # Get all total available observations per variable, in one row
         dplyr::summarize(
-          .data = ., 
-          dplyr::across(.cols = dplyr::everything(), .fns = ~sum(!is.na(.x)))) %>% 
+          .data = .,
+          dplyr::across(.cols = dplyr::everything(), .fns = ~ sum(!is.na(.x)))
+        ) %>%
           dplyr::mutate(name = "available"),
         # Get all total unique observations per variabel, in one row
         dplyr::summarize(
-          .data = ., 
-          dplyr::across(.cols = dplyr::everything(), .fns = ~unique(.x) %>% length())) %>% 
+          .data = .,
+          dplyr::across(.cols = dplyr::everything(), .fns = ~ unique(.x) %>% length())
+        ) %>%
           dplyr::mutate(name = "unique")
-      ) 
+      )
     } %>%
     # Pivot to tall data.frame with original and values columns
     tidyr::pivot_longer(cols = -c(name), names_to = "original", values_to = "value") %>%
@@ -146,7 +151,7 @@ get_cmaq_variables = function(path = "data_raw/cmaq_project_data_2023_04_06.csv"
     dplyr::mutate(var = original %>% tolower()) %>%
     # Filter to only variables that have at least 1 non-NA value, dropping all useless column
     dplyr::filter(available > 0) %>%
-    # Filter out any variables that only have 1 unique value (so are not worth keeping) 
+    # Filter out any variables that only have 1 unique value (so are not worth keeping)
     dplyr::filter(unique > 1) %>%
     # Return result
     return()
@@ -155,7 +160,7 @@ get_cmaq_variables = function(path = "data_raw/cmaq_project_data_2023_04_06.csv"
 
 # Run function and write variables to file
 cmaq_most_recent("data_raw") %>%
-  get_cmaq_variables() %>% 
+  get_cmaq_variables() %>%
   readr::write_csv("data_raw/cmaq_variables.csv")
 
 
@@ -186,13 +191,13 @@ readr::read_csv("data_raw/cpi_inflation.csv")
 #' @importFrom stringr str_sub
 
 
-clean_cmaq = function(.path_data, .path_variables, .path_types, .path_inflation){
+clean_cmaq <- function(.path_data, .path_variables, .path_types, .path_inflation) {
   # Read in...
   readr::read_csv(
     # This file
-    file = .path_data, 
+    file = .path_data,
     # Import only these variables and make their names lower case to match 'var' in 'data/vars.rds'
-    col_select = readr::read_csv(file = .path_variables) %>% 
+    col_select = readr::read_csv(file = .path_variables) %>%
       with(purrr::set_names(original, var))
   ) %>%
     # Recode a few values
@@ -200,19 +205,26 @@ clean_cmaq = function(.path_data, .path_variables, .path_types, .path_inflation)
       # Make year an integer
       year = as.integer(year),
       # Recode a few values to be standard binary values for easy R use
-      dplyr::across(.cols = c(is_outreach_activity, is_tcm, is_congestion_reduction, 
-                              is_include_assistance, is_deobligate, is_subproject,
-                              voc_qa, nox_qa, co_qa, pm10_qa, pm2_5qa, 
-                              has_nonatt_area, ppp),
-                    .fns = ~dplyr::case_when(
-                      .x == "N" | .x == "No" ~ FALSE,
-                      .x == "Y" | .x == "Yes" ~ TRUE,
-                      .x == NA ~ NA))
+      dplyr::across(
+        .cols = c(
+          is_outreach_activity, is_tcm, is_congestion_reduction,
+          is_include_assistance, is_deobligate, is_subproject,
+          voc_qa, nox_qa, co_qa, pm10_qa, pm2_5qa,
+          has_nonatt_area, ppp
+        ),
+        .fns = ~ dplyr::case_when(
+          .x == "N" | .x == "No" ~ FALSE,
+          .x == "Y" | .x == "Yes" ~ TRUE,
+          .x == NA ~ NA
+        )
+      )
     ) %>%
     # Make project_category_desc into more r-friendly variables
-    left_join(by = c("project_category_desc" = "original"),
-              y = read_csv(file = .path_types) %>%
-                select(original, category_id = id, category = short)) %>%
+    left_join(
+      by = c("project_category_desc" = "original"),
+      y = read_csv(file = .path_types) %>%
+        select(original, category_id = id, category = short)
+    ) %>%
     #   project_category_desc = project_category_desc %>% dplyr::recode(
     #     # Take as an input a named vector of the old and new category names
     #     !!!readr::read_csv(file = .path_types) %>% with(purrr::set_names(short, original))
@@ -220,9 +232,9 @@ clean_cmaq = function(.path_data, .path_variables, .path_types, .path_inflation)
     # ) %>%
     # Cut this one. Don't need it.
     select(-project_category_desc) %>%
-    #dplyr::rename(category = project_category_desc) %>%
+    # dplyr::rename(category = project_category_desc) %>%
     # Extract state from the id
-    dplyr::mutate(state = stringr::str_sub(id, 1,2)) %>%
+    dplyr::mutate(state = stringr::str_sub(id, 1, 2)) %>%
     dplyr::rename(cost = total_proj_amount) %>%
     # Clean Data
     dplyr::mutate(cost = dplyr::case_when(
@@ -230,7 +242,8 @@ clean_cmaq = function(.path_data, .path_variables, .path_types, .path_inflation)
       cost == "999999999" ~ NA_real_,
       cost == 0 ~ NA_real_,
       # cost == "1000000000" ~ NA_real_,
-      TRUE ~ cost)) %>%
+      TRUE ~ cost
+    )) %>%
     dplyr::left_join(by = c("year"), y = readr::read_csv(file = .path_inflation) %>% purrr::set_names(names(.) %>% tolower())) %>%
     dplyr::mutate(year = as.integer(year)) %>%
     dplyr::mutate(cost2022 = cost * inflation) %>%
@@ -240,20 +253,21 @@ clean_cmaq = function(.path_data, .path_variables, .path_types, .path_inflation)
 
 # read_csv("data_raw/cmaq.csv")
 # read_csv("data_raw/cmaq_types.csv") %>% select(category_id = id, category = short)
-# 
+#
 cmaq_most_recent("data_raw") %>%
   clean_cmaq(
     .path_data = .,
     .path_variables = "data_raw/cmaq_variables.csv",
     .path_types = "data_raw/cmaq_types.csv",
-    .path_inflation = "data_raw/cpi_inflation.csv") %>%
+    .path_inflation = "data_raw/cpi_inflation.csv"
+  ) %>%
   # Write cleaned dataset to file
   readr::write_csv("data_raw/cmaq.csv")
 
 
 
 # Write this to rda as well.
-cmaq = read_csv("data_raw/cmaq.csv")
+cmaq <- read_csv("data_raw/cmaq.csv")
 save(cmaq, file = "data/cmaq.rda")
 
 
@@ -265,7 +279,7 @@ save(cmaq, file = "data/cmaq.rda")
 #' @title Cleaned CMAQ Dataset
 #' @author Tim Fraser
 #' @importFrom readr read_csv
-#' 
+#'
 
 # readr::read_csv("data_raw/cmaq.csv") %>%
 #   filter(!is.na(co2_benefit)) %>%
@@ -275,9 +289,9 @@ save(cmaq, file = "data/cmaq.rda")
 #   filter(!is.na(co2_benefit))  %>%
 #   ggplot(mapping = aes(x = cost2022, y = co2_benefit)) +
 #   geom_point() +
-#   scale_x_continuous(trans = "log") + 
+#   scale_x_continuous(trans = "log") +
 #   scale_y_continuous(trans = "log")
-# 
+#
 # readr::read_csv("data_raw/cmaq.csv") %>%
 #   filter(!is.na(co2_benefit))  %>%
 #   lm(formula = log(cost2022 + 1) ~ log(co2_benefit + 0.001)) %>%
@@ -291,7 +305,7 @@ save(cmaq, file = "data/cmaq.rda")
 
 # Update geoid_coding2 in this sheet
 # https://docs.google.com/spreadsheets/d/1mFF2EqXRJb5FtbC7Ps-Jc-eqvbMxoI4Ym_vuR57UIvk/edit#gid=788965441
-url = 'https://docs.google.com/spreadsheets/d/1mFF2EqXRJb5FtbC7Ps-Jc-eqvbMxoI4Ym_vuR57UIvk/export?format=csv&gid=788965441'
+url <- "https://docs.google.com/spreadsheets/d/1mFF2EqXRJb5FtbC7Ps-Jc-eqvbMxoI4Ym_vuR57UIvk/export?format=csv&gid=788965441"
 read_csv(url) %>%
   # pad with zeros
   mutate(mpo_id = stringr::str_pad(mpo_id, width = 8, side = "left", pad = "0")) %>%
@@ -313,11 +327,11 @@ library(tidyr)
 # which can be re-run when new CMAQ projects are added.
 # Our raw data produces 828 valid median cost-effectiveness estimates
 # for specific CMAQ types for specific pollutants in specific years.
-# However, in reality, the full grid of category-pollutant-year combinations 
+# However, in reality, the full grid of category-pollutant-year combinations
 # we want cost-effectiveness statistics for is much larger,
-# spanning 1320 possible combinations 
+# spanning 1320 possible combinations
 # over a 24-year timespan from 1999 to 2022,
-# for 5 pollutants (CO2, CO, NOX, VOC, and PM10) 
+# for 5 pollutants (CO2, CO, NOX, VOC, and PM10)
 # over 11 CMAQ policy types.
 
 
@@ -326,25 +340,29 @@ library(tidyr)
 expand_grid(
   category_id = raw_data %>% with(category_id) %>% unique(),
   pollutant = raw_data %>% with(pollutant) %>% unique(),
-  year = seq(from = raw_data %>% with(year) %>% min(na.rm = TRUE), 
-             to = raw_data %>% with(year) %>% max(na.rm = TRUE), 
-             by = 1)
-) %>% 
+  year = seq(
+    from = raw_data %>% with(year) %>% min(na.rm = TRUE),
+    to = raw_data %>% with(year) %>% max(na.rm = TRUE),
+    by = 1
+  )
+) %>%
   count()
 
 # Count unique types
 tibble(
   category_id = raw_data %>% with(category_id) %>% unique() %>% length(),
   pollutant = raw_data %>% with(pollutant) %>% unique() %>% length(),
-  year = seq(from = raw_data %>% with(year) %>% min(na.rm = TRUE), 
-             to = raw_data %>% with(year) %>% max(na.rm = TRUE), 
-             by = 1) %>% 
+  year = seq(
+    from = raw_data %>% with(year) %>% min(na.rm = TRUE),
+    to = raw_data %>% with(year) %>% max(na.rm = TRUE),
+    by = 1
+  ) %>%
     length()
 )
 
 
-raw_data = cmaq_to_percentile(prob = 0.5)
-# So, to improve our coverage, we calculated various 
+raw_data <- cmaq_to_percentile(prob = 0.5)
+# So, to improve our coverage, we calculated various
 # multi-year averages of the median cost-effectiveness.
 
 raw_data %>%
@@ -356,23 +374,27 @@ raw_data %>%
   get_avg(range = 1) %>%
   group_by(category_id) %>%
   get_diagnostics() %>%
-  left_join(by = c("category_id" = "id"), 
-            y = read_csv("data_raw/cmaq_types.csv") %>% select(id, short))
+  left_join(
+    by = c("category_id" = "id"),
+    y = read_csv("data_raw/cmaq_types.csv") %>% select(id, short)
+  )
 # This covers upwards of >75% of sets for each CMAQ category,
 # with the exception of alternative fuels (28%),
-# diesel engine retrofit (23%), 
+# diesel engine retrofit (23%),
 # freight/intermodal policies (18%),
 # and other policies (44%).
 
 raw_data %>%
   get_avg(range = 1) %>%
-  filter(year == 2021) %>% 
+  filter(year == 2021) %>%
   group_by(category_id) %>%
   get_diagnostics() %>%
-  left_join(by = c("category_id" = "id"), 
-            y = read_csv("data_raw/cmaq_types.csv") %>% select(id, short))
+  left_join(
+    by = c("category_id" = "id"),
+    y = read_csv("data_raw/cmaq_types.csv") %>% select(id, short)
+  )
 
-# By 2021, all CMAQ policy types have 100% coverage, 
+# By 2021, all CMAQ policy types have 100% coverage,
 # except for freight/intermodal policies (40%) and STP policies (80%).
 
 
@@ -389,7 +411,7 @@ raw_data %>%
   group_by(year) %>%
   get_diagnostics() %>%
   filter(valid > 0)
-# CO2e statistics are not available until 2011; 
+# CO2e statistics are not available until 2011;
 # starting in 2011, we have coverage for 27.3% of desired combinations,
 # but by 2021, we have 82% coverage for CO2e-related figures.
 
@@ -403,9 +425,9 @@ get_avg(data = raw_data, range = 5) %>%
 
 ## Table Z1 ####################################
 
-# To improve our coverage, we compared 1-year estimates 
+# To improve our coverage, we compared 1-year estimates
 # against 3-year averages and 5-year averages.
-manyavg = bind_rows(
+manyavg <- bind_rows(
   get_avg(data = raw_data, range = 1),
   get_avg(data = raw_data, range = 3),
   get_avg(data = raw_data, range = 5),
@@ -415,8 +437,8 @@ manyavg = bind_rows(
   get_avg(data = raw_data, range = 13),
   get_avg(data = raw_data, range = 15),
   .id = "range"
-)  %>%
-  mutate(range = (as.integer(range) - 1)*2 + 1 )
+) %>%
+  mutate(range = (as.integer(range) - 1) * 2 + 1)
 
 
 manyavg %>%
@@ -426,22 +448,30 @@ manyavg %>%
 
 ## Figure Z1 ####################################
 library(ggplot2)
-data = read_csv("paper/table_A1.csv")
+data <- read_csv("paper/table_A1.csv")
 
 
-gg = ggplot() +
-  geom_line(data = data, 
-            mapping = aes(x = percent, y = n_years, color = range),
-            color = "#648FFF", linewidth = 2) +
-  geom_label(data = data,
-             mapping = aes(x = percent, y = n_years, label = paste0(range, "-yrs")),
-             color = "#648FFF") +
-  geom_text(data = data,
-            mapping = aes(x = percent, y = n_years, label = paste0(range, "-yrs")),
-            color = "#373737") +
-  labs(x = "Percentage of Coverage of Combinations\n of Pollutants, Policy Types, and Years",
-       y = "# of Years Covered",
-       title = "Relative Coverage of 1- to 15-year averages\n of CMAQ Median Cost Effectiveness Statistics") +
+gg <- ggplot() +
+  geom_line(
+    data = data,
+    mapping = aes(x = percent, y = n_years, color = range),
+    color = "#648FFF", linewidth = 2
+  ) +
+  geom_label(
+    data = data,
+    mapping = aes(x = percent, y = n_years, label = paste0(range, "-yrs")),
+    color = "#648FFF"
+  ) +
+  geom_text(
+    data = data,
+    mapping = aes(x = percent, y = n_years, label = paste0(range, "-yrs")),
+    color = "#373737"
+  ) +
+  labs(
+    x = "Percentage of Coverage of Combinations\n of Pollutants, Policy Types, and Years",
+    y = "# of Years Covered",
+    title = "Relative Coverage of 1- to 15-year averages\n of CMAQ Median Cost Effectiveness Statistics"
+  ) +
   theme_bw(base_size = 14) +
   theme(plot.title = element_text(hjust = 0.5))
 
@@ -450,7 +480,7 @@ ggsave(gg, filename = "paper/figure_A1.png", dpi = 200, width = 6, height = 6)
 
 ## Alternative percentiles #########################
 
-data = cmaq_to_percentile(prob = 0.50, min_cost = 0)
+data <- cmaq_to_percentile(prob = 0.50, min_cost = 0)
 
 
 data %>%
@@ -491,7 +521,7 @@ read_csv("data_raw/ce_averages.csv") %>%
   summary()
 
 
-# For each pollutant-policy type pair, 
+# For each pollutant-policy type pair,
 # our process constructs a linear model of the natural log of cost-effectiveness and the year of the estimate.
 # Each pairing of a pollutant and policy type has between 3 and 20 observations to model,
 # 75% of pairs have at least 9 observations.
@@ -499,7 +529,7 @@ read_csv("data_raw/ce_averages.csv") %>%
 # View policy categories
 read_csv("data_raw/cmaq_types.csv") %>% select(id, short)
 
-# For each pollutant and CMAQ policy category, 
+# For each pollutant and CMAQ policy category,
 # we can use the existing cost estimates
 # to estimate a cost curve over time, which will help us estimate costs into the future.
 
@@ -510,53 +540,57 @@ read_csv("data_raw/ce_averages.csv") %>%
   broom::glance()
 
 # Make many cost curve models
-data = read_csv("data_raw/ce_averages.csv")
+data <- read_csv("data_raw/ce_averages.csv")
 
-frame = data %>%
+frame <- data %>%
   select(pollutant, category_id) %>%
   distinct() %>%
   mutate(id = 1:n())
 
 
-stats1 = frame %>%
+stats1 <- frame %>%
   split(.$id) %>%
   # Approximate into the future
   map_dfr(
     .f = possibly(
-      ~data %>%
+      ~ data %>%
         filter(pollutant == .x$pollutant, category_id == .x$category_id) %>%
         lm(formula = log(estimate) ~ year) %>%
-        broom::glance(), 
-      other = tibble()), 
-    .id = "id")  %>%
+        broom::glance(),
+      other = tibble()
+    ),
+    .id = "id"
+  ) %>%
   mutate(id = as.integer(id)) %>%
-  left_join(by = 'id', y = frame) 
+  left_join(by = "id", y = frame)
 
 
-frame2 = data %>%
+frame2 <- data %>%
   select(pollutant) %>%
   distinct() %>%
   mutate(category_id = NA) %>%
-  mutate(id = 1:n())  
+  mutate(id = 1:n())
 
-stats2 = frame2 %>%
+stats2 <- frame2 %>%
   split(.$id) %>%
   # Approximate into the future
   map_dfr(
     .f = possibly(
-      ~data %>%
+      ~ data %>%
         filter(pollutant == .x$pollutant) %>%
-        lm(formula = log(estimate) ~ year + factor(category_id) ) %>%
-        broom::glance(), 
-      other = tibble()), 
-    .id = "id") %>%
+        lm(formula = log(estimate) ~ year + factor(category_id)) %>%
+        broom::glance(),
+      other = tibble()
+    ),
+    .id = "id"
+  ) %>%
   mutate(id = as.integer(id)) %>%
-  left_join(by = 'id', y = frame2)   
+  left_join(by = "id", y = frame2)
 
 # Bundle statistics
 bind_rows(stats1, stats2) %>%
   select(id, pollutant, category_id, r.squared, sigma, statistic, df.residual) %>%
-  # Recode in pollutant 
+  # Recode in pollutant
   mutate(pollutant_label = pollutant %>% recode_factor(
     "98" = "CO<sub>2</sub>",
     "2" = "CO",
@@ -574,10 +608,10 @@ bind_rows(stats1, stats2) %>%
 # Out of all 54 models, 12 had excellent accuracy (>=90%), 24 had good accuracy (>=80%), and 39 had fine accuracy (>=50%)
 # This left 16 pollutant-policy type pairings whose cost curve cannot be modeled well based on existing data.
 
-# Whenever a pairing is poorly modeled (R2<50%), we backstep to a model of all natural-logged estimates for that pollutant, predicted by year and policy type. 
-# This increases the sample size available, and tends to result in suitable accuracy over 50% (albeit not always as high accuracy as the pollutant-policy type-specific models). 
+# Whenever a pairing is poorly modeled (R2<50%), we backstep to a model of all natural-logged estimates for that pollutant, predicted by year and policy type.
+# This increases the sample size available, and tends to result in suitable accuracy over 50% (albeit not always as high accuracy as the pollutant-policy type-specific models).
 
-read_csv("paper/data_accuracy_ce_by_pollutant_category.csv") %>% 
+read_csv("paper/data_accuracy_ce_by_pollutant_category.csv") %>%
   filter(category != "Overall") %>%
   summarize(
     # Count total valid models
@@ -585,55 +619,63 @@ read_csv("paper/data_accuracy_ce_by_pollutant_category.csv") %>%
     excellent = sum(r.squared >= 0.9),
     good = sum(r.squared >= 0.8),
     fine = sum(r.squared >= 0.5),
-    )
+  )
 
 
 ## Figure Z2 ###################################
-data = read_csv("paper/data_accuracy_ce_by_pollutant_category.csv") %>%
+data <- read_csv("paper/data_accuracy_ce_by_pollutant_category.csv") %>%
   mutate(pollutant_label = factor(pollutant_label, levels = c("CO<sub>2</sub>", "CO", "NO<sub>x</sub>", "VOCs", "PM<sub>10</sub>")))
 
-gg = ggplot() +
+gg <- ggplot() +
   geom_col(
     data = data,
     mapping = aes(
       x = pollutant_label,
       y = r.squared,
-      fill = pollutant_label)
+      fill = pollutant_label
+    )
   ) +
   shadowtext::geom_shadowtext(
     data = data,
-    mapping = aes(x = pollutant_label, y = r.squared,
-                  label = paste0(round(r.squared*100,0), "")), 
+    mapping = aes(
+      x = pollutant_label, y = r.squared,
+      label = paste0(round(r.squared * 100, 0), "")
+    ),
     bg.r = 0.3, bg.color = "white", color = "#373737", nudge_y = 0.08, size = 5,
   ) +
-  facet_wrap(~reorder(category, category_id))  +
+  facet_wrap(~ reorder(category, category_id)) +
   viridis::scale_fill_viridis(option = "plasma", discrete = TRUE, begin = 0.1, end = 0.8) +
-  theme_classic(base_size = 16)  +
+  theme_classic(base_size = 16) +
   theme(
-    
     panel.border = element_rect(fill = NA, color = "#373737"),
-        strip.background = element_rect(fill = "#373737"),
-        strip.text = element_text(color = "white"),
-        axis.text.x = ggtext::element_markdown(),
-        axis.title.y = ggtext::element_markdown(),
-        plot.title = element_text(hjust = 0.5)
-        ) +
-  guides(fill = "none") + 
-  scale_y_continuous(labels = scales::label_percent(),
-                     breaks = c(0, .25, .50, .75, 1.0),
-                     limits = c(0, 1.08), expand = expansion(c(0,0.1))) +
-  labs(x = "Pollutant", y = "Model Accuracy (R<sup>2</sup>)",
-       title = "Cost-Effectiveness Model Accuracy by Pollutant and Policy Type")
+    strip.background = element_rect(fill = "#373737"),
+    strip.text = element_text(color = "white"),
+    axis.text.x = ggtext::element_markdown(),
+    axis.title.y = ggtext::element_markdown(),
+    plot.title = element_text(hjust = 0.5)
+  ) +
+  guides(fill = "none") +
+  scale_y_continuous(
+    labels = scales::label_percent(),
+    breaks = c(0, .25, .50, .75, 1.0),
+    limits = c(0, 1.08), expand = expansion(c(0, 0.1))
+  ) +
+  labs(
+    x = "Pollutant", y = "Model Accuracy (R<sup>2</sup>)",
+    title = "Cost-Effectiveness Model Accuracy by Pollutant and Policy Type"
+  )
 
 ggsave(gg, filename = "paper/figure_A2.png", dpi = 200, width = 11, height = 8)
 
 # browseURL("paper/figure_A2.png")
 
 ## cost_effectiveness ########################
-cost_effectiveness = read_csv("data_raw/ce_averages.csv") %>%
-  mutate(pollutant = as.integer(pollutant),
-         category_id = as.integer(category_id),
-         year = as.integer(year))
+cost_effectiveness <- read_csv("data_raw/ce_averages.csv") %>%
+  mutate(
+    pollutant = as.integer(pollutant),
+    category_id = as.integer(category_id),
+    year = as.integer(year)
+  )
 save(cost_effectiveness, file = "data/cost_effectiveness.rda")
 
 ## process ##########################
@@ -642,42 +684,50 @@ library(readr)
 library(broom)
 
 source("R/get_cost_model.R")
-data = read_csv("data_raw/ce_averages.csv") 
+data <- read_csv("data_raw/ce_averages.csv")
 
 save(data, file = cost_effectiveness)
-m = get_cost_model(data = data, .pollutant = 98, .category_id = 1)
+m <- get_cost_model(data = data, .pollutant = 98, .category_id = 1)
 remove(data, m)
 
-m = get_cost_model(data = data, .pollutant = 98, .category_id = 2)
+m <- get_cost_model(data = data, .pollutant = 98, .category_id = 2)
 m %>% broom::glance()
 
 
 # 9. DESCRIPTIVES ##########################
 library(dplyr)
 library(readr)
-data = read_csv("data_raw/cmaq.csv") 
-  select(state, year, category_id,
-         contains("_benefit"),
-         cost2022) 
+data <- read_csv("data_raw/cmaq.csv")
+select(
+  state, year, category_id,
+  contains("_benefit"),
+  cost2022
+)
 
 # Projects available
 data %>%
   count()
 data %>% glimpse()
 data %>%
-  summarize(min = min(year),
-            max = max(year))
+  summarize(
+    min = min(year),
+    max = max(year)
+  )
 
 data %>%
-  filter(!is.na(year),
-         !is.na(cost2022),
-         !is.na(category_id)) %>%
+  filter(
+    !is.na(year),
+    !is.na(cost2022),
+    !is.na(category_id)
+  ) %>%
   count()
 
 data %>%
-  filter(!is.na(year),
-         !is.na(cost2022),
-         !is.na(category_id)) %>%
+  filter(
+    !is.na(year),
+    !is.na(cost2022),
+    !is.na(category_id)
+  ) %>%
   filter(
     !is.na(co2_benefit) |
       !is.na(voc_benefit) |
@@ -689,22 +739,26 @@ data %>%
 
 
 data %>%
-  filter(!is.na(year),
-         !is.na(cost2022),
-         !is.na(category_id)) %>%
   filter(
-         !is.na(co2_benefit) |
-         !is.na(voc_benefit) |
-         !is.na(nox_benefit) |
-         !is.na(pm10_benefit) |
-         !is.na(co_benefit)
-        ) %>%
+    !is.na(year),
+    !is.na(cost2022),
+    !is.na(category_id)
+  ) %>%
+  filter(
+    !is.na(co2_benefit) |
+      !is.na(voc_benefit) |
+      !is.na(nox_benefit) |
+      !is.na(pm10_benefit) |
+      !is.na(co_benefit)
+  ) %>%
   count()
 
 data %>%
-  filter(!is.na(year),
-         !is.na(cost2022),
-         !is.na(category_id)) %>%
+  filter(
+    !is.na(year),
+    !is.na(cost2022),
+    !is.na(category_id)
+  ) %>%
   summarize(
     co2 = sum(!is.na(co2_benefit)),
     co = sum(!is.na(co_benefit)),
@@ -712,4 +766,3 @@ data %>%
     nox = sum(!is.na(nox_benefit)),
     voc = sum(!is.na(voc_benefit))
   )
-  

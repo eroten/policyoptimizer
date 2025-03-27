@@ -7,9 +7,11 @@
 # Assume working directory is the project/package directory.
 
 # Unload package if present
-unloadNamespace(ns = "policyoptimizer"); rm(list = ls()); remove.packages("policyoptimizer")
+unloadNamespace(ns = "policyoptimizer")
+rm(list = ls())
+remove.packages("policyoptimizer")
 
-# Build the package. 
+# Build the package.
 # (Adjust path. My R files are all located within an /rstudio/ folder. Probably different on your computer.)
 setwd(paste0(rstudioapi::getActiveProject(), "/v1"))
 
@@ -20,7 +22,9 @@ devtools::document()
 devtools::build(path = getwd(), vignettes = FALSE)
 
 # Unload it if present
-unloadNamespace(ns = "policyoptimizer"); rm(list = ls()); remove.packages("policyoptimizer")
+unloadNamespace(ns = "policyoptimizer")
+rm(list = ls())
+remove.packages("policyoptimizer")
 
 # Return to main directory
 setwd(paste0(rstudioapi::getActiveProject()))
