@@ -7,8 +7,8 @@
 
 # You can download the package from github using the remotes package.
 # Be sure to request to install all dependencies.
-install.packages("remotes")
-remotes::install_github(repo = "Gao-Labs/policyoptimizer/v1", dependencies = "always")
+# install.packages("remotes")
+# remotes::install_github(repo = "Gao-Labs/policyoptimizer/v1", dependencies = "always")
 
 # If you have downloaded the repository, then you can install it from source:
 # install.packages("v1/policyoptimizer_1.0.tar.gz", type = "source")
@@ -33,16 +33,20 @@ library(policyoptimizer)
 
 # First, let's check and make sure that CATSERVER is on and running.
 # If you get a response back that says `online = TRUE`, we're in business.
-# Remember that sometiems CATSERVER is either (1) down for maintenance or (2) down during nights and weekends. 
+# Remember that sometiems CATSERVER is either (1) down for maintenance or (2) down during nights and weekends.
 # We aim to increase access to CATSERVER as usage increases.
 check_status()
 
 
 # Run optimizer
-output = policy_optimizer(
+output <- policy_optimizer(
   # Basic Metadata
-  geoid = "36109",  pollutant = 98, start_year = 2025, end_year = 2050, policies = 1:10,
-  n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5, 
+  geoid = "27053",
+  pollutant = 98, 
+  start_year = 2015, end_year = 2035,
+  # policies = 1:10,
+  n_scales = 100, units = 30000, max_abs_diff = 1, 
+  min_annual_cost = 10000, wr = 0.5, wc = 0.5,
   # Cost Effectiveness Stats
   var = "epd", # measure cost effectiveness as tons of emissions per dollar
   prob = 0.50, # median cost effectiveness
@@ -73,8 +77,8 @@ output
 report_stats(output, pollutant = 98)
 
 # Get summary tables for visuals
-tab_policy = summarize_by_policy(output)
-tab_year = summarize_by_year(output)
+tab_policy <- summarize_by_policy(output)
+tab_year <- summarize_by_year(output)
 
 # Visualize key impacts by policy
 visualize_by_policy(data = tab_policy, var = "effect_cost")
@@ -91,9 +95,9 @@ visualize_by_year(data = tab_year, var = "ef98")
 
 
 # Multi-Pollutant Usage (experimental - still under development) - takes a lot longer
-output2 = policy_optimizer(
-  geoid = "36109",  pollutant = c(98, 2, 3), start_year = 2025, end_year = 2050, policies = 1:10,
-  n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5, 
+output2 <- policy_optimizer(
+  geoid = "27053", pollutant = c(98, 2, 3), start_year = 2025, end_year = 2050, policies = 1:10,
+  n_scales = 100, units = 30000, max_abs_diff = 1, min_annual_cost = 10000, wr = 0.5, wc = 0.5,
   # Cost Effectiveness Stats
   var = "epd", prob = 0.50, range = 5,
   # Any prior cumulative costs / reductions
@@ -127,8 +131,8 @@ report_stats(output2, pollutant = 3)
 
 
 # Get summarized data for visualization
-tab_policy2 = summarize_by_policy(output2)
-tab_year2 = summarize_by_year(output2)
+tab_policy2 <- summarize_by_policy(output2)
+tab_year2 <- summarize_by_year(output2)
 
 
 # Visualize key impacts by policy
@@ -154,7 +158,5 @@ visualize_by_year(data = tab_year2, var = "ef3")
 
 
 # Clean up
-rm(list = ls()); gc()
-
-
-
+rm(list = ls())
+gc()
